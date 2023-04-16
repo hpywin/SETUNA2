@@ -7,7 +7,7 @@
         public CShowVersionStyle()
         {
             _styleid = -5;
-            _stylename = "版本信息";
+            _stylename = Properties.Resources.label54; // "版本信息";
         }
 
         // Token: 0x060002C3 RID: 707 RVA: 0x0000F5A0 File Offset: 0x0000D7A0

@@ -58,7 +58,8 @@ namespace SETUNA.Main.StyleItems
                 ResetTextBox();
                 ClearCommand();
                 base.Start();
-                parentCommand = new AddTextLayerCommand("文字层", _parent.SelectionLayerIndex());
+                //parentCommand = new AddTextLayerCommand("文字层", _parent.SelectionLayerIndex());
+                parentCommand = new AddTextLayerCommand(Properties.Resources.label125, _parent.SelectionLayerIndex());
                 _parent.AddLayerCommand(parentCommand);
                 textbox.Parent = _parent;
                 _parent.Controls.Add(textbox);

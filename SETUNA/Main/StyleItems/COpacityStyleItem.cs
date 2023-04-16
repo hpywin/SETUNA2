@@ -67,13 +67,13 @@ namespace SETUNA.Main.StyleItems
         // Token: 0x0600036D RID: 877 RVA: 0x00015D4E File Offset: 0x00013F4E
         public override string GetDisplayName()
         {
-            return "不透明度";
+            return Properties.Resources.label110;// "不透明度";
         }
 
         // Token: 0x0600036E RID: 878 RVA: 0x00015D55 File Offset: 0x00013F55
         public override string GetDescription()
         {
-            return "设置不透明的参考图。";
+            return Properties.Resources.label111;// "设置不透明的参考图。";
         }
 
         // Token: 0x0600036F RID: 879 RVA: 0x00015D5C File Offset: 0x00013F5C

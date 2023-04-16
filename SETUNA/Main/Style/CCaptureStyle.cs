@@ -7,7 +7,7 @@
         public CCaptureStyle()
         {
             _styleid = -9;
-            _stylename = "制作参考图";
+            _stylename = Properties.Resources.label52; //"制作参考图";
         }
 
         // Token: 0x060002C1 RID: 705 RVA: 0x0000F564 File Offset: 0x0000D764

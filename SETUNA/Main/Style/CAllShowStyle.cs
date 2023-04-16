@@ -7,7 +7,7 @@
         public CAllShowStyle()
         {
             _styleid = -3;
-            _stylename = "全部显示";
+            _stylename = Properties.Resources.label57; //"全部显示";
         }
 
         // Token: 0x06000595 RID: 1429 RVA: 0x0002656A File Offset: 0x0002476A

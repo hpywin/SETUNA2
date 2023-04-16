@@ -61,13 +61,13 @@ namespace SETUNA.Main.StyleItems
         // Token: 0x060000DF RID: 223 RVA: 0x00006967 File Offset: 0x00004B67
         public override string GetDisplayName()
         {
-            return "复制到剪贴板";
+            return Properties.Resources.label128; // "复制到剪贴板";
         }
 
         // Token: 0x060000E0 RID: 224 RVA: 0x0000696E File Offset: 0x00004B6E
         public override string GetDescription()
         {
-            return "将参考图作为图像复制到剪贴板里。";
+            return Properties.Resources.label129; // "将参考图作为图像复制到剪贴板里。";
         }
 
         // Token: 0x060000E1 RID: 225 RVA: 0x00006975 File Offset: 0x00004B75

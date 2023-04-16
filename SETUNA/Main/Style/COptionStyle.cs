@@ -7,7 +7,7 @@
         public COptionStyle()
         {
             _styleid = -10;
-            _stylename = "选项";
+            _stylename = Properties.Resources.label63; //"选项";
         }
 
         // Token: 0x060002C5 RID: 709 RVA: 0x0000F5D8 File Offset: 0x0000D7D8

@@ -6,6 +6,7 @@
 		// Token: 0x060003F8 RID: 1016 RVA: 0x00019030 File Offset: 0x00017230
 		private void InitializeComponent()
 		{
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CompactStyleItemPanel));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.rdoDashed = new System.Windows.Forms.RadioButton();
             this.rdoSolid = new System.Windows.Forms.RadioButton();
@@ -28,15 +29,15 @@
             // 
             // cmdOK
             // 
-            this.cmdOK.Location = new System.Drawing.Point(237, 177);
+            resources.ApplyResources(this.cmdOK, "cmdOK");
             // 
             // cmdCancel
             // 
-            this.cmdCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmdCancel.Location = new System.Drawing.Point(311, 177);
+            resources.ApplyResources(this.cmdCancel, "cmdCancel");
             // 
             // groupBox1
             // 
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.rdoDashed);
             this.groupBox1.Controls.Add(this.rdoSolid);
             this.groupBox1.Controls.Add(this.picLineColor);
@@ -46,85 +47,59 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.numOpacity);
-            this.groupBox1.Location = new System.Drawing.Point(8, 8);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(373, 164);
-            this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "设置";
             // 
             // rdoDashed
             // 
-            this.rdoDashed.AutoSize = true;
-            this.rdoDashed.Location = new System.Drawing.Point(157, 100);
+            resources.ApplyResources(this.rdoDashed, "rdoDashed");
             this.rdoDashed.Name = "rdoDashed";
-            this.rdoDashed.Size = new System.Drawing.Size(47, 16);
-            this.rdoDashed.TabIndex = 14;
             this.rdoDashed.TabStop = true;
-            this.rdoDashed.Text = "虚线";
             this.rdoDashed.UseVisualStyleBackColor = true;
             // 
             // rdoSolid
             // 
-            this.rdoSolid.AutoSize = true;
-            this.rdoSolid.Location = new System.Drawing.Point(104, 100);
+            resources.ApplyResources(this.rdoSolid, "rdoSolid");
             this.rdoSolid.Name = "rdoSolid";
-            this.rdoSolid.Size = new System.Drawing.Size(47, 16);
-            this.rdoSolid.TabIndex = 13;
             this.rdoSolid.TabStop = true;
-            this.rdoSolid.Text = "实线";
             this.rdoSolid.UseVisualStyleBackColor = true;
             this.rdoSolid.CheckedChanged += new System.EventHandler(this.rdoSolid_CheckedChanged);
             // 
             // picLineColor
             // 
+            resources.ApplyResources(this.picLineColor, "picLineColor");
             this.picLineColor.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picLineColor.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picLineColor.Location = new System.Drawing.Point(62, 98);
             this.picLineColor.Name = "picLineColor";
-            this.picLineColor.Size = new System.Drawing.Size(32, 19);
-            this.picLineColor.TabIndex = 12;
             this.picLineColor.TabStop = false;
             this.picLineColor.Click += new System.EventHandler(this.picLineColor_Click);
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(25, 102);
+            resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 12);
-            this.label3.TabIndex = 10;
-            this.label3.Text = "边框：";
             // 
             // groupBox2
             // 
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Controls.Add(this.picPreview);
-            this.groupBox2.Location = new System.Drawing.Point(226, 18);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(138, 138);
-            this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "预览";
             // 
             // picPreview
             // 
+            resources.ApplyResources(this.picPreview, "picPreview");
             this.picPreview.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.picPreview.Location = new System.Drawing.Point(6, 18);
             this.picPreview.Name = "picPreview";
-            this.picPreview.Size = new System.Drawing.Size(126, 114);
-            this.picPreview.TabIndex = 0;
             this.picPreview.TabStop = false;
             this.picPreview.Paint += new System.Windows.Forms.PaintEventHandler(this.picPreview_Paint);
             // 
             // barOpacity
             // 
-            this.barOpacity.AutoSize = false;
-            this.barOpacity.Location = new System.Drawing.Point(48, 50);
+            resources.ApplyResources(this.barOpacity, "barOpacity");
             this.barOpacity.Maximum = 100;
             this.barOpacity.Minimum = 1;
             this.barOpacity.Name = "barOpacity";
-            this.barOpacity.Size = new System.Drawing.Size(91, 20);
-            this.barOpacity.TabIndex = 2;
             this.barOpacity.TickFrequency = 10;
             this.barOpacity.Value = 1;
             this.barOpacity.Scroll += new System.EventHandler(this.barOpacity_Scroll);
@@ -132,36 +107,24 @@
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(199, 50);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(11, 12);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "%";
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(25, 31);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 12);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "不透明度：";
             // 
             // numOpacity
             // 
-            this.numOpacity.ImeMode = System.Windows.Forms.ImeMode.Off;
-            this.numOpacity.Location = new System.Drawing.Point(145, 48);
+            resources.ApplyResources(this.numOpacity, "numOpacity");
             this.numOpacity.Name = "numOpacity";
-            this.numOpacity.Size = new System.Drawing.Size(48, 21);
-            this.numOpacity.TabIndex = 3;
             this.numOpacity.ValueChanged += new System.EventHandler(this.numOpacity_ValueChanged);
             this.numOpacity.Enter += new System.EventHandler(this.numOpacity_Enter);
             // 
             // CompactStyleItemPanel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
-            this.ClientSize = new System.Drawing.Size(389, 209);
+            resources.ApplyResources(this, "$this");
             this.Controls.Add(this.groupBox1);
             this.DoubleBuffered = true;
             this.Name = "CompactStyleItemPanel";

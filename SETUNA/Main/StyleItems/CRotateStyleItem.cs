@@ -73,13 +73,13 @@ namespace SETUNA.Main.StyleItems
         // Token: 0x06000354 RID: 852 RVA: 0x000159E4 File Offset: 0x00013BE4
         public override string GetDisplayName()
         {
-            return "旋转和翻转";
+            return Resources.label74; //  "旋转和翻转";
         }
 
         // Token: 0x06000355 RID: 853 RVA: 0x000159EB File Offset: 0x00013BEB
         public override string GetDescription()
         {
-            return "旋转和翻转参考图。";
+            return Resources.label75; // "旋转和翻转参考图。";
         }
 
         // Token: 0x06000356 RID: 854 RVA: 0x000159F2 File Offset: 0x00013BF2

@@ -1,0 +1,620 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="pageAll.Text" xml:space="preserve">
+    <value>全般</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>キャッシュディレクトリを開く</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="checkBox_autoStartup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 22</value>
+  </data>
+  <data name="checkBox_autoStartup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 16</value>
+  </data>
+  <data name="checkBox_autoStartup.Text" xml:space="preserve">
+    <value>自動起動</value>
+  </data>
+  <data name="checkBox_topMost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="checkBox_topMost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 16</value>
+  </data>
+  <data name="checkBox_topMost.Text" xml:space="preserve">
+    <value>スクリーンショットを最前面</value>
+  </data>
+  <data name="chkSplash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 16</value>
+  </data>
+  <data name="chkSplash.Text" xml:space="preserve">
+    <value>スプラッシュウインドウ</value>
+  </data>
+  <data name="chkSplash.ToolTip" xml:space="preserve">
+    <value>SETUNAを起動するとロゴが数秒間表示されます。</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>ごみ箱の設定</value>
+  </data>
+  <data name="chkDustBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 16</value>
+  </data>
+  <data name="chkDustBox.Text" xml:space="preserve">
+    <value>ごみ箱を使う</value>
+  </data>
+  <data name="chkDustBox.ToolTip" xml:space="preserve">
+    <value>ごみ箱を使用すると、参照画像は一時的にごみ箱に保存されます。
+必要に応じてごみ箱から削除できます。</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 12</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>枚まで</value>
+  </data>
+  <data name="numDustBox.ToolTip" xml:space="preserve">
+    <value>ごみ箱に入れる最大枚数を指定します。
+制限を超えると、古い参照マップが破棄されます。</value>
+  </data>
+  <data name="btnInitialize.Text" xml:space="preserve">
+    <value>すべての設定をデフォルトにリセット</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>動作タイプ</value>
+  </data>
+  <data name="chkShowMainWindow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 16</value>
+  </data>
+  <data name="chkShowMainWindow.Text" xml:space="preserve">
+    <value>メインウインドウを表示</value>
+  </data>
+  <data name="rdoExeTypeResident.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 16</value>
+  </data>
+  <data name="rdoExeTypeResident.Text" xml:space="preserve">
+    <value>タスクトレイに常駐</value>
+  </data>
+  <data name="rdoExeTypeResident.ToolTip" xml:space="preserve">
+    <value>タスクバーにアイコンを表示します。</value>
+  </data>
+  <data name="rdoExeTypeApp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 16</value>
+  </data>
+  <data name="rdoExeTypeApp.Text" xml:space="preserve">
+    <value>アプリケーション</value>
+  </data>
+  <data name="rdoExeTypeApp.ToolTip" xml:space="preserve">
+    <value>メインウィンドウを表示、タスクバーに最小化</value>
+  </data>
+  <data name="pageCapture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 327</value>
+  </data>
+  <data name="pageCapture.Text" xml:space="preserve">
+    <value>キャプチャー設定</value>
+  </data>
+  <data name="groupBox12.Text" xml:space="preserve">
+    <value>クリックキャプチャー</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>指定した画面の端をクリックすると、キャプチャーを行います。</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>二重起動防止時の動作</value>
+  </data>
+  <data name="rdoDupCapture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 16</value>
+  </data>
+  <data name="rdoDupCapture.Text" xml:space="preserve">
+    <value>キャプチャーする</value>
+  </data>
+  <data name="rdoDupCapture.ToolTip" xml:space="preserve">
+    <value>SETUNAを連打しようとすると迎撃が始まります。(-_-;)</value>
+  </data>
+  <data name="rdoDupNone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 16</value>
+  </data>
+  <data name="rdoDupNone.Text" xml:space="preserve">
+    <value>何もしない</value>
+  </data>
+  <data name="rdoDupNone.ToolTip" xml:space="preserve">
+    <value>SETUNA を繰り返し起動しようとすると、何も実行されません。(-_-;)</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>キャプチャー選択範囲</value>
+  </data>
+  <data name="rdoSelLineTypeDotted.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="rdoSelLineTypeDotted.Text" xml:space="preserve">
+    <value>点線</value>
+  </data>
+  <data name="rdoSelLineTypeDotted.ToolTip" xml:space="preserve">
+    <value>マーキー範囲の境界線の種類を設定します。</value>
+  </data>
+  <data name="rdoSelLineTypeSolid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="rdoSelLineTypeSolid.Text" xml:space="preserve">
+    <value>実線</value>
+  </data>
+  <data name="rdoSelLineTypeSolid.ToolTip" xml:space="preserve">
+    <value>マーキー範囲の境界線の種類を設定します。</value>
+  </data>
+  <data name="numSelectAreaTrans.ToolTip" xml:space="preserve">
+    <value>マーキーの塗りつぶし色の透明度を設定します。
+透明度 100% を選択した場合の応答性が向上しました。</value>
+  </data>
+  <data name="picSelectAreaBackColor.ToolTip" xml:space="preserve">
+    <value>マーキー選択範囲全体の塗りつぶしの色を設定します。
+不透明度を 100% に設定して、全体を塗りつぶさないようにします。</value>
+  </data>
+  <data name="picSelectAreaLineColor.ToolTip" xml:space="preserve">
+    <value>マーキー範囲の境界線の色を指定します。</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 12</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>選択範囲の透明度∶</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 12</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>選択範囲の色∶</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 12</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>選択ラインの色∶</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 12</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>選択ラインの種類∶</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>ホットキー設定</value>
+  </data>
+  <data name="hotkeyControl2.ToolTip" xml:space="preserve">
+    <value>Ctrl キー、Shift キー、Alt キー、各キーの組み合わせで、すべてのスクリーンショットを非表示/表示するためのショートカット キーを設定します。
+他のプログラムで設定したショートカットキーは使用できません。</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 12</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>表示/非表示∶</value>
+  </data>
+  <data name="hotkeyControl1.ToolTip" xml:space="preserve">
+    <value>Ctrlキー、Shiftキー、Altキー、各キーの組み合わせで傍受のショートカットキーを設定します。
+他のプログラムで設定したショートカットキーは使用できません。</value>
+  </data>
+  <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>293, 9</value>
+  </data>
+  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 16</value>
+  </data>
+  <data name="checkBox1.Text" xml:space="preserve">
+    <value>ホットキーを有効にする</value>
+  </data>
+  <data name="checkBox1.ToolTip" xml:space="preserve">
+    <value>ショートカット キーを有効にするには、チェックボックスをオンにします。</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 12</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>ホットキー∶</value>
+  </data>
+  <data name="pageScrap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 327</value>
+  </data>
+  <data name="pageScrap.Text" xml:space="preserve">
+    <value>スクラップ設定</value>
+  </data>
+  <data name="cmbWClickStyle.ToolTip" xml:space="preserve">
+    <value>参照イメージをダブルクリックしたときに使用する自動アクションを指定します。</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 12</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Wクリック時∶</value>
+  </data>
+  <data name="cmbCreateStyle.ToolTip" xml:space="preserve">
+    <value>参照図面の作成時に使用する自動アクションを指定できます。</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 12</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>基本スタイル：</value>
+  </data>
+  <data name="chkScrapImageDrag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 16</value>
+  </data>
+  <data name="chkScrapImageDrag.Text" xml:space="preserve">
+    <value>画像ファイルのドラッグでスクラップを作成</value>
+  </data>
+  <data name="chkScrapImageDrag.ToolTip" xml:space="preserve">
+    <value>画像ファイルを参照画像にドラッグして、参照画像として表示します。</value>
+  </data>
+  <data name="groupBox11.Text" xml:space="preserve">
+    <value>非選択時の効果</value>
+  </data>
+  <data name="chkMouseOverAlphaChange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 16</value>
+  </data>
+  <data name="chkMouseOverAlphaChange.Text" xml:space="preserve">
+    <value>スクラップの不透明度を変える</value>
+  </data>
+  <data name="chkMouseOverAlphaChange.ToolTip" xml:space="preserve">
+    <value>マウス カーソルが上にあるときの参照イメージの透明度を設定します。
+応答が遅い場合はオフにしてください。</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 12</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>マウスが触れている時</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 12</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>マウスが触れていない時</value>
+  </data>
+  <data name="chkInactiveAlphaChange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 16</value>
+  </data>
+  <data name="chkInactiveAlphaChange.Text" xml:space="preserve">
+    <value>スクラップの不透明度を変える</value>
+  </data>
+  <data name="chkInactiveAlphaChange.ToolTip" xml:space="preserve">
+    <value>マウス カーソルがリファレンス マップから離れた後のリファレンス マップの透明度を設定します。
+応答が遅い場合はオフにしてください。</value>
+  </data>
+  <data name="pageStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 327</value>
+  </data>
+  <data name="pageStyle.Text" xml:space="preserve">
+    <value>スタイルを作る</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>スタイル一覧</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>複製</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 12</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>割り当てキー:</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 12</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>スタイルアイテム:</value>
+  </data>
+  <data name="btnEditStyle.Text" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="btnDeleteStyle.Text" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="btnNewStyle.Text" xml:space="preserve">
+    <value>新規作成</value>
+  </data>
+  <data name="pageScrapMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 327</value>
+  </data>
+  <data name="pageScrapMenu.Text" xml:space="preserve">
+    <value>スクラップメニュー</value>
+  </data>
+  <data name="groupBox10.Text" xml:space="preserve">
+    <value>スクラップメニュー</value>
+  </data>
+  <data name="listScrapMenuList.ToolTip" xml:space="preserve">
+    <value>参照図面を右クリックしたときに表示されるメニュー構造。</value>
+  </data>
+  <data name="groupBox9.Text" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <data name="groupBox8.Text" xml:space="preserve">
+    <value>スタイル一覧</value>
+  </data>
+  <data name="pageMisc.Text" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupBox17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="groupBox17.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="groupBox17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 86</value>
+  </data>
+  <data name="groupBox17.Text" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>言語変更後は再起動が必要となります。
+スタイル名は変更前のものが残るため、言語変更を反映するには
+設定の初期化を行ってください。
+</value>
+  </data>
+  <data name="comboBoxSelectLanguage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="comboBoxSelectLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 20</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="checkBox_language_auto.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_language_auto.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox_language_auto.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="checkBox_language_auto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 16</value>
+  </data>
+  <data name="checkBox_language_auto.Text" xml:space="preserve">
+    <value>自動設定</value>
+  </data>
+  <data name="groupBox14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 224</value>
+  </data>
+  <data name="groupBox14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 73</value>
+  </data>
+  <data name="groupBox14.Text" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <data name="checkBox_cursor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox_cursor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 19</value>
+  </data>
+  <data name="checkBox_cursor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 16</value>
+  </data>
+  <data name="checkBox_cursor.Text" xml:space="preserve">
+    <value>スクリーンショットでマウスを保持する</value>
+  </data>
+  <data name="checkBox_cursor.ToolTip" xml:space="preserve">
+    <value>スクリーンショットを撮るときにマウスを表示するかどうか</value>
+  </data>
+  <data name="checkBox_magnifier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 39</value>
+  </data>
+  <data name="checkBox_magnifier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>287, 16</value>
+  </data>
+  <data name="checkBox_magnifier.Text" xml:space="preserve">
+    <value>スクリーンショットを撮るときに参照用に拡大鏡を表示する</value>
+  </data>
+  <data name="checkBox_magnifier.ToolTip" xml:space="preserve">
+    <value>スクリーンショットを撮るときに参照用に拡大鏡を表示する</value>
+  </data>
+  <data name="groupBox16.Text" xml:space="preserve">
+    <value>全画面十字線スタイル</value>
+  </data>
+  <data name="checkBox_fullscreenCursor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 15</value>
+  </data>
+  <data name="checkBox_fullscreenCursor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 16</value>
+  </data>
+  <data name="checkBox_fullscreenCursor.Text" xml:space="preserve">
+    <value>全画面カーソル</value>
+  </data>
+  <data name="checkBox_fullscreenCursor.ToolTip" xml:space="preserve">
+    <value>スクリーンショット撮影時のカーソルを全画面カーソルで表示</value>
+  </data>
+  <data name="radioButton2_fullscreenCursor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 45</value>
+  </data>
+  <data name="radioButton2_fullscreenCursor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="radioButton2_fullscreenCursor.Text" xml:space="preserve">
+    <value>点線</value>
+  </data>
+  <data name="radioButton2_fullscreenCursor.ToolTip" xml:space="preserve">
+    <value>マーキー範囲の境界線の種類を設定します。</value>
+  </data>
+  <data name="radioButton1_fullscreenCursor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 46</value>
+  </data>
+  <data name="radioButton1_fullscreenCursor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="radioButton1_fullscreenCursor.Text" xml:space="preserve">
+    <value>実践</value>
+  </data>
+  <data name="radioButton1_fullscreenCursor.ToolTip" xml:space="preserve">
+    <value>マーキー範囲の境界線の種類を設定します。</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 12</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>マーキー線の色:</value>
+  </data>
+  <data name="pictureBox_fullscreenCursor.ToolTip" xml:space="preserve">
+    <value>マーキー範囲の境界線の色を指定します。</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 12</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>マーキー ラインの種類:</value>
+  </data>
+  <data name="groupBox15.Text" xml:space="preserve">
+    <value>スクリーンショットの背景</value>
+  </data>
+  <data name="checkBox_transparent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 16</value>
+  </data>
+  <data name="checkBox_transparent.Text" xml:space="preserve">
+    <value>スクリーンショットの透明部分をマウスが貫通できるかどうか</value>
+  </data>
+  <data name="lblMenuMisc.Text" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <data name="lblMenuStyle.Text" xml:space="preserve">
+    <value>スタイルを作る</value>
+  </data>
+  <data name="lblMenuCapture.Text" xml:space="preserve">
+    <value>キャプチャー設定</value>
+  </data>
+  <data name="lblMenuMenu.Text" xml:space="preserve">
+    <value>スクラップメニュー</value>
+  </data>
+  <data name="lblMenuScrap.Text" xml:space="preserve">
+    <value>スクラップ設定</value>
+  </data>
+  <data name="lblMenuAll.Text" xml:space="preserve">
+    <value>全般</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>オプション</value>
+  </data>
+</root>

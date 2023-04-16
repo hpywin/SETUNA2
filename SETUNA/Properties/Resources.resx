@@ -1255,4 +1255,406 @@
   <data name="white" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="label1" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="label10" xml:space="preserve">
+    <value>Fliphorizontally</value>
+  </data>
+  <data name="label11" xml:space="preserve">
+    <value>Enlarge</value>
+  </data>
+  <data name="label12" xml:space="preserve">
+    <value>Enlarge(fine-tune)</value>
+  </data>
+  <data name="label13" xml:space="preserve">
+    <value>Reduce</value>
+  </data>
+  <data name="label14" xml:space="preserve">
+    <value>Reduce(fine-tune)</value>
+  </data>
+  <data name="label15" xml:space="preserve">
+    <value>Increaseopacity</value>
+  </data>
+  <data name="label16" xml:space="preserve">
+    <value>Increaseopacity(fine-tune)</value>
+  </data>
+  <data name="label17" xml:space="preserve">
+    <value>Decreaseopacity</value>
+  </data>
+  <data name="label18" xml:space="preserve">
+    <value>Decreaseopacity(fine-tune)</value>
+  </data>
+  <data name="label19" xml:space="preserve">
+    <value>Moveup</value>
+  </data>
+  <data name="label2" xml:space="preserve">
+    <value>Copy(withborder)</value>
+  </data>
+  <data name="label20" xml:space="preserve">
+    <value>Moveup(fine-tune)</value>
+  </data>
+  <data name="label21" xml:space="preserve">
+    <value>Movedown</value>
+  </data>
+  <data name="label22" xml:space="preserve">
+    <value>Movedown(fine-tune)</value>
+  </data>
+  <data name="label23" xml:space="preserve">
+    <value>Moveleft</value>
+  </data>
+  <data name="label24" xml:space="preserve">
+    <value>Moveleft(fine-tune)</value>
+  </data>
+  <data name="label25" xml:space="preserve">
+    <value>Moveright</value>
+  </data>
+  <data name="label26" xml:space="preserve">
+    <value>Moveright(fine-tune)</value>
+  </data>
+  <data name="label27" xml:space="preserve">
+    <value>Scaleto50%</value>
+  </data>
+  <data name="label28" xml:space="preserve">
+    <value>Scaleto60%</value>
+  </data>
+  <data name="label29" xml:space="preserve">
+    <value>Scaleto70%</value>
+  </data>
+  <data name="label3" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="label30" xml:space="preserve">
+    <value>Scaleto80%</value>
+  </data>
+  <data name="label31" xml:space="preserve">
+    <value>Scaleto90%</value>
+  </data>
+  <data name="label32" xml:space="preserve">
+    <value>Scaleto100%</value>
+  </data>
+  <data name="label33" xml:space="preserve">
+    <value>Scaleto150%</value>
+  </data>
+  <data name="label34" xml:space="preserve">
+    <value>3Dborder</value>
+  </data>
+  <data name="label35" xml:space="preserve">
+    <value>Monochromeborder</value>
+  </data>
+  <data name="label36" xml:space="preserve">
+    <value>Windowize</value>
+  </data>
+  <data name="label37" xml:space="preserve">
+    <value>Noborder</value>
+  </data>
+  <data name="label38" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="label39" xml:space="preserve">
+    <value>Basicautomaticoperation</value>
+  </data>
+  <data name="label4" xml:space="preserve">
+    <value>Cut(withborder)</value>
+  </data>
+  <data name="label40" xml:space="preserve">
+    <value>Shrink</value>
+  </data>
+  <data name="label41" xml:space="preserve">
+    <value>Trim</value>
+  </data>
+  <data name="label5" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="label6" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="label7" xml:space="preserve">
+    <value>Save(withborder)</value>
+  </data>
+  <data name="label8" xml:space="preserve">
+    <value>Rotate90degrees</value>
+  </data>
+  <data name="label9" xml:space="preserve">
+    <value>Flipvertically</value>
+  </data>
+  <data name="label50" xml:space="preserve">
+    <value>recycle bin</value>
+  </data>
+  <data name="label51" xml:space="preserve">
+    <value>reference image list</value>
+  </data>
+  <data name="label52" xml:space="preserve">
+    <value>Make a reference map</value>
+  </data>
+  <data name="label53" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="label54" xml:space="preserve">
+    <value>VersionInformation</value>
+  </data>
+  <data name="label55" xml:space="preserve">
+    <value>ExitSETUNA</value>
+  </data>
+  <data name="label56" xml:space="preserve">
+    <value>HideAll</value>
+  </data>
+  <data name="label57" xml:space="preserve">
+    <value>ShowAll</value>
+  </data>
+  <data name="label58" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="label59" xml:space="preserve">
+    <value>EmptyRecycleBin</value>
+  </data>
+  <data name="label60" xml:space="preserve">
+    <value>CloseAllScreenshots</value>
+  </data>
+  <data name="label61" xml:space="preserve">
+    <value>CloseAllScreenshots?</value>
+  </data>
+  <data name="label62" xml:space="preserve">
+    <value>Hint</value>
+  </data>
+  <data name="label63" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="label64" xml:space="preserve">
+    <value>PasteScreenshotfromClipboard</value>
+  </data>
+  <data name="label65" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="label66" xml:space="preserve">
+    <value>Unabletosaveconfigurationfile.</value>
+  </data>
+  <data name="label67" xml:space="preserve">
+    <value>Unabletosaveconfigurationfile.Usingdefaultsettings.</value>
+  </data>
+  <data name="label68" xml:space="preserve">
+    <value>SETUNAisalreadyrunninginadifferentversion.</value>
+  </data>
+  <data name="label69" xml:space="preserve">
+    <value>-Commandlineparameters--------------------</value>
+  </data>
+  <data name="label70" xml:space="preserve">
+    <value>[Location]</value>
+  </data>
+  <data name="label71" xml:space="preserve">
+    <value>Invalidfoldername.</value>
+  </data>
+  <data name="label72" xml:space="preserve">
+    <value>Nofilenamespecified.</value>
+  </data>
+  <data name="label73" xml:space="preserve">
+    <value>Invalidfilename.</value>
+  </data>
+  <data name="label74" xml:space="preserve">
+    <value>Rotateandflip</value>
+  </data>
+  <data name="label75" xml:space="preserve">
+    <value>Referenceimageforrotationandflipping.</value>
+  </data>
+  <data name="label76" xml:space="preserve">
+    <value>Referenceimageforscaling.</value>
+  </data>
+  <data name="label77" xml:space="preserve">
+    <value>Referenceimageforscalingdown/up.</value>
+  </data>
+  <data name="label78" xml:space="preserve">
+    <value>Originalsize</value>
+  </data>
+  <data name="label79" xml:space="preserve">
+    <value>%Fixed</value>
+  </data>
+  <data name="label80" xml:space="preserve">
+    <value>%Enlarged</value>
+  </data>
+  <data name="label81" xml:space="preserve">
+    <value>%Reduced</value>
+  </data>
+  <data name="label82" xml:space="preserve">
+    <value>Windowize</value>
+  </data>
+  <data name="label83" xml:space="preserve">
+    <value>Addwindowbordertothereferenceimage.</value>
+  </data>
+  <data name="label84" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="label85" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="label100" xml:space="preserve">
+    <value>Set the type of border for the reference image.</value>
+  </data>
+  <data name="label101" xml:space="preserve">
+    <value>3D border</value>
+  </data>
+  <data name="label102" xml:space="preserve">
+    <value>Monochrome border</value>
+  </data>
+  <data name="label103" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="label104" xml:space="preserve">
+    <value>Move the reference image</value>
+  </data>
+  <data name="label105" xml:space="preserve">
+    <value>Move the reference image up, down, left, or right.</value>
+  </data>
+  <data name="label106" xml:space="preserve">
+    <value>Up:</value>
+  </data>
+  <data name="label107" xml:space="preserve">
+    <value>Down:</value>
+  </data>
+  <data name="label108" xml:space="preserve">
+    <value>Left:</value>
+  </data>
+  <data name="label109" xml:space="preserve">
+    <value>Right:</value>
+  </data>
+  <data name="label110" xml:space="preserve">
+    <value>Opacity</value>
+  </data>
+  <data name="label111" xml:space="preserve">
+    <value>Set opaque reference image.</value>
+  </data>
+  <data name="label112" xml:space="preserve">
+    <value>Draw</value>
+  </data>
+  <data name="label113" xml:space="preserve">
+    <value>You can draw directly on the reference image.</value>
+  </data>
+  <data name="label114" xml:space="preserve">
+    <value>Paste from clipboard</value>
+  </data>
+  <data name="label115" xml:space="preserve">
+    <value>Use the image from clipboard as a reference image.</value>
+  </data>
+  <data name="label116" xml:space="preserve">
+    <value>Album uploaded with SETUNA.</value>
+  </data>
+  <data name="label117" xml:space="preserve">
+    <value>Upload to Picasa</value>
+  </data>
+  <data name="label118" xml:space="preserve">
+    <value>Upload the reference image to Picasa web album.</value>
+  </data>
+  <data name="label119" xml:space="preserve">
+    <value>Timer</value>
+  </data>
+  <data name="label120" xml:space="preserve">
+    <value>Pause within the specified time.</value>
+  </data>
+  <data name="label121" xml:space="preserve">
+    <value>Grayscale level inversion</value>
+  </data>
+  <data name="label122" xml:space="preserve">
+    <value>Perform inversion of grayscale levels.</value>
+  </data>
+  <data name="label123" xml:space="preserve">
+    <value>Crop</value>
+  </data>
+  <data name="label124" xml:space="preserve">
+    <value>You can delete unnecessary parts.</value>
+  </data>
+  <data name="label125" xml:space="preserve">
+    <value>Text layer</value>
+  </data>
+  <data name="label86" xml:space="preserve">
+    <value>Save as BMP format</value>
+  </data>
+  <data name="label87" xml:space="preserve">
+    <value>Save the reference image as BMP format image.</value>
+  </data>
+  <data name="label88" xml:space="preserve">
+    <value>Bitmap format (.bmp)|.bmp|All Files (*.*)|*.*</value>
+  </data>
+  <data name="label89" xml:space="preserve">
+    <value>Save as JPEG format</value>
+  </data>
+  <data name="label90" xml:space="preserve">
+    <value>Save the reference image as JPEG format image.</value>
+  </data>
+  <data name="label91" xml:space="preserve">
+    <value>Jpeg format (.jpg)|.jpg|All Files (*.*)|*.*</value>
+  </data>
+  <data name="label92" xml:space="preserve">
+    <value>Save as PNG format</value>
+  </data>
+  <data name="label93" xml:space="preserve">
+    <value>Save the reference image as PNG format image.</value>
+  </data>
+  <data name="label94" xml:space="preserve">
+    <value>Png format (.png)|.png|All Files (*.*)|*.*</value>
+  </data>
+  <data name="label95" xml:space="preserve">
+    <value>Cannot save.</value>
+  </data>
+  <data name="label96" xml:space="preserve">
+    <value>File with the same name already exists. Overwrite?</value>
+  </data>
+  <data name="label97" xml:space="preserve">
+    <value>Cannot save the image because no suitable encoder was found.</value>
+  </data>
+  <data name="label98" xml:space="preserve">
+    <value>All Files (*.*)|*.*</value>
+  </data>
+  <data name="label99" xml:space="preserve">
+    <value>Border</value>
+  </data>
+  <data name="label126" xml:space="preserve">
+    <value>Shrink the size of the reference image.</value>
+  </data>
+  <data name="label127" xml:space="preserve">
+    <value>Shrink the size of the reference image.\nSubsequent automatic operations will not be used.</value>
+  </data>
+  <data name="label128" xml:space="preserve">
+    <value>Copy to clipboard</value>
+  </data>
+  <data name="label129" xml:space="preserve">
+    <value>Copy the reference image as an image to the clipboard.</value>
+  </data>
+  <data name="label130" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="label131" xml:space="preserve">
+    <value>Close the reference image.\nSubsequent automatic operations will not be used.</value>
+  </data>
+  <data name="label149" xml:space="preserve">
+    <value>Official version (address is invalid)</value>
+  </data>
+  <data name="label150" xml:space="preserve">
+    <value>Optimized version</value>
+  </data>
+  <data name="label151" xml:space="preserve">
+    <value>Related editing</value>
+  </data>
+  <data name="label152" xml:space="preserve">
+    <value>SETUNA general settings</value>
+  </data>
+  <data name="label153" xml:space="preserve">
+    <value>Perform settings related to cropping</value>
+  </data>
+  <data name="label154" xml:space="preserve">
+    <value>Perform general settings for reference images</value>
+  </data>
+  <data name="label155" xml:space="preserve">
+    <value>Create an automatic operation composed of multiple automatic operations</value>
+  </data>
+  <data name="label156" xml:space="preserve">
+    <value>Set the menu when right-clicking on a reference image</value>
+  </data>
+  <data name="label157" xml:space="preserve">
+    <value>Mouse cursor style settings</value>
+  </data>
+  <data name="label158" xml:space="preserve">
+    <value>Create a new automatic operation</value>
+  </data>
+  <data name="label159" xml:space="preserve">
+    <value>Initialize the setting content.</value>
+  </data>
 </root>

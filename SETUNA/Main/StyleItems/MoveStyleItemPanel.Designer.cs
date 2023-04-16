@@ -6,6 +6,7 @@
 		// Token: 0x060004A1 RID: 1185 RVA: 0x0001DAFC File Offset: 0x0001BCFC
 		private void InitializeComponent()
 		{
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MoveStyleItemPanel));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.numRight = new System.Windows.Forms.NumericUpDown();
             this.numLeft = new System.Windows.Forms.NumericUpDown();
@@ -24,18 +25,15 @@
             // 
             // cmdOK
             // 
-            this.cmdOK.Location = new System.Drawing.Point(172, 219);
+            resources.ApplyResources(this.cmdOK, "cmdOK");
             // 
             // cmdCancel
             // 
-            this.cmdCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmdCancel.Location = new System.Drawing.Point(248, 219);
+            resources.ApplyResources(this.cmdCancel, "cmdCancel");
             // 
             // groupBox1
             // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.numRight);
             this.groupBox1.Controls.Add(this.numLeft);
             this.groupBox1.Controls.Add(this.numDown);
@@ -44,93 +42,60 @@
             this.groupBox1.Controls.Add(this.chkRight);
             this.groupBox1.Controls.Add(this.chkUp);
             this.groupBox1.Controls.Add(this.chkDown);
-            this.groupBox1.Location = new System.Drawing.Point(8, 8);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(312, 203);
-            this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "设置";
             // 
             // numRight
             // 
-            this.numRight.ImeMode = System.Windows.Forms.ImeMode.Off;
-            this.numRight.Location = new System.Drawing.Point(194, 96);
+            resources.ApplyResources(this.numRight, "numRight");
             this.numRight.Name = "numRight";
-            this.numRight.Size = new System.Drawing.Size(51, 21);
-            this.numRight.TabIndex = 5;
             // 
             // numLeft
             // 
-            this.numLeft.ImeMode = System.Windows.Forms.ImeMode.Off;
-            this.numLeft.Location = new System.Drawing.Point(75, 96);
+            resources.ApplyResources(this.numLeft, "numLeft");
             this.numLeft.Name = "numLeft";
-            this.numLeft.Size = new System.Drawing.Size(51, 21);
-            this.numLeft.TabIndex = 3;
             // 
             // numDown
             // 
-            this.numDown.ImeMode = System.Windows.Forms.ImeMode.Off;
-            this.numDown.Location = new System.Drawing.Point(133, 154);
+            resources.ApplyResources(this.numDown, "numDown");
             this.numDown.Name = "numDown";
-            this.numDown.Size = new System.Drawing.Size(51, 21);
-            this.numDown.TabIndex = 7;
             // 
             // numUp
             // 
-            this.numUp.ImeMode = System.Windows.Forms.ImeMode.Off;
-            this.numUp.Location = new System.Drawing.Point(133, 39);
+            resources.ApplyResources(this.numUp, "numUp");
             this.numUp.Name = "numUp";
-            this.numUp.Size = new System.Drawing.Size(51, 21);
-            this.numUp.TabIndex = 1;
             // 
             // chkLeft
             // 
-            this.chkLeft.Location = new System.Drawing.Point(57, 81);
+            resources.ApplyResources(this.chkLeft, "chkLeft");
             this.chkLeft.Name = "chkLeft";
-            this.chkLeft.Size = new System.Drawing.Size(73, 49);
-            this.chkLeft.TabIndex = 2;
-            this.chkLeft.Text = "左";
-            this.chkLeft.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.chkLeft.UseVisualStyleBackColor = true;
             this.chkLeft.CheckedChanged += new System.EventHandler(this.chkLeft_CheckedChanged);
             // 
             // chkRight
             // 
-            this.chkRight.Location = new System.Drawing.Point(176, 81);
+            resources.ApplyResources(this.chkRight, "chkRight");
             this.chkRight.Name = "chkRight";
-            this.chkRight.Size = new System.Drawing.Size(73, 49);
-            this.chkRight.TabIndex = 4;
-            this.chkRight.Text = "右";
-            this.chkRight.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.chkRight.UseVisualStyleBackColor = true;
             this.chkRight.CheckedChanged += new System.EventHandler(this.chkRight_CheckedChanged);
             // 
             // chkUp
             // 
-            this.chkUp.Location = new System.Drawing.Point(115, 24);
+            resources.ApplyResources(this.chkUp, "chkUp");
             this.chkUp.Name = "chkUp";
-            this.chkUp.Size = new System.Drawing.Size(73, 49);
-            this.chkUp.TabIndex = 0;
-            this.chkUp.Text = "上";
-            this.chkUp.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.chkUp.UseVisualStyleBackColor = true;
             this.chkUp.CheckedChanged += new System.EventHandler(this.chkUp_CheckedChanged);
             // 
             // chkDown
             // 
-            this.chkDown.Location = new System.Drawing.Point(115, 139);
+            resources.ApplyResources(this.chkDown, "chkDown");
             this.chkDown.Name = "chkDown";
-            this.chkDown.Size = new System.Drawing.Size(73, 49);
-            this.chkDown.TabIndex = 6;
-            this.chkDown.Text = "下";
-            this.chkDown.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.chkDown.UseVisualStyleBackColor = true;
             this.chkDown.CheckedChanged += new System.EventHandler(this.chkDown_CheckedChanged);
             // 
             // MoveStyleItemPanel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
-            this.ClientSize = new System.Drawing.Size(326, 251);
+            resources.ApplyResources(this, "$this");
             this.Controls.Add(this.groupBox1);
             this.Name = "MoveStyleItemPanel";
             this.Controls.SetChildIndex(this.cmdOK, 0);

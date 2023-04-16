@@ -9,7 +9,7 @@ namespace SETUNA.Main.Style
         public CSeparatorStyle()
         {
             _styleid = -4;
-            _stylename = "[分隔符]";
+            _stylename = Properties.Resources.label53; // "[分隔符]";
         }
 
         // Token: 0x0600039C RID: 924 RVA: 0x00016275 File Offset: 0x00014475

@@ -6,6 +6,7 @@
 		// Token: 0x06000419 RID: 1049 RVA: 0x0001A354 File Offset: 0x00018554
 		private void InitializeComponent()
 		{
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(WindowStyleItemPanel));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.rdoIncrement = new System.Windows.Forms.RadioButton();
@@ -16,58 +17,43 @@
             // 
             // cmdOK
             // 
-            this.cmdOK.Location = new System.Drawing.Point(36, 92);
+            resources.ApplyResources(this.cmdOK, "cmdOK");
             // 
             // cmdCancel
             // 
-            this.cmdCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmdCancel.Location = new System.Drawing.Point(112, 92);
+            resources.ApplyResources(this.cmdCancel, "cmdCancel");
             // 
             // groupBox1
             // 
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.panel1);
-            this.groupBox1.Location = new System.Drawing.Point(8, 8);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(171, 80);
-            this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "设置";
             // 
             // panel1
             // 
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Controls.Add(this.rdoIncrement);
             this.panel1.Controls.Add(this.rdoFixed);
-            this.panel1.Location = new System.Drawing.Point(6, 18);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(156, 51);
-            this.panel1.TabIndex = 8;
             // 
             // rdoIncrement
             // 
-            this.rdoIncrement.AutoSize = true;
-            this.rdoIncrement.Location = new System.Drawing.Point(3, 30);
+            resources.ApplyResources(this.rdoIncrement, "rdoIncrement");
             this.rdoIncrement.Name = "rdoIncrement";
-            this.rdoIncrement.Size = new System.Drawing.Size(71, 16);
-            this.rdoIncrement.TabIndex = 1;
-            this.rdoIncrement.Text = "窗口类型";
             this.rdoIncrement.UseVisualStyleBackColor = true;
             // 
             // rdoFixed
             // 
-            this.rdoFixed.AutoSize = true;
+            resources.ApplyResources(this.rdoFixed, "rdoFixed");
             this.rdoFixed.Checked = true;
-            this.rdoFixed.Location = new System.Drawing.Point(3, 8);
             this.rdoFixed.Name = "rdoFixed";
-            this.rdoFixed.Size = new System.Drawing.Size(83, 16);
-            this.rdoFixed.TabIndex = 0;
             this.rdoFixed.TabStop = true;
-            this.rdoFixed.Text = "参考图类型";
             this.rdoFixed.UseVisualStyleBackColor = true;
             // 
             // WindowStyleItemPanel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
-            this.ClientSize = new System.Drawing.Size(190, 124);
+            resources.ApplyResources(this, "$this");
             this.Controls.Add(this.groupBox1);
             this.Name = "WindowStyleItemPanel";
             this.Controls.SetChildIndex(this.cmdOK, 0);

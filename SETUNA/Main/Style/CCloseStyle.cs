@@ -10,7 +10,7 @@ namespace SETUNA.Main.Style
         public CCloseStyle()
         {
             _styleid = -1;
-            _stylename = "关闭";
+            _stylename = Properties.Resources.label58; // "关闭";
         }
 
         // Token: 0x0600046A RID: 1130 RVA: 0x0001C9E8 File Offset: 0x0001ABE8

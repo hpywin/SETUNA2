@@ -9,7 +9,7 @@ namespace SETUNA.Main.Style
         public CDustBoxStyle()
         {
             _styleid = -7;
-            _stylename = "回收站";
+            _stylename = Properties.Resources.label50; //  "回收站";
         }
 
         // Token: 0x060002BD RID: 701 RVA: 0x0000F512 File Offset: 0x0000D712

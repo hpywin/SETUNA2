@@ -33,31 +33,17 @@
             // 
             // button1
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Font = new System.Drawing.Font("微软雅黑", 14F);
+            resources.ApplyResources(this.button1, "button1");
             this.button1.ForeColor = System.Drawing.Color.Gray;
-            this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button1.Location = new System.Drawing.Point(0, 0);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(253, 54);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "截取";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button4
             // 
-            this.button4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.button4.Font = new System.Drawing.Font("微软雅黑", 9F);
+            resources.ApplyResources(this.button4, "button4");
             this.button4.ForeColor = System.Drawing.Color.Gray;
-            this.button4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button4.Location = new System.Drawing.Point(252, 0);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(44, 54);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "选项";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -74,8 +60,7 @@
             // setunaIcon
             // 
             this.setunaIcon.ContextMenuStrip = this.setunaIconMenu;
-            this.setunaIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("setunaIcon.Icon")));
-            this.setunaIcon.Text = "SETUNA2";
+            resources.ApplyResources(this.setunaIcon, "setunaIcon");
             this.setunaIcon.DoubleClick += new System.EventHandler(this.setunaIcon_MouseDoubleClick);
             this.setunaIcon.MouseClick += new System.Windows.Forms.MouseEventHandler(this.setunaIcon_MouseClick);
             // 
@@ -84,7 +69,7 @@
             this.setunaIconMenu.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.setunaIconMenu.Name = "setunaIconMenu";
             this.setunaIconMenu.Scrap = null;
-            this.setunaIconMenu.Size = new System.Drawing.Size(61, 4);
+            resources.ApplyResources(this.setunaIconMenu, "setunaIconMenu");
             this.setunaIconMenu.Opening += new System.ComponentModel.CancelEventHandler(this.setunaIconMenu_Opening);
             // 
             // subMenu
@@ -94,13 +79,12 @@
             this.testToolStripMenuItem});
             this.subMenu.Name = "subMenu";
             this.subMenu.Scrap = null;
-            this.subMenu.Size = new System.Drawing.Size(148, 50);
+            resources.ApplyResources(this.subMenu, "subMenu");
             // 
             // testToolStripMenuItem
             // 
             this.testToolStripMenuItem.Name = "testToolStripMenuItem";
-            this.testToolStripMenuItem.Size = new System.Drawing.Size(147, 46);
-            this.testToolStripMenuItem.Text = "test";
+            resources.ApplyResources(this.testToolStripMenuItem, "testToolStripMenuItem");
             // 
             // toolTip1
             // 
@@ -117,16 +101,12 @@
             // Mainform
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(296, 54);
+            resources.ApplyResources(this, "$this");
             this.ContextMenuStrip = this.setunaIconMenu;
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(100, 60);
             this.Name = "Mainform";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SETUNA";
             this.TopMost = true;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Mainform_FormClosing);
             this.Load += new System.EventHandler(this.Mainform_Load);

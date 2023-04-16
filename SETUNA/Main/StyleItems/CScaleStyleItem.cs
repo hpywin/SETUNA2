@@ -61,13 +61,13 @@ namespace SETUNA.Main.StyleItems
         // Token: 0x06000361 RID: 865 RVA: 0x00015AAF File Offset: 0x00013CAF
         public override string GetDisplayName()
         {
-            return "缩放参考图";
+            return Resources.label76; // "缩放参考图";
         }
 
         // Token: 0x06000362 RID: 866 RVA: 0x00015AB6 File Offset: 0x00013CB6
         public override string GetDescription()
         {
-            return "用于缩小/扩大参考图。";
+            return Resources.label77; //"用于缩小/扩大参考图。";
         }
 
         // Token: 0x06000363 RID: 867 RVA: 0x00015AC0 File Offset: 0x00013CC0
@@ -140,22 +140,22 @@ namespace SETUNA.Main.StyleItems
                 {
                     if (_scalevalue == 100)
                     {
-                        result = "原始大小";
+                        result = Resources.label78; //"原始大小";
                     }
                     else
                     {
-                        result = _scalevalue.ToString() + "% 固定";
+                        result = _scalevalue.ToString() + Resources.label79; //"% 固定";
                     }
                 }
                 else
                 {
                     if (_scalevalue > 0)
                     {
-                        result = _scalevalue.ToString() + "% 扩大";
+                        result = _scalevalue.ToString() + Resources.label80; //"% 扩大";
                     }
                     if (_scalevalue < 0)
                     {
-                        result = Math.Abs(_scalevalue).ToString() + "% 缩小";
+                        result = Math.Abs(_scalevalue).ToString() + Resources.label81; // "% 缩小";
                     }
                 }
                 return result;

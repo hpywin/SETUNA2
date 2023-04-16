@@ -102,8 +102,8 @@
     <Reference Include="Costura, Version=4.1.0.0, Culture=neutral, PublicKeyToken=9919ef960d84173d, processorArchitecture=MSIL">
       <HintPath>..\packages\Costura.Fody.4.1.0\lib\net40\Costura.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="Svg, Version=2.2.1.1459, Culture=neutral, PublicKeyToken=12a0bac221edeae2, processorArchitecture=MSIL">
@@ -525,6 +525,21 @@
     <Compile Include="Main\Common\WindowsAPI.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.zh.Designer.cs">
+      <DependentUpon>Resources.zh.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\Resources.ja.Designer.cs">
+      <DependentUpon>Resources.ja.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <DependentUpon>Settings.settings</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -533,7 +548,13 @@
     <Compile Include="Resources\Image.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Mainform.ja.resx">
+      <DependentUpon>Mainform.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Mainform.resx">
+      <DependentUpon>Mainform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainform.zh.resx">
       <DependentUpon>Mainform.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\CaptureSelLine.resx">
@@ -542,8 +563,20 @@
     <EmbeddedResource Include="Main\ContextStyleMenuStrip.resx">
       <DependentUpon>ContextStyleMenuStrip.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Main\HotkeyMsg.ja.resx">
+      <DependentUpon>HotkeyMsg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\HotkeyMsg.zh.resx">
+      <DependentUpon>HotkeyMsg.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main\Magnifier.resx">
       <DependentUpon>Magnifier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Option\OptionForm.is.resx">
+      <DependentUpon>OptionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Option\OptionForm.ja.resx">
+      <DependentUpon>OptionForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\Option\OptionForm.resx">
       <DependentUpon>OptionForm.cs</DependentUpon>
@@ -557,6 +590,9 @@
     <EmbeddedResource Include="Main\HotkeyMsg.resx">
       <DependentUpon>HotkeyMsg.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Main\Option\OptionForm.zh.resx">
+      <DependentUpon>OptionForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main\Option\StyleEditForm.resx">
       <DependentUpon>StyleEditForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -569,43 +605,121 @@
     <EmbeddedResource Include="Main\StyleItems\CompactScrap.resx">
       <DependentUpon>CompactScrap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\CompactStyleItemPanel.ja.resx">
+      <DependentUpon>CompactStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\CompactStyleItemPanel.resx">
       <DependentUpon>CompactStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\CompactStyleItemPanel.zh.resx">
+      <DependentUpon>CompactStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\CopyStyleItemPanel.ja.resx">
+      <DependentUpon>CopyStyleItemPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\CopyStyleItemPanel.resx">
       <DependentUpon>CopyStyleItemPanel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\CopyStyleItemPanel.zh.resx">
+      <DependentUpon>CopyStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\ImageBmpStyleItemPanel.ja.resx">
+      <DependentUpon>ImageBmpStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\ImageBmpStyleItemPanel.resx">
       <DependentUpon>ImageBmpStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\ImageBmpStyleItemPanel.zh.resx">
+      <DependentUpon>ImageBmpStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\ImageJpegPreviewPanel.ja.resx">
+      <DependentUpon>ImageJpegPreviewPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\ImageJpegPreviewPanel.resx">
       <DependentUpon>ImageJpegPreviewPanel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\ImageJpegPreviewPanel.zh.resx">
+      <DependentUpon>ImageJpegPreviewPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\ImageJpegStyleItemPanel.ja.resx">
+      <DependentUpon>ImageJpegStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\ImageJpegStyleItemPanel.resx">
       <DependentUpon>ImageJpegStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\ImageJpegStyleItemPanel.zh.resx">
+      <DependentUpon>ImageJpegStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\ImagePngPreviewPanel.ja.resx">
+      <DependentUpon>ImagePngPreviewPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\ImagePngPreviewPanel.resx">
       <DependentUpon>ImagePngPreviewPanel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\ImagePngPreviewPanel.zh.resx">
+      <DependentUpon>ImagePngPreviewPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\ImagePngStyleItemPanel.ja.resx">
+      <DependentUpon>ImagePngStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\ImagePngStyleItemPanel.resx">
       <DependentUpon>ImagePngStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\ImagePngStyleItemPanel.zh.resx">
+      <DependentUpon>ImagePngStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\LayerRenameWindow.ja.resx">
+      <DependentUpon>LayerRenameWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\LayerRenameWindow.resx">
       <DependentUpon>LayerRenameWindow.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\LayerRenameWindow.zh.resx">
+      <DependentUpon>LayerRenameWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\LoginInput.ja.resx">
+      <DependentUpon>LoginInput.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\LoginInput.resx">
       <DependentUpon>LoginInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\LoginInput.zh.resx">
+      <DependentUpon>LoginInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\MarginStyleItemPanel.ja.resx">
+      <DependentUpon>MarginStyleItemPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\MarginStyleItemPanel.resx">
       <DependentUpon>MarginStyleItemPanel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\MarginStyleItemPanel.zh.resx">
+      <DependentUpon>MarginStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\MoveStyleItemPanel.ja.resx">
+      <DependentUpon>MoveStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\MoveStyleItemPanel.resx">
       <DependentUpon>MoveStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\MoveStyleItemPanel.zh.resx">
+      <DependentUpon>MoveStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\NothingStyleItemPanel.ja.resx">
+      <DependentUpon>NothingStyleItemPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\NothingStyleItemPanel.resx">
       <DependentUpon>NothingStyleItemPanel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\NothingStyleItemPanel.zh.resx">
+      <DependentUpon>NothingStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\OpacityStyleItemPanel.ja.resx">
+      <DependentUpon>OpacityStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\OpacityStyleItemPanel.resx">
+      <DependentUpon>OpacityStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\OpacityStyleItemPanel.zh.resx">
       <DependentUpon>OpacityStyleItemPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\PaintForm.resx">
@@ -614,64 +728,135 @@
     <EmbeddedResource Include="Main\StyleItems\PicasaBar.resx">
       <DependentUpon>PicasaBar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\PicasaStyleItemPanel.ja.resx">
+      <DependentUpon>PicasaStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\PicasaStyleItemPanel.resx">
       <DependentUpon>PicasaStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\PicasaStyleItemPanel.zh.resx">
+      <DependentUpon>PicasaStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\RotateStyleItemPanel.ja.resx">
+      <DependentUpon>RotateStyleItemPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\RotateStyleItemPanel.resx">
       <DependentUpon>RotateStyleItemPanel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\RotateStyleItemPanel.zh.resx">
+      <DependentUpon>RotateStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\SaveImageStyleItemPanel.ja.resx">
+      <DependentUpon>SaveImageStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\SaveImageStyleItemPanel.resx">
       <DependentUpon>SaveImageStyleItemPanel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\SaveImageStyleItemPanel.zh.resx">
+      <DependentUpon>SaveImageStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\ScaleStyleItemPanel.ja.resx">
+      <DependentUpon>ScaleStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\ScaleStyleItemPanel.resx">
+      <DependentUpon>ScaleStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\ScaleStyleItemPanel.zh.resx">
       <DependentUpon>ScaleStyleItemPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\ScrapDrawForm.resx">
       <DependentUpon>ScrapDrawForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\ScrapPaintLayer.ja.resx">
+      <DependentUpon>ScrapPaintLayer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\ScrapPaintLayer.resx">
+      <DependentUpon>ScrapPaintLayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\ScrapPaintLayer.zh.resx">
       <DependentUpon>ScrapPaintLayer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\ScrapPaintLayerItem.resx">
       <DependentUpon>ScrapPaintLayerItem.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\ScrapPaintPenTool.ja.resx">
+      <DependentUpon>ScrapPaintPenTool.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\ScrapPaintPenTool.resx">
+      <DependentUpon>ScrapPaintPenTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\ScrapPaintPenTool.zh.resx">
       <DependentUpon>ScrapPaintPenTool.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\ScrapPaintTextLayerItem.resx">
       <DependentUpon>ScrapPaintTextLayerItem.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\ScrapPaintTextTool.ja.resx">
+      <DependentUpon>ScrapPaintTextTool.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\ScrapPaintTextTool.resx">
       <DependentUpon>ScrapPaintTextTool.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\ScrapPaintTextTool.zh.resx">
+      <DependentUpon>ScrapPaintTextTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\ScrapPaintToolBar.ja.resx">
+      <DependentUpon>ScrapPaintToolBar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\ScrapPaintToolBar.resx">
+      <DependentUpon>ScrapPaintToolBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\ScrapPaintToolBar.zh.resx">
       <DependentUpon>ScrapPaintToolBar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\ScrapPaintWindow.resx">
       <DependentUpon>ScrapPaintWindow.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\TimerStyleItemPanel.ja.resx">
+      <DependentUpon>TimerStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\TimerStyleItemPanel.resx">
       <DependentUpon>TimerStyleItemPanel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\TimerStyleItemPanel.zh.resx">
+      <DependentUpon>TimerStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\ToolBoxForm.ja.resx">
+      <DependentUpon>ToolBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\ToolBoxForm.resx">
+      <DependentUpon>ToolBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\ToolBoxForm.zh.resx">
       <DependentUpon>ToolBoxForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\TrimWindow.resx">
       <DependentUpon>TrimWindow.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\WindowStyleItemPanel.ja.resx">
+      <DependentUpon>WindowStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\WindowStyleItemPanel.resx">
       <DependentUpon>WindowStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\StyleItems\WindowStyleItemPanel.zh.resx">
+      <DependentUpon>WindowStyleItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.zh.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.zh.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
+    <EmbeddedResource Include="Properties\Resources.ja.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.ja.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Resources\Image.resx">
       <DependentUpon>Image.cs</DependentUpon>
     </EmbeddedResource>

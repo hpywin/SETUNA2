@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
 using System.Drawing.Imaging;
+using System.Globalization;
 using System.IO;
+using System.Threading;
 using System.Windows.Forms;
 using System.Xml.Serialization;
 using com.clearunit;
@@ -22,6 +24,14 @@ namespace SETUNA
         // Token: 0x060001EE RID: 494 RVA: 0x0000A4C4 File Offset: 0x000086C4
         public Mainform()
         {
+            optSetuna = new SetunaOption();
+            LoadOption();
+            if (!optSetuna.Setuna.LanguageAuto)
+            {
+                var lang = lang_dict[optSetuna.Setuna.LanguageSelected];
+                Thread.CurrentThread.CurrentUICulture = new CultureInfo(lang);
+            }
+
             Instance = this;
 
             _isstart = false;
@@ -32,7 +42,7 @@ namespace SETUNA
             scrapBook.addKeyPressListener(this);
             scrapBook.addScrapAddedListener(this);
             scrapBook.addScrapRemovedListener(this);
-            optSetuna = new SetunaOption();
+            //optSetuna = new SetunaOption();
             dustbox = new Queue<ScrapBase>();
             scrapBook.DustBox = dustbox;
             scrapBook.DustBoxCapacity = 5;
@@ -349,6 +359,16 @@ namespace SETUNA
                     frmClickCapture = null;
                 }
 
+                //if (optSetuna.Setuna.LanguageAuto )
+                //{
+                //    Thread.CurrentThread.CurrentUICulture.
+                //    if (!optSetuna.Setuna.LanguageAuto)
+                //    {
+                //        var lang = lang_dict[optSetuna.Setuna.LanguageSelected];
+                //        Thread.CurrentThread.CurrentUICulture = new CultureInfo(lang);
+                //    }
+                //}
+
                 windowTimer.Enabled = optSetuna.Setuna.TopMostEnabled;
             }
             catch (Exception ex)
@@ -413,7 +433,8 @@ namespace SETUNA
             }
             catch
             {
-                MessageBox.Show("无法保存配置文件。", "SETUNA2", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                //MessageBox.Show("无法保存配置文件。", "SETUNA2", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                MessageBox.Show(Properties.Resources.label66, "SETUNA2", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
         }
 
@@ -439,11 +460,12 @@ namespace SETUNA
             catch
             {
                 optSetuna = SetunaOption.GetDefaultOption();
-                MessageBox.Show("无法读取配置文件。\n使用默认设置。", "SETUNA2", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                //MessageBox.Show("无法读取配置文件。\n使用默认设置。", "SETUNA2", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                MessageBox.Show(Properties.Resources.label67, "SETUNA2", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
             finally
             {
-                OptionApply();
+                //OptionApply();
             }
         }
 
@@ -616,7 +638,7 @@ namespace SETUNA
         private void Mainform_Load(object sender, EventArgs e)
         {
             base.Visible = false;
-            LoadOption();
+            //LoadOption(); // moved
             OptionApply();
             SaveOption();
             if (optSetuna.Setuna.ShowSplashWindow)
@@ -747,7 +769,8 @@ namespace SETUNA
         {
             if (Application.ProductVersion != version)
             {
-                MessageBox.Show("SETUNA已经运行在不同的版本。", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                //MessageBox.Show("SETUNA已经运行在不同的版本。", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                MessageBox.Show(Properties.Resources.label68, Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 return;
             }
             if (args.Length > 0)
@@ -764,7 +787,8 @@ namespace SETUNA
         // Token: 0x0600021B RID: 539 RVA: 0x0000B5A8 File Offset: 0x000097A8
         public void CommandRun(string[] args)
         {
-            Console.WriteLine("-命令行参数--------------------");
+            //Console.WriteLine("-命令行参数--------------------");
+            Console.WriteLine(Properties.Resources.label69);
             var num = 0;
             var rect = new Rectangle(0, 0, 0, 0);
             var fname = "";
@@ -801,7 +825,8 @@ namespace SETUNA
                                 rect.Y = int.Parse(array[1]);
                                 rect.Width = int.Parse(array[2]);
                                 rect.Height = int.Parse(array[3]);
-                                Console.WriteLine("[位置]" + rect.ToString());
+                                //Console.WriteLine("[位置]" + rect.ToString());
+                                Console.WriteLine(Properties.Resources.label70 + rect.ToString());
                                 goto IL_1C2;
                             }
                         }
@@ -987,5 +1012,11 @@ namespace SETUNA
 
         private List<Form> forms = new List<Form>();
         private bool allScrapActive = true;
+
+        private new Dictionary<string, string> lang_dict = new Dictionary<string, string> {
+            { "English", "en" },
+            { "Japanese", "ja" },
+            { "Chinese", "zh" },
+        };
     }
 }

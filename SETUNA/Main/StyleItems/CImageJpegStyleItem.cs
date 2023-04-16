@@ -61,13 +61,13 @@ namespace SETUNA.Main.StyleItems
         // Token: 0x0600034A RID: 842 RVA: 0x0001581C File Offset: 0x00013A1C
         public override string GetDisplayName()
         {
-            return "保存为JPEG格式";
+            return Properties.Resources.label89;// "保存为JPEG格式";
         }
 
         // Token: 0x0600034B RID: 843 RVA: 0x00015823 File Offset: 0x00013A23
         public override string GetDescription()
         {
-            return "用JPEG格式的图像保存参考图。";
+            return Properties.Resources.label90; // "用JPEG格式的图像保存参考图。";
         }
 
         // Token: 0x0600034C RID: 844 RVA: 0x0001582A File Offset: 0x00013A2A
@@ -96,7 +96,7 @@ namespace SETUNA.Main.StyleItems
 
         // Token: 0x1700007F RID: 127
         // (get) Token: 0x0600034F RID: 847 RVA: 0x000158AF File Offset: 0x00013AAF
-        protected override string FileFilter => "Jpeg格式 (.jpg)|*.jpg|所有文件 (*.*)|*.*";
+        protected override string FileFilter => Properties.Resources.label91; // "Jpeg格式 (.jpg)|*.jpg|所有文件 (*.*)|*.*";
 
         // Token: 0x06000350 RID: 848 RVA: 0x000158B6 File Offset: 0x00013AB6
         public override Bitmap GetIcon()

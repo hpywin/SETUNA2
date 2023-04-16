@@ -6,6 +6,7 @@
 		// Token: 0x0600000C RID: 12 RVA: 0x0000230C File Offset: 0x0000050C
 		private void InitializeComponent()
 		{
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MarginStyleItemPanel));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.chkTopMost = new System.Windows.Forms.CheckBox();
             this.rdoSolid = new System.Windows.Forms.RadioButton();
@@ -27,15 +28,15 @@
             // 
             // cmdOK
             // 
-            this.cmdOK.Location = new System.Drawing.Point(300, 214);
+            resources.ApplyResources(this.cmdOK, "cmdOK");
             // 
             // cmdCancel
             // 
-            this.cmdCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmdCancel.Location = new System.Drawing.Point(376, 214);
+            resources.ApplyResources(this.cmdCancel, "cmdCancel");
             // 
             // groupBox1
             // 
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.chkTopMost);
             this.groupBox1.Controls.Add(this.rdoSolid);
             this.groupBox1.Controls.Add(this.rdo3D);
@@ -44,122 +45,82 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.numMargin);
-            this.groupBox1.Location = new System.Drawing.Point(8, 8);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(207, 200);
-            this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "设置";
             // 
             // chkTopMost
             // 
-            this.chkTopMost.AutoSize = true;
-            this.chkTopMost.Location = new System.Drawing.Point(36, 46);
+            resources.ApplyResources(this.chkTopMost, "chkTopMost");
             this.chkTopMost.Name = "chkTopMost";
-            this.chkTopMost.Size = new System.Drawing.Size(120, 16);
-            this.chkTopMost.TabIndex = 11;
-            this.chkTopMost.Text = "设置为总在最上面";
             this.chkTopMost.UseVisualStyleBackColor = true;
             // 
             // rdoSolid
             // 
-            this.rdoSolid.AutoSize = true;
-            this.rdoSolid.Location = new System.Drawing.Point(17, 79);
+            resources.ApplyResources(this.rdoSolid, "rdoSolid");
             this.rdoSolid.Name = "rdoSolid";
-            this.rdoSolid.Size = new System.Drawing.Size(71, 16);
-            this.rdoSolid.TabIndex = 1;
             this.rdoSolid.TabStop = true;
-            this.rdoSolid.Text = "单色边框";
             this.rdoSolid.UseVisualStyleBackColor = true;
             this.rdoSolid.CheckedChanged += new System.EventHandler(this.rdoWindow_CheckedChanged);
             // 
             // rdo3D
             // 
-            this.rdo3D.AutoSize = true;
-            this.rdo3D.Location = new System.Drawing.Point(17, 156);
+            resources.ApplyResources(this.rdo3D, "rdo3D");
             this.rdo3D.Name = "rdo3D";
-            this.rdo3D.Size = new System.Drawing.Size(71, 16);
-            this.rdo3D.TabIndex = 5;
             this.rdo3D.TabStop = true;
-            this.rdo3D.Text = "立体边框";
             this.rdo3D.UseVisualStyleBackColor = true;
             this.rdo3D.CheckedChanged += new System.EventHandler(this.rdoWindow_CheckedChanged);
             // 
             // rdoWindow
             // 
-            this.rdoWindow.AutoSize = true;
-            this.rdoWindow.Location = new System.Drawing.Point(17, 27);
+            resources.ApplyResources(this.rdoWindow, "rdoWindow");
             this.rdoWindow.Name = "rdoWindow";
-            this.rdoWindow.Size = new System.Drawing.Size(71, 16);
-            this.rdoWindow.TabIndex = 0;
             this.rdoWindow.TabStop = true;
-            this.rdoWindow.Text = "窗口边框";
             this.rdoWindow.UseVisualStyleBackColor = true;
             this.rdoWindow.CheckedChanged += new System.EventHandler(this.rdoWindow_CheckedChanged);
             // 
             // pictureBox1
             // 
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Location = new System.Drawing.Point(93, 120);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(32, 19);
-            this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(53, 122);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 12);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "颜色∶";
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(53, 98);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 12);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "宽度：";
             // 
             // numMargin
             // 
-            this.numMargin.ImeMode = System.Windows.Forms.ImeMode.Off;
-            this.numMargin.Location = new System.Drawing.Point(93, 96);
+            resources.ApplyResources(this.numMargin, "numMargin");
             this.numMargin.Name = "numMargin";
-            this.numMargin.Size = new System.Drawing.Size(48, 21);
-            this.numMargin.TabIndex = 3;
-            this.numMargin.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.numMargin.ValueChanged += new System.EventHandler(this.rdoWindow_CheckedChanged);
             // 
             // groupBox2
             // 
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Controls.Add(this.picPreview);
-            this.groupBox2.Location = new System.Drawing.Point(231, 8);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(215, 200);
-            this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "预览";
             // 
             // picPreview
             // 
+            resources.ApplyResources(this.picPreview, "picPreview");
             this.picPreview.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.picPreview.Location = new System.Drawing.Point(6, 18);
             this.picPreview.Name = "picPreview";
-            this.picPreview.Size = new System.Drawing.Size(203, 176);
-            this.picPreview.TabIndex = 0;
             this.picPreview.TabStop = false;
             this.picPreview.Paint += new System.Windows.Forms.PaintEventHandler(this.picPreview_Paint);
             // 
             // MarginStyleItemPanel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
-            this.ClientSize = new System.Drawing.Size(454, 246);
+            resources.ApplyResources(this, "$this");
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "MarginStyleItemPanel";

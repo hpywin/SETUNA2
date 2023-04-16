@@ -6,6 +6,7 @@
 		// Token: 0x06000598 RID: 1432 RVA: 0x0002658C File Offset: 0x0002478C
 		private void InitializeComponent()
 		{
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SaveImageStyleItemPanel));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
@@ -29,172 +30,116 @@
             // 
             // cmdOK
             // 
-            this.cmdOK.Location = new System.Drawing.Point(205, 227);
+            resources.ApplyResources(this.cmdOK, "cmdOK");
             // 
             // cmdCancel
             // 
-            this.cmdCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmdCancel.Location = new System.Drawing.Point(279, 227);
+            resources.ApplyResources(this.cmdCancel, "cmdCancel");
             // 
             // groupBox1
             // 
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.checkBox2);
             this.groupBox1.Controls.Add(this.checkBox1);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.tabControl1);
-            this.groupBox1.Location = new System.Drawing.Point(8, 8);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(343, 214);
-            this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "设置";
             // 
             // checkBox2
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(10, 189);
+            resources.ApplyResources(this.checkBox2, "checkBox2");
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(132, 16);
-            this.checkBox2.TabIndex = 15;
-            this.checkBox2.Text = "指定保存时的文件名";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // checkBox1
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(10, 173);
+            resources.ApplyResources(this.checkBox1, "checkBox1");
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(168, 16);
-            this.checkBox1.TabIndex = 13;
-            this.checkBox1.Text = "保存时的格式、质量等设置";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(314, 14);
+            resources.ApplyResources(this.button1, "button1");
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(21, 23);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "...";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(62, 16);
+            resources.ApplyResources(this.textBox1, "textBox1");
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(246, 21);
-            this.textBox1.TabIndex = 11;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 19);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 12);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "目的地：";
             // 
             // tabControl1
             // 
-            this.tabControl1.Appearance = System.Windows.Forms.TabAppearance.Buttons;
+            resources.ApplyResources(this.tabControl1, "tabControl1");
             this.tabControl1.Controls.Add(this.tabPng);
             this.tabControl1.Controls.Add(this.tabJpeg);
             this.tabControl1.Controls.Add(this.tabBmp);
-            this.tabControl1.Location = new System.Drawing.Point(79, 43);
             this.tabControl1.Multiline = true;
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(256, 124);
-            this.tabControl1.TabIndex = 9;
             // 
             // tabPng
             // 
-            this.tabPng.Location = new System.Drawing.Point(4, 25);
+            resources.ApplyResources(this.tabPng, "tabPng");
             this.tabPng.Name = "tabPng";
-            this.tabPng.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPng.Size = new System.Drawing.Size(248, 95);
-            this.tabPng.TabIndex = 0;
-            this.tabPng.Text = "PNG";
             this.tabPng.UseVisualStyleBackColor = true;
             // 
             // tabJpeg
             // 
+            resources.ApplyResources(this.tabJpeg, "tabJpeg");
             this.tabJpeg.Controls.Add(this.label5);
             this.tabJpeg.Controls.Add(this.label4);
             this.tabJpeg.Controls.Add(this.lblJpegQuality);
             this.tabJpeg.Controls.Add(this.barJpegQuality);
             this.tabJpeg.Controls.Add(this.label2);
-            this.tabJpeg.Location = new System.Drawing.Point(4, 25);
             this.tabJpeg.Name = "tabJpeg";
-            this.tabJpeg.Padding = new System.Windows.Forms.Padding(3);
-            this.tabJpeg.Size = new System.Drawing.Size(248, 95);
-            this.tabJpeg.TabIndex = 1;
-            this.tabJpeg.Text = "JPEG";
             this.tabJpeg.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(197, 7);
+            resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(17, 12);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "高";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(49, 7);
+            resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(17, 12);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "低";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // lblJpegQuality
             // 
-            this.lblJpegQuality.Location = new System.Drawing.Point(216, 26);
+            resources.ApplyResources(this.lblJpegQuality, "lblJpegQuality");
             this.lblJpegQuality.Name = "lblJpegQuality";
-            this.lblJpegQuality.Size = new System.Drawing.Size(26, 12);
-            this.lblJpegQuality.TabIndex = 2;
-            this.lblJpegQuality.Text = "100";
-            this.lblJpegQuality.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // barJpegQuality
             // 
-            this.barJpegQuality.Location = new System.Drawing.Point(43, 20);
+            resources.ApplyResources(this.barJpegQuality, "barJpegQuality");
             this.barJpegQuality.Maximum = 100;
             this.barJpegQuality.Name = "barJpegQuality";
-            this.barJpegQuality.Size = new System.Drawing.Size(175, 45);
-            this.barJpegQuality.TabIndex = 1;
             this.barJpegQuality.TickFrequency = 10;
             this.barJpegQuality.Scroll += new System.EventHandler(this.barJpegQuality_Scroll);
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 26);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 12);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "质量：";
             // 
             // tabBmp
             // 
-            this.tabBmp.Location = new System.Drawing.Point(4, 25);
+            resources.ApplyResources(this.tabBmp, "tabBmp");
             this.tabBmp.Name = "tabBmp";
-            this.tabBmp.Size = new System.Drawing.Size(248, 95);
-            this.tabBmp.TabIndex = 2;
-            this.tabBmp.Text = "BMP";
             this.tabBmp.UseVisualStyleBackColor = true;
             // 
             // SaveImageStyleItemPanel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
-            this.ClientSize = new System.Drawing.Size(357, 259);
+            resources.ApplyResources(this, "$this");
             this.Controls.Add(this.groupBox1);
             this.Name = "SaveImageStyleItemPanel";
             this.Controls.SetChildIndex(this.cmdCancel, 0);

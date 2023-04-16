@@ -27,6 +27,7 @@
 		// Token: 0x06000105 RID: 261 RVA: 0x000072F8 File Offset: 0x000054F8
 		private void InitializeComponent()
 		{
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ScrapPaintLayer));
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnDel = new System.Windows.Forms.Button();
             this.btnLayerAdd = new System.Windows.Forms.Button();
@@ -37,57 +38,40 @@
             // 
             // panel1
             // 
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Controls.Add(this.btnDel);
             this.panel1.Controls.Add(this.btnLayerAdd);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 247);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(148, 19);
-            this.panel1.TabIndex = 0;
             // 
             // btnDel
             // 
-            this.btnDel.Location = new System.Drawing.Point(81, 0);
+            resources.ApplyResources(this.btnDel, "btnDel");
             this.btnDel.Name = "btnDel";
-            this.btnDel.Size = new System.Drawing.Size(34, 19);
-            this.btnDel.TabIndex = 1;
-            this.btnDel.Text = "Del";
             this.btnDel.UseVisualStyleBackColor = true;
             this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
             // 
             // btnLayerAdd
             // 
-            this.btnLayerAdd.Location = new System.Drawing.Point(114, 0);
+            resources.ApplyResources(this.btnLayerAdd, "btnLayerAdd");
             this.btnLayerAdd.Name = "btnLayerAdd";
-            this.btnLayerAdd.Size = new System.Drawing.Size(34, 19);
-            this.btnLayerAdd.TabIndex = 0;
-            this.btnLayerAdd.Text = "Add";
             this.btnLayerAdd.UseVisualStyleBackColor = true;
             this.btnLayerAdd.Click += new System.EventHandler(this.btnLayerAdd_Click);
             // 
             // panel2
             // 
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
+            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(148, 26);
-            this.panel2.TabIndex = 1;
             // 
             // panel3
             // 
-            this.panel3.AutoScroll = true;
+            resources.ApplyResources(this.panel3, "panel3");
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 26);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(148, 221);
-            this.panel3.TabIndex = 2;
             // 
             // ScrapPaintLayer
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(148, 266);
             this.ControlBox = false;
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
@@ -98,8 +82,6 @@
             this.Name = "ScrapPaintLayer";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "层";
             this.TopMost = true;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ScrapPaintLayer_FormClosing);
             this.Shown += new System.EventHandler(this.ScrapPaintLayer_Shown);

@@ -17,6 +17,7 @@
 		private void InitializeComponent()
 		{
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ScrapPaintTextTool));
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.pnlPen = new System.Windows.Forms.Panel();
             this.cmbFont = new System.Windows.Forms.ComboBox();
@@ -36,120 +37,92 @@
             // 
             // flowLayoutPanel1
             // 
+            resources.ApplyResources(this.flowLayoutPanel1, "flowLayoutPanel1");
             this.flowLayoutPanel1.Controls.Add(this.pnlPen);
             this.flowLayoutPanel1.Controls.Add(this.pnlEditing);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(451, 57);
-            this.flowLayoutPanel1.TabIndex = 0;
+            this.toolTip1.SetToolTip(this.flowLayoutPanel1, resources.GetString("flowLayoutPanel1.ToolTip"));
             // 
             // pnlPen
             // 
+            resources.ApplyResources(this.pnlPen, "pnlPen");
             this.pnlPen.Controls.Add(this.cmbFont);
             this.pnlPen.Controls.Add(this.label5);
             this.pnlPen.Controls.Add(this.numFontSize);
             this.pnlPen.Controls.Add(this.label4);
             this.pnlPen.Controls.Add(this.label3);
-            this.pnlPen.Location = new System.Drawing.Point(0, 0);
-            this.pnlPen.Margin = new System.Windows.Forms.Padding(0);
             this.pnlPen.Name = "pnlPen";
-            this.pnlPen.Size = new System.Drawing.Size(278, 35);
-            this.pnlPen.TabIndex = 0;
+            this.toolTip1.SetToolTip(this.pnlPen, resources.GetString("pnlPen.ToolTip"));
             // 
             // cmbFont
             // 
+            resources.ApplyResources(this.cmbFont, "cmbFont");
             this.cmbFont.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbFont.DropDownWidth = 230;
             this.cmbFont.FormattingEnabled = true;
-            this.cmbFont.Location = new System.Drawing.Point(3, 13);
             this.cmbFont.Name = "cmbFont";
-            this.cmbFont.Size = new System.Drawing.Size(170, 20);
-            this.cmbFont.TabIndex = 14;
+            this.toolTip1.SetToolTip(this.cmbFont, resources.GetString("cmbFont.ToolTip"));
             this.cmbFont.SelectedIndexChanged += new System.EventHandler(this.cmbFont_SelectedIndexChanged);
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("宋体", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label5.Location = new System.Drawing.Point(3, 2);
+            resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(25, 10);
-            this.label5.TabIndex = 13;
-            this.label5.Text = "字体";
+            this.toolTip1.SetToolTip(this.label5, resources.GetString("label5.ToolTip"));
             // 
             // numFontSize
             // 
-            this.numFontSize.Location = new System.Drawing.Point(197, 13);
+            resources.ApplyResources(this.numFontSize, "numFontSize");
             this.numFontSize.Name = "numFontSize";
-            this.numFontSize.Size = new System.Drawing.Size(54, 21);
-            this.numFontSize.TabIndex = 10;
             this.numFontSize.TabStop = false;
-            this.numFontSize.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.numFontSize.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
+            this.toolTip1.SetToolTip(this.numFontSize, resources.GetString("numFontSize.ToolTip"));
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(252, 16);
+            resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(17, 12);
-            this.label4.TabIndex = 12;
-            this.label4.Text = "pt";
+            this.toolTip1.SetToolTip(this.label4, resources.GetString("label4.ToolTip"));
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("宋体", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label3.Location = new System.Drawing.Point(195, 2);
+            resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(25, 10);
-            this.label3.TabIndex = 11;
-            this.label3.Text = "尺寸";
+            this.toolTip1.SetToolTip(this.label3, resources.GetString("label3.ToolTip"));
             // 
             // pnlEditing
             // 
+            resources.ApplyResources(this.pnlEditing, "pnlEditing");
             this.pnlEditing.Controls.Add(this.btnEditCancel);
             this.pnlEditing.Controls.Add(this.btnEditOK);
-            this.pnlEditing.Location = new System.Drawing.Point(278, 0);
-            this.pnlEditing.Margin = new System.Windows.Forms.Padding(0);
             this.pnlEditing.Name = "pnlEditing";
-            this.pnlEditing.Size = new System.Drawing.Size(65, 35);
-            this.pnlEditing.TabIndex = 1;
+            this.toolTip1.SetToolTip(this.pnlEditing, resources.GetString("pnlEditing.ToolTip"));
             // 
             // btnEditCancel
             // 
-            this.btnEditCancel.Location = new System.Drawing.Point(32, 9);
+            resources.ApplyResources(this.btnEditCancel, "btnEditCancel");
             this.btnEditCancel.Name = "btnEditCancel";
-            this.btnEditCancel.Size = new System.Drawing.Size(28, 23);
-            this.btnEditCancel.TabIndex = 1;
-            this.btnEditCancel.Text = "×";
+            this.toolTip1.SetToolTip(this.btnEditCancel, resources.GetString("btnEditCancel.ToolTip"));
             this.btnEditCancel.UseVisualStyleBackColor = true;
             // 
             // btnEditOK
             // 
-            this.btnEditOK.Location = new System.Drawing.Point(3, 9);
+            resources.ApplyResources(this.btnEditOK, "btnEditOK");
             this.btnEditOK.Name = "btnEditOK";
-            this.btnEditOK.Size = new System.Drawing.Size(28, 23);
-            this.btnEditOK.TabIndex = 0;
-            this.btnEditOK.Text = "○";
+            this.toolTip1.SetToolTip(this.btnEditOK, resources.GetString("btnEditOK.ToolTip"));
             this.btnEditOK.UseVisualStyleBackColor = true;
             this.btnEditOK.Click += new System.EventHandler(this.btnEditOK_Click);
             // 
             // ScrapPaintTextTool
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(451, 57);
             this.ControlBox = false;
             this.Controls.Add(this.flowLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.MinimumSize = new System.Drawing.Size(292, 59);
             this.Name = "ScrapPaintTextTool";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "文字工具";
+            this.toolTip1.SetToolTip(this, resources.GetString("$this.ToolTip"));
             this.TopMost = true;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ScrapPaintTextTool_FormClosing);
             this.Shown += new System.EventHandler(this.ScrapPaintTextTool_Shown);

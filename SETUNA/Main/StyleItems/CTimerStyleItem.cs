@@ -48,13 +48,13 @@ namespace SETUNA.Main.StyleItems
         // Token: 0x060004EE RID: 1262 RVA: 0x0002340B File Offset: 0x0002160B
         public override string GetDisplayName()
         {
-            return "定时器";
+            return Properties.Resources.label119;// "定时器";
         }
 
         // Token: 0x060004EF RID: 1263 RVA: 0x00023412 File Offset: 0x00021612
         public override string GetDescription()
         {
-            return "指定的时间内，暂停。";
+            return Properties.Resources.label120;// "指定的时间内，暂停。";
         }
 
         // Token: 0x060004F0 RID: 1264 RVA: 0x00023419 File Offset: 0x00021619

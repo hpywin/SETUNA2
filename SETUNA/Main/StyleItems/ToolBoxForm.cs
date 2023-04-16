@@ -46,13 +46,13 @@ namespace SETUNA.Main.StyleItems
         // Token: 0x06000008 RID: 8 RVA: 0x000022E7 File Offset: 0x000004E7
         protected virtual void SetStyleToForm(object style)
         {
-            throw new Exception("SetStyleToForm未实现");
+            throw new Exception("SetStyleToForm not implemented"); //未实现
         }
 
         // Token: 0x06000009 RID: 9 RVA: 0x000022F3 File Offset: 0x000004F3
         protected virtual object GetStyleFromForm()
         {
-            throw new Exception("GetStyleFromForm未实现");
+            throw new Exception("GetStyleFromForm not implemented"); //未实现
         }
 
         // Token: 0x0600000A RID: 10 RVA: 0x000022FF File Offset: 0x000004FF

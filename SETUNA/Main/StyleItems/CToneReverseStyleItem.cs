@@ -33,13 +33,13 @@ namespace SETUNA.Main.StyleItems
         // Token: 0x060004FB RID: 1275 RVA: 0x000238CF File Offset: 0x00021ACF
         public override string GetDisplayName()
         {
-            return "灰度等级翻转";
+            return Properties.Resources.label121;// "灰度等级翻转";
         }
 
         // Token: 0x060004FC RID: 1276 RVA: 0x000238D6 File Offset: 0x00021AD6
         public override string GetDescription()
         {
-            return "进行灰度等级翻转。";
+            return Properties.Resources.label122;// "进行灰度等级翻转。";
         }
 
         // Token: 0x060004FD RID: 1277 RVA: 0x000238DD File Offset: 0x00021ADD

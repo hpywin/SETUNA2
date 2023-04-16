@@ -20,12 +20,13 @@ namespace SETUNA.Main.Option
             _so = opt;
             LoadSetunaOption();
 
-            linkLabel1.Text = "官方版本（地址已挂）";
+            linkLabel1.Text = Properties.Resources.label149; // "官方版本（地址已挂）";
             linkLabel1.Links.Add(0, linkLabel1.Text.Length, URLUtils.OriginURL);
             linkLabel1.LinkClicked += LinkLabel1_LinkClicked;
             toolTip1.SetToolTip(linkLabel1, URLUtils.OriginURL);
 
-            linkLabel2.Text = $"优化版本 by tylearymf. Version: {System.Reflection.Assembly.GetExecutingAssembly().GetName().Version}";
+            //linkLabel2.Text = $"优化版本 by tylearymf. Version: {System.Reflection.Assembly.GetExecutingAssembly().GetName().Version}";
+            linkLabel2.Text = $"{Properties.Resources.label150} by tylearymf. Version: {System.Reflection.Assembly.GetExecutingAssembly().GetName().Version}";
             linkLabel2.Links.Add(0, linkLabel2.Text.Length, URLUtils.NewURL);
             linkLabel2.LinkClicked += LinkLabel2_LinkClicked;
             toolTip1.SetToolTip(linkLabel2, URLUtils.NewURL);
@@ -81,6 +82,10 @@ namespace SETUNA.Main.Option
             pictureBox_fullscreenCursor.BackColor = _so.Setuna.FullscreenCursorLineColor;
 
             checkBox_transparent.Checked = _so.Setuna.BackgroundTransparentEnabled;
+
+            checkBox_language_auto.Checked = _so.Setuna.LanguageAuto;
+            comboBoxSelectLanguage.SelectedItem = _so.Setuna.LanguageSelected;
+            comboBoxSelectLanguage.Enabled = !_so.Setuna.LanguageAuto;
         }
 
         // Token: 0x060002D5 RID: 725 RVA: 0x00013908 File Offset: 0x00011B08
@@ -158,6 +163,10 @@ namespace SETUNA.Main.Option
 
             _so.Setuna.BackgroundTransparentEnabled = checkBox_transparent.Checked;
 
+
+            _so.Setuna.LanguageAuto = checkBox_language_auto.Checked;
+            _so.Setuna.LanguageSelected = (string)comboBoxSelectLanguage.SelectedItem;
+
             foreach (var item in Mainform.Instance.scrapBook)
             {
                 item.Refresh();
@@ -217,7 +226,7 @@ namespace SETUNA.Main.Option
         private void tabControl1_TabIndexChanged(object sender, EventArgs e)
         {
             lblMenuAll.Font = new Font(lblMenuAll.Font, FontStyle.Regular);
-            lblMenuCapture.Font = new Font(lblMenuMenu.Font, FontStyle.Regular);
+            lblMenuCapture.Font = new Font(lblMenuCapture.Font, FontStyle.Regular);
             lblMenuScrap.Font = new Font(lblMenuScrap.Font, FontStyle.Regular);
             lblMenuStyle.Font = new Font(lblMenuStyle.Font, FontStyle.Regular);
             lblMenuMenu.Font = new Font(lblMenuMenu.Font, FontStyle.Regular);
@@ -228,7 +237,7 @@ namespace SETUNA.Main.Option
             }
             if (tabControl1.SelectedTab == pageCapture)
             {
-                lblMenuCapture.Font = new Font(lblMenuAll.Font, FontStyle.Bold);
+                lblMenuCapture.Font = new Font(lblMenuCapture.Font, FontStyle.Bold);
             }
             if (tabControl1.SelectedTab == pageScrap)
             {
@@ -352,7 +361,7 @@ namespace SETUNA.Main.Option
                 var selectedIndex = listStyles.SelectedIndex;
                 var styleEditForm = new StyleEditForm((CStyle)listStyles.SelectedItem, keybook)
                 {
-                    Text = ((CStyle)listStyles.SelectedItem).StyleName + "的相关编辑"
+                    Text = ((CStyle)listStyles.SelectedItem).StyleName + Properties.Resources.label151 //"的相关编辑"
                 };
                 var dialogResult = styleEditForm.ShowDialog();
                 if (dialogResult == DialogResult.OK)
@@ -402,7 +411,7 @@ namespace SETUNA.Main.Option
             var styleEditForm = styleEditForm2 = new StyleEditForm(cstyle, keybook);
             try
             {
-                styleEditForm.Text = "新建自动操作";
+                styleEditForm.Text = Properties.Resources.label158; // "新建自动操作";
                 var dialogResult = styleEditForm.ShowDialog();
                 if (dialogResult == DialogResult.OK)
                 {
@@ -431,7 +440,7 @@ namespace SETUNA.Main.Option
                 cstyle.ClearKey();
                 var dialogResult = new StyleEditForm(cstyle, keybook)
                 {
-                    Text = "新建自动操作"
+                    Text = Properties.Resources.label158// "新建自动操作"
                 }.ShowDialog();
                 if (dialogResult == DialogResult.OK)
                 {
@@ -647,7 +656,8 @@ namespace SETUNA.Main.Option
         // Token: 0x060002F7 RID: 759 RVA: 0x00014A6C File Offset: 0x00012C6C
         private void btnInitialize_Click(object sender, EventArgs e)
         {
-            var dialogResult = MessageBox.Show("进行设置内容的初始化。", Application.ProductName, MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button2);
+            //var dialogResult = MessageBox.Show("进行设置内容的初始化。", Application.ProductName, MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button2);
+            var dialogResult = MessageBox.Show(Properties.Resources.label159, Application.ProductName, MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button2);
             if (dialogResult == DialogResult.OK)
             {
                 _so = SetunaOption.GetDefaultOption();
@@ -704,31 +714,31 @@ namespace SETUNA.Main.Option
         // Token: 0x06000300 RID: 768 RVA: 0x00014B37 File Offset: 0x00012D37
         private void lblMenuAll_MouseEnter(object sender, EventArgs e)
         {
-            lblComment.Text = "SETUNA常规设置。";
+            lblComment.Text = Properties.Resources.label152; // "SETUNA常规设置。";
         }
 
         // Token: 0x06000301 RID: 769 RVA: 0x00014B49 File Offset: 0x00012D49
         private void lblMenuCapture_MouseEnter(object sender, EventArgs e)
         {
-            lblComment.Text = "进行有关截取的设置。";
+            lblComment.Text = Properties.Resources.label153; //"进行有关截取的设置。";
         }
 
         // Token: 0x06000302 RID: 770 RVA: 0x00014B5B File Offset: 0x00012D5B
         private void lblMenuScrap_MouseEnter(object sender, EventArgs e)
         {
-            lblComment.Text = "进行参考图的常规设置。";
+            lblComment.Text = Properties.Resources.label154; // "进行参考图的常规设置。";
         }
 
         // Token: 0x06000303 RID: 771 RVA: 0x00014B6D File Offset: 0x00012D6D
         private void lblMenuStyle_MouseEnter(object sender, EventArgs e)
         {
-            lblComment.Text = "创建一个由自动操作组合而成的自动操作。";
+            lblComment.Text = Properties.Resources.label155; // "创建一个由自动操作组合而成的自动操作。";
         }
 
         // Token: 0x06000304 RID: 772 RVA: 0x00014B7F File Offset: 0x00012D7F
         private void lblMenuMenu_MouseEnter(object sender, EventArgs e)
         {
-            lblComment.Text = "设置右键单击参考图时的菜单。";
+            lblComment.Text = Properties.Resources.label156; //"设置右键单击参考图时的菜单。";
         }
 
         // Token: 0x06000305 RID: 773 RVA: 0x00014B91 File Offset: 0x00012D91
@@ -801,12 +811,42 @@ namespace SETUNA.Main.Option
 
         private void lblMenuMisc_MouseEnter(object sender, EventArgs e)
         {
-            lblComment.Text = "鼠标样式设置等等。";
+            lblComment.Text = Properties.Resources.label157; //"鼠标样式设置等等。";
         }
 
         private void lblMenuMisc_MouseLeave(object sender, EventArgs e)
         {
             lblComment.Text = "";
+        }
+
+        private void checkBox_magnifier_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox_fullscreenCursor_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBoxSelectLanguage_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox_language_auto_CheckedChanged(object sender, EventArgs e)
+        {
+            comboBoxSelectLanguage.Enabled = !checkBox_language_auto.Checked;
+        }
+
+        private void groupBox17_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label20_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

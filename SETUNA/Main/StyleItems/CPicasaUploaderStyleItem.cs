@@ -24,7 +24,7 @@ namespace SETUNA.Main.StyleItems
         // (set) Token: 0x0600048E RID: 1166 RVA: 0x0001D91E File Offset: 0x0001BB1E
         public string AlbumComment
         {
-            get => "用SETUNA上传的相册。";
+            get => Properties.Resources.label116;//"用SETUNA上传的相册。";
             set
             {
             }
@@ -104,13 +104,13 @@ namespace SETUNA.Main.StyleItems
         // Token: 0x0600049A RID: 1178 RVA: 0x0001DA35 File Offset: 0x0001BC35
         public override string GetDisplayName()
         {
-            return "上传到Picasa";
+            return Properties.Resources.label117;// "上传到Picasa";
         }
 
         // Token: 0x0600049B RID: 1179 RVA: 0x0001DA3C File Offset: 0x0001BC3C
         public override string GetDescription()
         {
-            return "把参考图上传到Picasa网络相册。";
+            return Properties.Resources.label118;// "把参考图上传到Picasa网络相册。";
         }
 
         // Token: 0x0600049C RID: 1180 RVA: 0x0001DA43 File Offset: 0x0001BC43

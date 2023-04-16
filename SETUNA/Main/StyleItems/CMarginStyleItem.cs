@@ -82,13 +82,13 @@ namespace SETUNA.Main.StyleItems
         // Token: 0x0600001A RID: 26 RVA: 0x00003255 File Offset: 0x00001455
         public override string GetDisplayName()
         {
-            return "边框";
+            return Properties.Resources.label99; // "边框";
         }
 
         // Token: 0x0600001B RID: 27 RVA: 0x0000325C File Offset: 0x0000145C
         public override string GetDescription()
         {
-            return "设置参考图的边框的种类。";
+            return Properties.Resources.label100; // "设置参考图的边框的种类。";
         }
 
         // Token: 0x0600001C RID: 28 RVA: 0x00003263 File Offset: 0x00001463
@@ -117,13 +117,13 @@ namespace SETUNA.Main.StyleItems
                 switch (BorderStyle)
                 {
                     case 0:
-                        result = "立体边框";
+                        result = Properties.Resources.label101;// "立体边框";
                         break;
                     case 1:
-                        result = "单色边框";
+                        result = Properties.Resources.label102;// "单色边框";
                         break;
                     case 2:
-                        result = "窗口";
+                        result = Properties.Resources.label103;// "窗口";
                         break;
                 }
                 return result;

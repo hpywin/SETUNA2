@@ -24,13 +24,13 @@ namespace SETUNA.Main.StyleItems
         // Token: 0x06000503 RID: 1283 RVA: 0x0002393F File Offset: 0x00021B3F
         public override string GetDisplayName()
         {
-            return "绘制";
+            return Properties.Resources.label112;// "绘制";
         }
 
         // Token: 0x06000504 RID: 1284 RVA: 0x00023946 File Offset: 0x00021B46
         public override string GetDescription()
         {
-            return "可以直接在参考图上绘制。";
+            return Properties.Resources.label113;// "可以直接在参考图上绘制。";
         }
 
         // Token: 0x06000505 RID: 1285 RVA: 0x0002394D File Offset: 0x00021B4D

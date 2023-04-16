@@ -7,7 +7,7 @@
         public CAllHideStyle()
         {
             _styleid = -2;
-            _stylename = "全部隐藏";
+            _stylename = Properties.Resources.label56; //"全部隐藏";
         }
 
         // Token: 0x06000593 RID: 1427 RVA: 0x00026538 File Offset: 0x00024738

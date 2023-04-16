@@ -7,7 +7,7 @@
         public CShutDownStyle()
         {
             _styleid = -11;
-            _stylename = "退出SETUNA";
+            _stylename = Properties.Resources.label55;// "退出SETUNA";
         }
 
         // Token: 0x060002C7 RID: 711 RVA: 0x0000F614 File Offset: 0x0000D814

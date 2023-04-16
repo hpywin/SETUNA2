@@ -68,13 +68,13 @@ namespace SETUNA.Main.StyleItems
         // Token: 0x06000378 RID: 888 RVA: 0x00015E2A File Offset: 0x0001402A
         public override string GetDisplayName()
         {
-            return "参考图的移动";
+            return Properties.Resources.label104;// "参考图的移动";
         }
 
         // Token: 0x06000379 RID: 889 RVA: 0x00015E31 File Offset: 0x00014031
         public override string GetDescription()
         {
-            return "上下左右移动参考图。";
+            return Properties.Resources.label105;// "上下左右移动参考图。";
         }
 
         // Token: 0x0600037A RID: 890 RVA: 0x00015E38 File Offset: 0x00014038
@@ -113,7 +113,7 @@ namespace SETUNA.Main.StyleItems
                     text = string.Concat(new object[]
                     {
                         obj,
-                        "上：",
+                        Properties.Resources.label106, //"上：",
                         Math.Abs(_top),
                         "px "
                     });
@@ -124,7 +124,7 @@ namespace SETUNA.Main.StyleItems
                     text = string.Concat(new object[]
                     {
                         obj2,
-                        "下：",
+                        Properties.Resources.label107, //"下：",
                         Math.Abs(_top),
                         "px "
                     });
@@ -135,7 +135,7 @@ namespace SETUNA.Main.StyleItems
                     text = string.Concat(new object[]
                     {
                         obj3,
-                        "左：",
+                        Properties.Resources.label108, //"左：",
                         Math.Abs(_left),
                         "px "
                     });
@@ -146,7 +146,7 @@ namespace SETUNA.Main.StyleItems
                     text = string.Concat(new object[]
                     {
                         obj4,
-                        "右：",
+                        Properties.Resources.label109, //"右：",
                         Math.Abs(_left),
                         "px "
                     });

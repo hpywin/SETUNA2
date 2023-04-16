@@ -22,13 +22,13 @@ namespace SETUNA.Main.StyleItems
         // Token: 0x06000382 RID: 898 RVA: 0x0001601D File Offset: 0x0001421D
         public override string GetDisplayName()
         {
-            return "关闭";
+            return Properties.Resources.label130; // "关闭";
         }
 
         // Token: 0x06000383 RID: 899 RVA: 0x00016024 File Offset: 0x00014224
         public override string GetDescription()
         {
-            return "关闭参考图。\n之后的自动操作将不被使用。";
+            return Properties.Resources.label131; // "关闭参考图。\n之后的自动操作将不被使用。";
         }
 
         // Token: 0x06000384 RID: 900 RVA: 0x0001602B File Offset: 0x0001422B

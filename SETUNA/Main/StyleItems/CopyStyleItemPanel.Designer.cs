@@ -6,6 +6,7 @@
 		// Token: 0x060000D7 RID: 215 RVA: 0x00006664 File Offset: 0x00004864
 		private void InitializeComponent()
 		{
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CopyStyleItemPanel));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.chkWindow = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
@@ -13,37 +14,28 @@
             // 
             // cmdOK
             // 
-            this.cmdOK.Location = new System.Drawing.Point(36, 77);
+            resources.ApplyResources(this.cmdOK, "cmdOK");
             // 
             // cmdCancel
             // 
-            this.cmdCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmdCancel.Location = new System.Drawing.Point(110, 77);
+            resources.ApplyResources(this.cmdCancel, "cmdCancel");
             // 
             // groupBox1
             // 
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.chkWindow);
-            this.groupBox1.Location = new System.Drawing.Point(8, 8);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(172, 62);
-            this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "设置";
             // 
             // chkWindow
             // 
-            this.chkWindow.AutoSize = true;
-            this.chkWindow.Location = new System.Drawing.Point(23, 28);
+            resources.ApplyResources(this.chkWindow, "chkWindow");
             this.chkWindow.Name = "chkWindow";
-            this.chkWindow.Size = new System.Drawing.Size(102, 16);
-            this.chkWindow.TabIndex = 0;
-            this.chkWindow.Text = "包含窗口/边框";
             this.chkWindow.UseVisualStyleBackColor = true;
             // 
             // CopyStyleItemPanel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
-            this.ClientSize = new System.Drawing.Size(188, 109);
+            resources.ApplyResources(this, "$this");
             this.Controls.Add(this.groupBox1);
             this.Name = "CopyStyleItemPanel";
             this.Controls.SetChildIndex(this.cmdCancel, 0);

@@ -6,6 +6,7 @@
 		// Token: 0x060000CE RID: 206 RVA: 0x00005ACC File Offset: 0x00003CCC
 		private void InitializeComponent()
 		{
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ImagePngStyleItemPanel));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.cmbDupli = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -25,15 +26,15 @@
             // 
             // cmdOK
             // 
-            this.cmdOK.Location = new System.Drawing.Point(249, 231);
+            resources.ApplyResources(this.cmdOK, "cmdOK");
             // 
             // cmdCancel
             // 
-            this.cmdCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmdCancel.Location = new System.Drawing.Point(323, 231);
+            resources.ApplyResources(this.cmdCancel, "cmdCancel");
             // 
             // groupBox1
             // 
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.cmbDupli);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.rdoSaveAs);
@@ -46,141 +47,96 @@
             this.groupBox1.Controls.Add(this.btnRef);
             this.groupBox1.Controls.Add(this.txtFolder);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(8, 8);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(386, 217);
-            this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "设置";
             // 
             // cmbDupli
             // 
+            resources.ApplyResources(this.cmbDupli, "cmbDupli");
             this.cmbDupli.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbDupli.FormattingEnabled = true;
             this.cmbDupli.Items.AddRange(new object[] {
-            "覆盖",
-            "追加序号",
-            "重复时指定"});
-            this.cmbDupli.Location = new System.Drawing.Point(129, 127);
+            resources.GetString("cmbDupli.Items"),
+            resources.GetString("cmbDupli.Items1"),
+            resources.GetString("cmbDupli.Items2")});
             this.cmbDupli.Name = "cmbDupli";
-            this.cmbDupli.Size = new System.Drawing.Size(133, 20);
-            this.cmbDupli.TabIndex = 9;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(80, 130);
+            resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 12);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "重复时∶";
             // 
             // rdoSaveAs
             // 
-            this.rdoSaveAs.AutoSize = true;
-            this.rdoSaveAs.Location = new System.Drawing.Point(82, 66);
+            resources.ApplyResources(this.rdoSaveAs, "rdoSaveAs");
             this.rdoSaveAs.Name = "rdoSaveAs";
-            this.rdoSaveAs.Size = new System.Drawing.Size(83, 16);
-            this.rdoSaveAs.TabIndex = 4;
             this.rdoSaveAs.TabStop = true;
-            this.rdoSaveAs.Text = "保存时指定";
             this.rdoSaveAs.UseVisualStyleBackColor = true;
             this.rdoSaveAs.CheckedChanged += new System.EventHandler(this.rdoSaveAs_CheckedChanged);
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(99, 104);
-            this.txtName.MaxLength = 255;
+            resources.ApplyResources(this.txtName, "txtName");
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(223, 21);
-            this.txtName.TabIndex = 7;
             // 
             // rdoScrapName
             // 
-            this.rdoScrapName.AutoSize = true;
-            this.rdoScrapName.Location = new System.Drawing.Point(82, 86);
+            resources.ApplyResources(this.rdoScrapName, "rdoScrapName");
             this.rdoScrapName.Name = "rdoScrapName";
-            this.rdoScrapName.Size = new System.Drawing.Size(95, 16);
-            this.rdoScrapName.TabIndex = 5;
             this.rdoScrapName.TabStop = true;
-            this.rdoScrapName.Text = "使用参考图名";
             this.rdoScrapName.UseVisualStyleBackColor = true;
             this.rdoScrapName.CheckedChanged += new System.EventHandler(this.rdoSaveAs_CheckedChanged);
             // 
             // rdoName
             // 
-            this.rdoName.AutoSize = true;
-            this.rdoName.Location = new System.Drawing.Point(82, 107);
+            resources.ApplyResources(this.rdoName, "rdoName");
             this.rdoName.Name = "rdoName";
-            this.rdoName.Size = new System.Drawing.Size(14, 13);
-            this.rdoName.TabIndex = 6;
             this.rdoName.TabStop = true;
             this.rdoName.UseVisualStyleBackColor = true;
             this.rdoName.CheckedChanged += new System.EventHandler(this.rdoSaveAs_CheckedChanged);
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(23, 68);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 12);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "文件名∶";
             // 
             // chkCopy
             // 
-            this.chkCopy.AutoSize = true;
-            this.chkCopy.Location = new System.Drawing.Point(25, 182);
+            resources.ApplyResources(this.chkCopy, "chkCopy");
             this.chkCopy.Name = "chkCopy";
-            this.chkCopy.Size = new System.Drawing.Size(204, 16);
-            this.chkCopy.TabIndex = 11;
-            this.chkCopy.Text = "复制到剪贴板上的文件的保存路径";
             this.chkCopy.UseVisualStyleBackColor = true;
             // 
             // chkWindow
             // 
-            this.chkWindow.AutoSize = true;
-            this.chkWindow.Location = new System.Drawing.Point(25, 164);
+            resources.ApplyResources(this.chkWindow, "chkWindow");
             this.chkWindow.Name = "chkWindow";
-            this.chkWindow.Size = new System.Drawing.Size(102, 16);
-            this.chkWindow.TabIndex = 10;
-            this.chkWindow.Text = "包含窗口/边框";
             this.chkWindow.UseVisualStyleBackColor = true;
             // 
             // btnRef
             // 
-            this.btnRef.Location = new System.Drawing.Point(324, 30);
+            resources.ApplyResources(this.btnRef, "btnRef");
             this.btnRef.Name = "btnRef";
-            this.btnRef.Size = new System.Drawing.Size(22, 23);
-            this.btnRef.TabIndex = 2;
-            this.btnRef.Text = "...";
             this.btnRef.UseVisualStyleBackColor = true;
             this.btnRef.Click += new System.EventHandler(this.btnRef_Click);
             // 
             // txtFolder
             // 
-            this.txtFolder.Location = new System.Drawing.Point(72, 32);
+            resources.ApplyResources(this.txtFolder, "txtFolder");
             this.txtFolder.Name = "txtFolder";
-            this.txtFolder.Size = new System.Drawing.Size(250, 21);
-            this.txtFolder.TabIndex = 1;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(23, 35);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 12);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "目的地：";
             // 
             // folderBrowserDialog1
             // 
+            resources.ApplyResources(this.folderBrowserDialog1, "folderBrowserDialog1");
             this.folderBrowserDialog1.RootFolder = System.Environment.SpecialFolder.ApplicationData;
             // 
             // ImagePngStyleItemPanel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
-            this.ClientSize = new System.Drawing.Size(401, 263);
+            resources.ApplyResources(this, "$this");
             this.Controls.Add(this.groupBox1);
             this.Name = "ImagePngStyleItemPanel";
             this.Controls.SetChildIndex(this.cmdCancel, 0);

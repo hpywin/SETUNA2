@@ -17,6 +17,7 @@
 		private void InitializeComponent()
 		{
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ScrapPaintPenTool));
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.pnlPen = new System.Windows.Forms.Panel();
             this.numPenSize = new System.Windows.Forms.NumericUpDown();
@@ -44,17 +45,16 @@
             // 
             // flowLayoutPanel1
             // 
+            resources.ApplyResources(this.flowLayoutPanel1, "flowLayoutPanel1");
             this.flowLayoutPanel1.Controls.Add(this.pnlPen);
             this.flowLayoutPanel1.Controls.Add(this.pnlOpacity);
             this.flowLayoutPanel1.Controls.Add(this.pnlCap);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(462, 57);
-            this.flowLayoutPanel1.TabIndex = 0;
+            this.toolTip1.SetToolTip(this.flowLayoutPanel1, resources.GetString("flowLayoutPanel1.ToolTip"));
             // 
             // pnlPen
             // 
+            resources.ApplyResources(this.pnlPen, "pnlPen");
             this.pnlPen.Controls.Add(this.numPenSize);
             this.pnlPen.Controls.Add(this.label4);
             this.pnlPen.Controls.Add(this.label3);
@@ -63,186 +63,140 @@
             this.pnlPen.Controls.Add(this.penButton3);
             this.pnlPen.Controls.Add(this.penButton2);
             this.pnlPen.Controls.Add(this.penButton1);
-            this.pnlPen.Location = new System.Drawing.Point(0, 0);
-            this.pnlPen.Margin = new System.Windows.Forms.Padding(0);
             this.pnlPen.Name = "pnlPen";
-            this.pnlPen.Size = new System.Drawing.Size(217, 35);
-            this.pnlPen.TabIndex = 0;
+            this.toolTip1.SetToolTip(this.pnlPen, resources.GetString("pnlPen.ToolTip"));
             // 
             // numPenSize
             // 
-            this.numPenSize.Location = new System.Drawing.Point(161, 13);
+            resources.ApplyResources(this.numPenSize, "numPenSize");
             this.numPenSize.Name = "numPenSize";
-            this.numPenSize.Size = new System.Drawing.Size(36, 21);
-            this.numPenSize.TabIndex = 10;
             this.numPenSize.TabStop = false;
-            this.numPenSize.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.numPenSize.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
+            this.toolTip1.SetToolTip(this.numPenSize, resources.GetString("numPenSize.ToolTip"));
             this.numPenSize.ValueChanged += new System.EventHandler(this.numPenSize_ValueChanged);
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(198, 16);
+            resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(17, 12);
-            this.label4.TabIndex = 12;
-            this.label4.Text = "px";
+            this.toolTip1.SetToolTip(this.label4, resources.GetString("label4.ToolTip"));
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("宋体", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label3.Location = new System.Drawing.Point(160, 2);
+            resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(25, 10);
-            this.label3.TabIndex = 11;
-            this.label3.Text = "尺寸";
+            this.toolTip1.SetToolTip(this.label3, resources.GetString("label3.ToolTip"));
             // 
             // penButton5
             // 
-            this.penButton5.Appearance = System.Windows.Forms.Appearance.Button;
+            resources.ApplyResources(this.penButton5, "penButton5");
             this.penButton5.AutoCheck = false;
             this.penButton5.ButtonColor = System.Drawing.Color.Black;
-            this.penButton5.Location = new System.Drawing.Point(127, 4);
             this.penButton5.Name = "penButton5";
             this.penButton5.PenSize = 20;
-            this.penButton5.Size = new System.Drawing.Size(31, 29);
-            this.penButton5.TabIndex = 9;
-            this.toolTip1.SetToolTip(this.penButton5, "20px");
+            this.toolTip1.SetToolTip(this.penButton5, resources.GetString("penButton5.ToolTip"));
             this.penButton5.UseVisualStyleBackColor = true;
             this.penButton5.Click += new System.EventHandler(this.penButton1_Click);
             // 
             // penButton4
             // 
-            this.penButton4.Appearance = System.Windows.Forms.Appearance.Button;
+            resources.ApplyResources(this.penButton4, "penButton4");
             this.penButton4.AutoCheck = false;
             this.penButton4.ButtonColor = System.Drawing.Color.Black;
-            this.penButton4.Location = new System.Drawing.Point(96, 4);
             this.penButton4.Name = "penButton4";
             this.penButton4.PenSize = 15;
-            this.penButton4.Size = new System.Drawing.Size(31, 29);
-            this.penButton4.TabIndex = 8;
-            this.toolTip1.SetToolTip(this.penButton4, "15px");
+            this.toolTip1.SetToolTip(this.penButton4, resources.GetString("penButton4.ToolTip"));
             this.penButton4.UseVisualStyleBackColor = true;
             this.penButton4.Click += new System.EventHandler(this.penButton1_Click);
             // 
             // penButton3
             // 
-            this.penButton3.Appearance = System.Windows.Forms.Appearance.Button;
+            resources.ApplyResources(this.penButton3, "penButton3");
             this.penButton3.AutoCheck = false;
             this.penButton3.ButtonColor = System.Drawing.Color.Black;
-            this.penButton3.Location = new System.Drawing.Point(65, 4);
             this.penButton3.Name = "penButton3";
             this.penButton3.PenSize = 10;
-            this.penButton3.Size = new System.Drawing.Size(31, 29);
-            this.penButton3.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.penButton3, "10px");
+            this.toolTip1.SetToolTip(this.penButton3, resources.GetString("penButton3.ToolTip"));
             this.penButton3.UseVisualStyleBackColor = true;
             this.penButton3.Click += new System.EventHandler(this.penButton1_Click);
             // 
             // penButton2
             // 
-            this.penButton2.Appearance = System.Windows.Forms.Appearance.Button;
+            resources.ApplyResources(this.penButton2, "penButton2");
             this.penButton2.AutoCheck = false;
             this.penButton2.ButtonColor = System.Drawing.Color.Black;
-            this.penButton2.Location = new System.Drawing.Point(34, 4);
             this.penButton2.Name = "penButton2";
             this.penButton2.PenSize = 5;
-            this.penButton2.Size = new System.Drawing.Size(31, 29);
-            this.penButton2.TabIndex = 6;
-            this.toolTip1.SetToolTip(this.penButton2, "5px");
+            this.toolTip1.SetToolTip(this.penButton2, resources.GetString("penButton2.ToolTip"));
             this.penButton2.UseVisualStyleBackColor = true;
             this.penButton2.Click += new System.EventHandler(this.penButton1_Click);
             // 
             // penButton1
             // 
-            this.penButton1.Appearance = System.Windows.Forms.Appearance.Button;
+            resources.ApplyResources(this.penButton1, "penButton1");
             this.penButton1.AutoCheck = false;
             this.penButton1.ButtonColor = System.Drawing.Color.Black;
-            this.penButton1.Location = new System.Drawing.Point(3, 4);
             this.penButton1.Name = "penButton1";
             this.penButton1.PenSize = 1;
-            this.penButton1.Size = new System.Drawing.Size(31, 29);
-            this.penButton1.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.penButton1, "1px");
+            this.toolTip1.SetToolTip(this.penButton1, resources.GetString("penButton1.ToolTip"));
             this.penButton1.UseVisualStyleBackColor = true;
             this.penButton1.Click += new System.EventHandler(this.penButton1_Click);
             // 
             // pnlOpacity
             // 
+            resources.ApplyResources(this.pnlOpacity, "pnlOpacity");
             this.pnlOpacity.Controls.Add(this.numOpacity);
             this.pnlOpacity.Controls.Add(this.label1);
             this.pnlOpacity.Controls.Add(this.label2);
-            this.pnlOpacity.Location = new System.Drawing.Point(217, 0);
-            this.pnlOpacity.Margin = new System.Windows.Forms.Padding(0);
             this.pnlOpacity.Name = "pnlOpacity";
-            this.pnlOpacity.Size = new System.Drawing.Size(58, 35);
-            this.pnlOpacity.TabIndex = 1;
+            this.toolTip1.SetToolTip(this.pnlOpacity, resources.GetString("pnlOpacity.ToolTip"));
             // 
             // numOpacity
             // 
-            this.numOpacity.Location = new System.Drawing.Point(3, 13);
+            resources.ApplyResources(this.numOpacity, "numOpacity");
             this.numOpacity.Name = "numOpacity";
-            this.numOpacity.Size = new System.Drawing.Size(40, 21);
-            this.numOpacity.TabIndex = 0;
             this.numOpacity.TabStop = false;
-            this.numOpacity.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.numOpacity.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
+            this.toolTip1.SetToolTip(this.numOpacity, resources.GetString("numOpacity.ToolTip"));
             this.numOpacity.ValueChanged += new System.EventHandler(this.numOpacity_ValueChanged);
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("宋体", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label1.Location = new System.Drawing.Point(3, 2);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 10);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "不透明度";
+            this.toolTip1.SetToolTip(this.label1, resources.GetString("label1.ToolTip"));
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(44, 17);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(11, 12);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "%";
+            this.toolTip1.SetToolTip(this.label2, resources.GetString("label2.ToolTip"));
             // 
             // pnlCap
             // 
+            resources.ApplyResources(this.pnlCap, "pnlCap");
             this.pnlCap.Controls.Add(this.cmbStart);
-            this.pnlCap.Location = new System.Drawing.Point(275, 0);
-            this.pnlCap.Margin = new System.Windows.Forms.Padding(0);
             this.pnlCap.Name = "pnlCap";
-            this.pnlCap.Size = new System.Drawing.Size(159, 35);
-            this.pnlCap.TabIndex = 2;
+            this.toolTip1.SetToolTip(this.pnlCap, resources.GetString("pnlCap.ToolTip"));
             // 
             // cmbStart
             // 
+            resources.ApplyResources(this.cmbStart, "cmbStart");
             this.cmbStart.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbStart.FormattingEnabled = true;
-            this.cmbStart.Location = new System.Drawing.Point(3, 13);
             this.cmbStart.Name = "cmbStart";
-            this.cmbStart.Size = new System.Drawing.Size(116, 20);
-            this.cmbStart.TabIndex = 0;
             this.cmbStart.TabStop = false;
+            this.toolTip1.SetToolTip(this.cmbStart, resources.GetString("cmbStart.ToolTip"));
             // 
             // ScrapPaintPenTool
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(462, 57);
             this.ControlBox = false;
             this.Controls.Add(this.flowLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.MinimumSize = new System.Drawing.Size(292, 59);
             this.Name = "ScrapPaintPenTool";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "笔工具";
+            this.toolTip1.SetToolTip(this, resources.GetString("$this.ToolTip"));
             this.TopMost = true;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ScrapPaintPenTool_FormClosing);
             this.flowLayoutPanel1.ResumeLayout(false);

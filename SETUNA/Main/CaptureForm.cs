@@ -466,7 +466,7 @@ namespace SETUNA.Main
                 bmpClip.Dispose();
             }
             bmpClip = null;
-            Console.WriteLine("打开截取");
+            Console.WriteLine("Open capture"); // "打开截取");
             base.OnClosing(e);
         }
 
