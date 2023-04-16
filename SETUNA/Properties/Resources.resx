@@ -1313,28 +1313,28 @@
     <value>Moveright(fine-tune)</value>
   </data>
   <data name="label27" xml:space="preserve">
-    <value>Scaleto 50%</value>
+    <value>Scale to 50%</value>
   </data>
   <data name="label28" xml:space="preserve">
-    <value>Scaleto 60%</value>
+    <value>Scale to 60%</value>
   </data>
   <data name="label29" xml:space="preserve">
-    <value>Scaleto 70%</value>
+    <value>Scale to 70%</value>
   </data>
   <data name="label3" xml:space="preserve">
     <value>Cut</value>
   </data>
   <data name="label30" xml:space="preserve">
-    <value>Scaleto 80%</value>
+    <value>Scale to 80%</value>
   </data>
   <data name="label31" xml:space="preserve">
-    <value>Scaleto 90%</value>
+    <value>Scale to 90%</value>
   </data>
   <data name="label32" xml:space="preserve">
-    <value>Scaleto 100%</value>
+    <value>Scale to 100%</value>
   </data>
   <data name="label33" xml:space="preserve">
-    <value>Scaleto 150%</value>
+    <value>Scale to 150%</value>
   </data>
   <data name="label34" xml:space="preserve">
     <value>3D border</value>
@@ -1352,7 +1352,7 @@
     <value>Close</value>
   </data>
   <data name="label39" xml:space="preserve">
-    <value>Basic automatic operation</value>
+    <value>Basic style</value>
   </data>
   <data name="label4" xml:space="preserve">
     <value>Cut(withborder)</value>
@@ -1373,7 +1373,7 @@
     <value>Save(with border)</value>
   </data>
   <data name="label8" xml:space="preserve">
-    <value>Rotate 90 degrees</value>
+    <value>Rotate 90°</value>
   </data>
   <data name="label9" xml:space="preserve">
     <value>Flip vertically</value>
@@ -1382,13 +1382,13 @@
     <value>recycle bin</value>
   </data>
   <data name="label51" xml:space="preserve">
-    <value>reference image list</value>
+    <value>Screenshot  list</value>
   </data>
   <data name="label52" xml:space="preserve">
-    <value>Make a reference map</value>
+    <value>Make screenshot  list</value>
   </data>
   <data name="label53" xml:space="preserve">
-    <value>Separator</value>
+    <value>[Separator]</value>
   </data>
   <data name="label54" xml:space="preserve">
     <value>Version information</value>
@@ -1421,7 +1421,7 @@
     <value>Options</value>
   </data>
   <data name="label64" xml:space="preserve">
-    <value>Paste Screenshot from Clipboard</value>
+    <value>Paste screenshot from clipboard</value>
   </data>
   <data name="label65" xml:space="preserve">
     <value>Empty</value>
@@ -1454,13 +1454,13 @@
     <value>Rotate and flip</value>
   </data>
   <data name="label75" xml:space="preserve">
-    <value>Reference image for rotation and flipping.</value>
+    <value>Screenshot rotation and flipping.</value>
   </data>
   <data name="label76" xml:space="preserve">
-    <value>Reference image for scaling.</value>
+    <value>Screenshot scaling.</value>
   </data>
   <data name="label77" xml:space="preserve">
-    <value>Reference image for scaling down/up.</value>
+    <value>Screenshot scaling down/up.</value>
   </data>
   <data name="label78" xml:space="preserve">
     <value>Original size</value>
@@ -1478,7 +1478,7 @@
     <value>Windowize</value>
   </data>
   <data name="label83" xml:space="preserve">
-    <value>Add window border to the reference image.</value>
+    <value>Add window border to the screenshot.</value>
   </data>
   <data name="label84" xml:space="preserve">
     <value>Yes</value>
@@ -1499,10 +1499,10 @@
     <value>Window</value>
   </data>
   <data name="label104" xml:space="preserve">
-    <value>Move the reference image</value>
+    <value>Move the screenshot</value>
   </data>
   <data name="label105" xml:space="preserve">
-    <value>Move the reference image up, down, left, or right.</value>
+    <value>Move the screenshot up, down, left, or right.</value>
   </data>
   <data name="label106" xml:space="preserve">
     <value>Up:</value>
@@ -1520,13 +1520,13 @@
     <value>Opacity</value>
   </data>
   <data name="label111" xml:space="preserve">
-    <value>Set opaque reference image.</value>
+    <value>Set opaque screenshot.</value>
   </data>
   <data name="label112" xml:space="preserve">
     <value>Draw</value>
   </data>
   <data name="label113" xml:space="preserve">
-    <value>You can draw directly on the reference image.</value>
+    <value>You can draw directly on the screenshot.</value>
   </data>
   <data name="label114" xml:space="preserve">
     <value>Paste from clipboard</value>
@@ -1568,7 +1568,7 @@
     <value>Save as BMP format</value>
   </data>
   <data name="label87" xml:space="preserve">
-    <value>Save the reference image as BMP format image.</value>
+    <value>Save the screenshot as BMP format image.</value>
   </data>
   <data name="label88" xml:space="preserve">
     <value>Bitmap format (.bmp)|.bmp|All Files (*.*)|*.*</value>
@@ -1577,7 +1577,7 @@
     <value>Save as JPEG format</value>
   </data>
   <data name="label90" xml:space="preserve">
-    <value>Save the reference image as JPEG format image.</value>
+    <value>Save the screenshot as JPEG format image.</value>
   </data>
   <data name="label91" xml:space="preserve">
     <value>Jpeg format (.jpg)|.jpg|All Files (*.*)|*.*</value>
@@ -1586,19 +1586,19 @@
     <value>Save as PNG format</value>
   </data>
   <data name="label93" xml:space="preserve">
-    <value>Save the reference image as PNG format image.</value>
+    <value>Save the screenshot as PNG format image.</value>
   </data>
   <data name="label94" xml:space="preserve">
     <value>Png format (.png)|.png|All Files (*.*)|*.*</value>
   </data>
   <data name="label95" xml:space="preserve">
-    <value>Cannot save.</value>
+    <value>Can not save.</value>
   </data>
   <data name="label96" xml:space="preserve">
     <value>File with the same name already exists. Overwrite?</value>
   </data>
   <data name="label97" xml:space="preserve">
-    <value>Cannot save the image because no suitable encoder was found.</value>
+    <value>Can not save the image because no suitable encoder was found.</value>
   </data>
   <data name="label98" xml:space="preserve">
     <value>All Files (*.*)|*.*</value>
@@ -1607,10 +1607,10 @@
     <value>Border</value>
   </data>
   <data name="label126" xml:space="preserve">
-    <value>Shrink the size of the reference image.</value>
+    <value>Shrink the size of the screenshot.</value>
   </data>
   <data name="label127" xml:space="preserve">
-    <value>Shrink the size of the reference image.\nSubsequent automatic operations will not be used.</value>
+    <value>Shrink the size of the screenshot.\nSubsequent automatic operations will not be used.</value>
   </data>
   <data name="label128" xml:space="preserve">
     <value>Copy to clipboard</value>
@@ -1622,10 +1622,10 @@
     <value>Close</value>
   </data>
   <data name="label131" xml:space="preserve">
-    <value>Close the reference image.\nSubsequent automatic operations will not be used.</value>
+    <value>Close the screenshot.\nSubsequent automatic operations will not be used.</value>
   </data>
   <data name="label149" xml:space="preserve">
-    <value>Official version (address is invalid)</value>
+    <value>Official version (site closed)</value>
   </data>
   <data name="label150" xml:space="preserve">
     <value>Optimized version</value>
@@ -1634,27 +1634,27 @@
     <value>Related editing</value>
   </data>
   <data name="label152" xml:space="preserve">
-    <value>SETUNA general settings</value>
+    <value>General settings of SETUNA</value>
   </data>
   <data name="label153" xml:space="preserve">
-    <value>Perform settings related to cropping</value>
+    <value>Settings for capturing.</value>
   </data>
   <data name="label154" xml:space="preserve">
-    <value>Perform general settings for reference images</value>
+    <value>Settings for screenshot.</value>
   </data>
   <data name="label155" xml:space="preserve">
-    <value>Create an automatic operation composed of multiple automatic operations</value>
+    <value>Create styles by combination of style items.</value>
   </data>
   <data name="label156" xml:space="preserve">
-    <value>Set the menu when right-clicking on a reference image</value>
+    <value>Setings for right-click menu on screenshot.</value>
   </data>
   <data name="label157" xml:space="preserve">
     <value>Mouse cursor style settings</value>
   </data>
   <data name="label158" xml:space="preserve">
-    <value>Create a new automatic operation</value>
+    <value>Create a new style</value>
   </data>
   <data name="label159" xml:space="preserve">
-    <value>Initialize the setting content.</value>
+    <value>Reset settings.</value>
   </data>
 </root>

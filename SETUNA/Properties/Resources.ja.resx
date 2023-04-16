@@ -1268,10 +1268,10 @@
     <value>拡大（微調整）</value>
   </data>
   <data name="label13" xml:space="preserve">
-    <value>縮小</value>
+    <value>コンパクト</value>
   </data>
   <data name="label14" xml:space="preserve">
-    <value>縮小（微調整）</value>
+    <value>コンパクト（微調整）</value>
   </data>
   <data name="label15" xml:space="preserve">
     <value>透明度を上げる</value>
@@ -1352,16 +1352,16 @@
     <value>閉じる</value>
   </data>
   <data name="label39" xml:space="preserve">
-    <value>基本的な自動操作</value>
+    <value>基本スタイル</value>
   </data>
   <data name="label4" xml:space="preserve">
     <value>切り取り（枠あり）</value>
   </data>
   <data name="label40" xml:space="preserve">
-    <value>収縮</value>
+    <value>コンパクト</value>
   </data>
   <data name="label41" xml:space="preserve">
-    <value>トリミング</value>
+    <value>トリム</value>
   </data>
   <data name="label5" xml:space="preserve">
     <value>貼り付け</value>
@@ -1388,7 +1388,7 @@
     <value>スクラップリストを作成する</value>
   </data>
   <data name="label53" xml:space="preserve">
-    <value>区切り記号</value>
+    <value>[セパレータ]</value>
   </data>
   <data name="label54" xml:space="preserve">
     <value>バージョン情報</value>
@@ -1409,10 +1409,10 @@
     <value>ゴミ箱を空にする</value>
   </data>
   <data name="label60" xml:space="preserve">
-    <value>すべてのスクリーンショットを閉じる</value>
+    <value>すべてのスクラップを閉じる</value>
   </data>
   <data name="label61" xml:space="preserve">
-    <value>すべてのスクリーンショットを閉じますか？</value>
+    <value>すべてのスクラップを閉じますか？</value>
   </data>
   <data name="label62" xml:space="preserve">
     <value>ヒント</value>
@@ -1421,7 +1421,7 @@
     <value>オプション</value>
   </data>
   <data name="label64" xml:space="preserve">
-    <value>クリップボードからスクリーンショットを貼り付ける</value>
+    <value>クリップボードからスクラップを作成</value>
   </data>
   <data name="label65" xml:space="preserve">
     <value>なし</value>
@@ -1478,7 +1478,7 @@
     <value>ウィンドウ化</value>
   </data>
   <data name="label83" xml:space="preserve">
-    <value>参考図にウィンドウ枠を追加します。</value>
+    <value>スクラップにウィンドウ枠を追加します。</value>
   </data>
   <data name="label84" xml:space="preserve">
     <value>はい</value>
@@ -1487,7 +1487,7 @@
     <value>いいえ</value>
   </data>
   <data name="label100" xml:space="preserve">
-    <value>参考画像の枠線の種類を設定する</value>
+    <value>スクラップの枠線の種類を設定する</value>
   </data>
   <data name="label101" xml:space="preserve">
     <value>立体的な枠線</value>
@@ -1499,10 +1499,10 @@
     <value>ウィンドウ</value>
   </data>
   <data name="label104" xml:space="preserve">
-    <value>参考画像の移動</value>
+    <value>スクラップの移動</value>
   </data>
   <data name="label105" xml:space="preserve">
-    <value>参考画像の上下左右移動</value>
+    <value>スクラップの上下左右移動</value>
   </data>
   <data name="label106" xml:space="preserve">
     <value>上:</value>
@@ -1520,13 +1520,13 @@
     <value>不透明度</value>
   </data>
   <data name="label111" xml:space="preserve">
-    <value>透明度のある参照図を設定する。</value>
+    <value>透明度のあるスクラップを設定する。</value>
   </data>
   <data name="label112" xml:space="preserve">
     <value>描画する</value>
   </data>
   <data name="label113" xml:space="preserve">
-    <value>参照図上に直接描画することができます。</value>
+    <value>スクラップ上に直接描画することができます。</value>
   </data>
   <data name="label114" xml:space="preserve">
     <value>クリップボードから貼り付ける</value>
@@ -1541,7 +1541,7 @@
     <value>Picasaにアップロードする</value>
   </data>
   <data name="label118" xml:space="preserve">
-    <value>参照図をPicasaのウェブアルバムにアップロードする。</value>
+    <value>スクラップをPicasaのウェブアルバムにアップロードする。</value>
   </data>
   <data name="label119" xml:space="preserve">
     <value>タイマー</value>
@@ -1556,7 +1556,7 @@
     <value>グレースケールレベルを反転する。</value>
   </data>
   <data name="label123" xml:space="preserve">
-    <value>トリミング</value>
+    <value>トリム</value>
   </data>
   <data name="label124" xml:space="preserve">
     <value>不要な部分を削除することができます。</value>
@@ -1607,25 +1607,25 @@
     <value>枠線</value>
   </data>
   <data name="label126" xml:space="preserve">
-    <value>参考画像のサイズを縮小する</value>
+    <value>スクラップのサイズを縮小する</value>
   </data>
   <data name="label127" xml:space="preserve">
-    <value>参考画像のサイズを縮小する\nその後の自動操作は使用されません</value>
+    <value>スクラップのサイズを縮小する\nその後の自動操作は使用されません</value>
   </data>
   <data name="label128" xml:space="preserve">
     <value>クリップボードにコピー</value>
   </data>
   <data name="label129" xml:space="preserve">
-    <value>参考画像を画像としてクリップボードにコピーする</value>
+    <value>スクラップを画像としてクリップボードにコピーする</value>
   </data>
   <data name="label130" xml:space="preserve">
     <value>閉じる</value>
   </data>
   <data name="label131" xml:space="preserve">
-    <value>参考画像を閉じる。\nその後の自動操作は使用されません</value>
+    <value>スクラップを閉じる。\nその後の自動操作は使用されません</value>
   </data>
   <data name="label149" xml:space="preserve">
-    <value>公式バージョン（アドレスが無効です）</value>
+    <value>公式バージョン（閉鎖）</value>
   </data>
   <data name="label150" xml:space="preserve">
     <value>最適化バージョン</value>
@@ -1634,27 +1634,27 @@
     <value>関連編集</value>
   </data>
   <data name="label152" xml:space="preserve">
-    <value>SETUNA一般設定</value>
+    <value>SETUNA全般の設定を行います。</value>
   </data>
   <data name="label153" xml:space="preserve">
-    <value>切り取りに関する設定を行う</value>
+    <value>キャプチャーに関する設定を行います。</value>
   </data>
   <data name="label154" xml:space="preserve">
-    <value>参考画像の一般設定を行う</value>
+    <value>スクラップ全般の設定を行います。</value>
   </data>
   <data name="label155" xml:space="preserve">
-    <value>自動操作で構成される自動操作を作成する</value>
+    <value>スタイルアイテムを組み合わせてスタイルを作成します。</value>
   </data>
   <data name="label156" xml:space="preserve">
-    <value>参考画像を右クリックした際のメニューを設定する</value>
+    <value>スクラップを右クリックした時のサブメニューを設定します。</value>
   </data>
   <data name="label157" xml:space="preserve">
     <value>マウスのスタイル設定など</value>
   </data>
   <data name="label158" xml:space="preserve">
-    <value>新しい自動操作を作成する</value>
+    <value>新しいスタイルを作成する</value>
   </data>
   <data name="label159" xml:space="preserve">
-    <value>設定内容を初期化します</value>
+    <value>設定を初期化する</value>
   </data>
 </root>

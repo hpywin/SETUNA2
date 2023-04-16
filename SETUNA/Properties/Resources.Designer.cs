@@ -304,7 +304,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Move the reference image に類似しているローカライズされた文字列を検索します。
+        ///   Move the screenshot に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label104 {
             get {
@@ -313,7 +313,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Move the reference image up, down, left, or right. に類似しているローカライズされた文字列を検索します。
+        ///   Move the screenshot up, down, left, or right. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label105 {
             get {
@@ -376,7 +376,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Set opaque reference image. に類似しているローカライズされた文字列を検索します。
+        ///   Set opaque screenshot. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label111 {
             get {
@@ -394,7 +394,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   You can draw directly on the reference image. に類似しているローカライズされた文字列を検索します。
+        ///   You can draw directly on the screenshot. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label113 {
             get {
@@ -520,7 +520,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Shrink the size of the reference image. に類似しているローカライズされた文字列を検索します。
+        ///   Shrink the size of the screenshot. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label126 {
             get {
@@ -529,7 +529,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Shrink the size of the reference image.\nSubsequent automatic operations will not be used. に類似しているローカライズされた文字列を検索します。
+        ///   Shrink the size of the screenshot.\nSubsequent automatic operations will not be used. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label127 {
             get {
@@ -574,7 +574,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Close the reference image.\nSubsequent automatic operations will not be used. に類似しているローカライズされた文字列を検索します。
+        ///   Close the screenshot.\nSubsequent automatic operations will not be used. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label131 {
             get {
@@ -592,7 +592,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Official version (address is invalid) に類似しているローカライズされた文字列を検索します。
+        ///   Official version (site closed) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label149 {
             get {
@@ -628,7 +628,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   SETUNA general settings に類似しているローカライズされた文字列を検索します。
+        ///   General settings of SETUNA に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label152 {
             get {
@@ -637,7 +637,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Perform settings related to cropping に類似しているローカライズされた文字列を検索します。
+        ///   Settings for capturing. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label153 {
             get {
@@ -646,7 +646,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Perform general settings for reference images に類似しているローカライズされた文字列を検索します。
+        ///   Settings for screenshot. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label154 {
             get {
@@ -655,7 +655,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Create an automatic operation composed of multiple automatic operations に類似しているローカライズされた文字列を検索します。
+        ///   Create styles by combination of style items. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label155 {
             get {
@@ -664,7 +664,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Set the menu when right-clicking on a reference image に類似しているローカライズされた文字列を検索します。
+        ///   Setings for right-click menu on screenshot. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label156 {
             get {
@@ -682,7 +682,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Create a new automatic operation に類似しているローカライズされた文字列を検索します。
+        ///   Create a new style に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label158 {
             get {
@@ -691,7 +691,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Initialize the setting content. に類似しているローカライズされた文字列を検索します。
+        ///   Reset settings. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label159 {
             get {
@@ -808,7 +808,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Scaleto 50% に類似しているローカライズされた文字列を検索します。
+        ///   Scale to 50% に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label27 {
             get {
@@ -817,7 +817,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Scaleto 60% に類似しているローカライズされた文字列を検索します。
+        ///   Scale to 60% に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label28 {
             get {
@@ -826,7 +826,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Scaleto 70% に類似しているローカライズされた文字列を検索します。
+        ///   Scale to 70% に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label29 {
             get {
@@ -844,7 +844,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Scaleto 80% に類似しているローカライズされた文字列を検索します。
+        ///   Scale to 80% に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label30 {
             get {
@@ -853,7 +853,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Scaleto 90% に類似しているローカライズされた文字列を検索します。
+        ///   Scale to 90% に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label31 {
             get {
@@ -862,7 +862,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Scaleto 100% に類似しているローカライズされた文字列を検索します。
+        ///   Scale to 100% に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label32 {
             get {
@@ -871,7 +871,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Scaleto 150% に類似しているローカライズされた文字列を検索します。
+        ///   Scale to 150% に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label33 {
             get {
@@ -925,7 +925,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Basic automatic operation に類似しているローカライズされた文字列を検索します。
+        ///   Basic style に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label39 {
             get {
@@ -979,7 +979,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   reference image list に類似しているローカライズされた文字列を検索します。
+        ///   Screenshot  list に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label51 {
             get {
@@ -988,7 +988,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Make a reference map に類似しているローカライズされた文字列を検索します。
+        ///   Make screenshot  list に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label52 {
             get {
@@ -997,7 +997,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Separator に類似しているローカライズされた文字列を検索します。
+        ///   [Separator] に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label53 {
             get {
@@ -1105,7 +1105,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Paste Screenshot from Clipboard に類似しているローカライズされた文字列を検索します。
+        ///   Paste screenshot from clipboard に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label64 {
             get {
@@ -1213,7 +1213,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Reference image for rotation and flipping. に類似しているローカライズされた文字列を検索します。
+        ///   Screenshot rotation and flipping. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label75 {
             get {
@@ -1222,7 +1222,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Reference image for scaling. に類似しているローカライズされた文字列を検索します。
+        ///   Screenshot scaling. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label76 {
             get {
@@ -1231,7 +1231,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Reference image for scaling down/up. に類似しているローカライズされた文字列を検索します。
+        ///   Screenshot scaling down/up. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label77 {
             get {
@@ -1258,7 +1258,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Rotate 90 degrees に類似しているローカライズされた文字列を検索します。
+        ///   Rotate 90° に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label8 {
             get {
@@ -1294,7 +1294,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Add window border to the reference image. に類似しているローカライズされた文字列を検索します。
+        ///   Add window border to the screenshot. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label83 {
             get {
@@ -1330,7 +1330,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Save the reference image as BMP format image. に類似しているローカライズされた文字列を検索します。
+        ///   Save the screenshot as BMP format image. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label87 {
             get {
@@ -1366,7 +1366,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Save the reference image as JPEG format image. に類似しているローカライズされた文字列を検索します。
+        ///   Save the screenshot as JPEG format image. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label90 {
             get {
@@ -1393,7 +1393,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Save the reference image as PNG format image. に類似しているローカライズされた文字列を検索します。
+        ///   Save the screenshot as PNG format image. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label93 {
             get {
@@ -1411,7 +1411,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Cannot save. に類似しているローカライズされた文字列を検索します。
+        ///   Can not save. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label95 {
             get {
@@ -1429,7 +1429,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Cannot save the image because no suitable encoder was found. に類似しているローカライズされた文字列を検索します。
+        ///   Can not save the image because no suitable encoder was found. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label97 {
             get {
