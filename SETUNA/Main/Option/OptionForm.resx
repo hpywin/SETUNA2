@@ -560,8 +560,8 @@ You can retrieve it from the recycle bin as needed.</value>
     <value>Right</value>
   </data>
   <data name="numDustBox.ToolTip" xml:space="preserve">
-    <value>指定在回收站中放入的最大张数。
-超过限额将丢弃旧的参考图。</value>
+    <value>The maximum number of trains that can be released during a designated station.
+An old-fashioned reference map.</value>
   </data>
   <data name="&gt;&gt;numDustBox.Name" xml:space="preserve">
     <value>numDustBox</value>
@@ -681,7 +681,7 @@ You can retrieve it from the recycle bin as needed.</value>
     <value>Reside in taskbar</value>
   </data>
   <data name="rdoExeTypeResident.ToolTip" xml:space="preserve">
-    <value>在任务栏上显示图标。</value>
+    <value>Incumbents are shown on the chart.</value>
   </data>
   <data name="&gt;&gt;rdoExeTypeResident.Name" xml:space="preserve">
     <value>rdoExeTypeResident</value>
@@ -714,7 +714,7 @@ You can retrieve it from the recycle bin as needed.</value>
     <value>Application</value>
   </data>
   <data name="rdoExeTypeApp.ToolTip" xml:space="preserve">
-    <value>显示主窗口、最小化到任务栏上</value>
+    <value>Show Main Window, Minimize</value>
   </data>
   <data name="&gt;&gt;rdoExeTypeApp.Name" xml:space="preserve">
     <value>rdoExeTypeApp</value>
@@ -1260,8 +1260,8 @@ You can retrieve it from the recycle bin as needed.</value>
     <value>6</value>
   </data>
   <data name="numSelectAreaTrans.ToolTip" xml:space="preserve">
-    <value>设置框选范围填充颜色的透明度。
-选择透明度100％时可提高响应速度。</value>
+    <value>The transparency of the color of the installation frame selection.
+Selected 100% transparency and high response speed.</value>
   </data>
   <data name="&gt;&gt;numSelectAreaTrans.Name" xml:space="preserve">
     <value>numSelectAreaTrans</value>
@@ -1288,8 +1288,8 @@ You can retrieve it from the recycle bin as needed.</value>
     <value>10</value>
   </data>
   <data name="picSelectAreaBackColor.ToolTip" xml:space="preserve">
-    <value>设置全面填充框选范围的颜色。
-不全面涂抹的情况设置透明度为100％。</value>
+    <value>The color of the setting full-filled frame selection range.
+100% transparency for setting up incomplete information.</value>
   </data>
   <data name="&gt;&gt;picSelectAreaBackColor.Name" xml:space="preserve">
     <value>picSelectAreaBackColor</value>
@@ -1316,7 +1316,7 @@ You can retrieve it from the recycle bin as needed.</value>
     <value>9</value>
   </data>
   <data name="picSelectAreaLineColor.ToolTip" xml:space="preserve">
-    <value>指定框选范围的边框线的颜色。</value>
+    <value>The color of the designated frame selection band.</value>
   </data>
   <data name="&gt;&gt;picSelectAreaLineColor.Name" xml:space="preserve">
     <value>picSelectAreaLineColor</value>
@@ -1481,8 +1481,8 @@ You can retrieve it from the recycle bin as needed.</value>
     <value>3</value>
   </data>
   <data name="hotkeyControl2.ToolTip" xml:space="preserve">
-    <value>Ctrl键，Shift键和Alt键，各个键的组合来设置隐藏/显示所有截图的快捷键。
-不能使用其他程序设置的快捷键。</value>
+    <value>Ctrl key, Shift key and Alt key, each combination comes with an installed key.
+Unusable and other procedure-installed speed keys.</value>
   </data>
   <data name="&gt;&gt;hotkeyControl2.Name" xml:space="preserve">
     <value>hotkeyControl2</value>
@@ -1536,8 +1536,8 @@ You can retrieve it from the recycle bin as needed.</value>
     <value>0</value>
   </data>
   <data name="hotkeyControl1.ToolTip" xml:space="preserve">
-    <value>Ctrl键，Shift键和Alt键，各个键的组合来设置截取的快捷键。
-不能使用其他程序设置的快捷键。</value>
+    <value>Ctrl key, Shift key and Alt key, each combination comes with a set of quick keys.
+Unusable and other procedure-installed speed keys.</value>
   </data>
   <data name="&gt;&gt;hotkeyControl1.Name" xml:space="preserve">
     <value>hotkeyControl1</value>
@@ -1651,7 +1651,7 @@ You can retrieve it from the recycle bin as needed.</value>
     <value>5, 6, 5, 6</value>
   </data>
   <data name="pageCapture.Size" type="System.Drawing.Size, System.Drawing">
-    <value>443, 331</value>
+    <value>439, 327</value>
   </data>
   <data name="pageCapture.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -1684,7 +1684,7 @@ You can retrieve it from the recycle bin as needed.</value>
     <value>3</value>
   </data>
   <data name="cmbWClickStyle.ToolTip" xml:space="preserve">
-    <value>指定双击参考图时使用的自动操作。</value>
+    <value>Automatic operation when used for specified double reference.</value>
   </data>
   <data name="&gt;&gt;cmbWClickStyle.Name" xml:space="preserve">
     <value>cmbWClickStyle</value>
@@ -1738,7 +1738,7 @@ You can retrieve it from the recycle bin as needed.</value>
     <value>1</value>
   </data>
   <data name="cmbCreateStyle.ToolTip" xml:space="preserve">
-    <value>您可以指定要创建参考图时使用的自动操作。</value>
+    <value>Automatic operation for use when designing for reference only.</value>
   </data>
   <data name="&gt;&gt;cmbCreateStyle.Name" xml:space="preserve">
     <value>cmbCreateStyle</value>
@@ -2151,7 +2151,7 @@ Please close if the response speed is slow.</value>
     <value>3, 2, 3, 2</value>
   </data>
   <data name="pageScrap.Size" type="System.Drawing.Size, System.Drawing">
-    <value>443, 331</value>
+    <value>439, 327</value>
   </data>
   <data name="pageScrap.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -2526,7 +2526,7 @@ Please close if the response speed is slow.</value>
     <value>0</value>
   </data>
   <data name="listScrapMenuList.ToolTip" xml:space="preserve">
-    <value>右键单击参考图时显示的菜单结构。</value>
+    <value>The single structure shown on the right is for reference only.</value>
   </data>
   <data name="&gt;&gt;listScrapMenuList.Name" xml:space="preserve">
     <value>listScrapMenuList</value>
@@ -2700,7 +2700,7 @@ Please close if the response speed is slow.</value>
     <value>5, 6, 5, 6</value>
   </data>
   <data name="pageScrapMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>443, 331</value>
+    <value>439, 327</value>
   </data>
   <data name="pageScrapMenu.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -2771,7 +2771,7 @@ Please initialize the settings to reflect the language change.</value>
     <value>7</value>
   </data>
   <data name="comboBoxSelectLanguage.ToolTip" xml:space="preserve">
-    <value>言語設定</value>
+    <value>Language</value>
   </data>
   <data name="&gt;&gt;comboBoxSelectLanguage.Name" xml:space="preserve">
     <value>comboBoxSelectLanguage</value>
@@ -3068,7 +3068,7 @@ Please initialize the settings to reflect the language change.</value>
     <value>18</value>
   </data>
   <data name="pictureBox_fullscreenCursor.ToolTip" xml:space="preserve">
-    <value>指定框选范围的边框线的颜色。</value>
+    <value>The color of the designated frame selection band.</value>
   </data>
   <data name="&gt;&gt;pictureBox_fullscreenCursor.Name" xml:space="preserve">
     <value>pictureBox_fullscreenCursor</value>
@@ -3209,7 +3209,7 @@ Please initialize the settings to reflect the language change.</value>
     <value>2, 2, 2, 2</value>
   </data>
   <data name="pageMisc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>443, 331</value>
+    <value>439, 327</value>
   </data>
   <data name="pageMisc.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -3508,6 +3508,9 @@ Please initialize the settings to reflect the language change.</value>
   <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ja</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -3527,7 +3530,7 @@ Please initialize the settings to reflect the language change.</value>
     <value>CenterParent</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>选项</value>
+    <value>Option</value>
   </data>
   <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
     <value>toolTip1</value>

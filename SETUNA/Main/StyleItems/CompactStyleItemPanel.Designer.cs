@@ -37,7 +37,6 @@
             // 
             // groupBox1
             // 
-            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.rdoDashed);
             this.groupBox1.Controls.Add(this.rdoSolid);
             this.groupBox1.Controls.Add(this.picLineColor);
@@ -47,6 +46,7 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.numOpacity);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
@@ -67,9 +67,9 @@
             // 
             // picLineColor
             // 
-            resources.ApplyResources(this.picLineColor, "picLineColor");
             this.picLineColor.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picLineColor.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.picLineColor, "picLineColor");
             this.picLineColor.Name = "picLineColor";
             this.picLineColor.TabStop = false;
             this.picLineColor.Click += new System.EventHandler(this.picLineColor_Click);
@@ -81,15 +81,15 @@
             // 
             // groupBox2
             // 
-            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Controls.Add(this.picPreview);
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
             // 
             // picPreview
             // 
-            resources.ApplyResources(this.picPreview, "picPreview");
             this.picPreview.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.picPreview, "picPreview");
             this.picPreview.Name = "picPreview";
             this.picPreview.TabStop = false;
             this.picPreview.Paint += new System.Windows.Forms.PaintEventHandler(this.picPreview_Paint);

@@ -118,27 +118,27 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="button1.Text" xml:space="preserve">
-    <value>复制网址</value>
+    <value>URLをコピー</value>
   </data>
   <data name="comboBox1.Items" xml:space="preserve">
-    <value>保存帐号和密码</value>
+    <value>アカウントとパスワードを保存</value>
   </data>
   <data name="comboBox1.Items1" xml:space="preserve">
-    <value>只保存帐号</value>
+    <value>アカウントのみ保存</value>
   </data>
   <data name="comboBox1.Items2" xml:space="preserve">
-    <value>全部不保存</value>
+    <value>全部を保存しない</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>设置</value>
+    <value>設定</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>谷歌帐号：</value>
+    <value>Googleアカウント</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>密码：</value>
+    <value>パスワード:</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>请在使用服务前访问 Picasa 的网站，以确认使用条款。</value>
+    <value>サービスを使用する前にPicasaのウェブサイトを訪れて利用規約を確認してください。</value>
   </data>
 </root>

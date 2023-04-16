@@ -567,7 +567,7 @@
     <value>47, 16</value>
   </data>
   <data name="radioButton1_fullscreenCursor.Text" xml:space="preserve">
-    <value>実践</value>
+    <value>実線</value>
   </data>
   <data name="radioButton1_fullscreenCursor.ToolTip" xml:space="preserve">
     <value>マーキー範囲の境界線の種類を設定します。</value>

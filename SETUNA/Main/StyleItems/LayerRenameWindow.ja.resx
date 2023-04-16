@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="$this.Text" xml:space="preserve">
-    <value>更改图层名称</value>
+    <value>レイヤー名を変更</value>
   </data>
   <data name="btnCancel.Text" xml:space="preserve">
     <value>キャンセル</value>
@@ -131,6 +131,6 @@
     <value>63, 12</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>图层名称：</value>
+    <value>レイヤー名:</value>
   </data>
 </root>

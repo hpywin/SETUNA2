@@ -120,4 +120,19 @@
   <data name="groupBox1.Text" xml:space="preserve">
     <value>設定項目</value>
   </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>プレビュー</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>不透明度:</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>フレーム:</value>
+  </data>
+  <data name="rdoDashed.Text" xml:space="preserve">
+    <value>点線</value>
+  </data>
+  <data name="rdoSolid.Text" xml:space="preserve">
+    <value>実線</value>
+  </data>
 </root>

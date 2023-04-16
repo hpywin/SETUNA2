@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>谷歌帐号：</value>
+    <value>Google account</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="txtID.Size" type="System.Drawing.Size, System.Drawing">
@@ -153,7 +153,7 @@
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
-    <value>复制网址</value>
+    <value>Copy URL</value>
   </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
@@ -201,7 +201,7 @@
     <value>8</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>设置</value>
+    <value>Settings</value>
   </data>
   <data name="&gt;&gt;label1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -273,7 +273,7 @@
     <value>label4</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>请在使用服务前访问 Picasa 的网站，以确认使用条款。</value>
+    <value>Please visit Picasa's website before using the service to confirm the terms of use.</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>SETUNA.Main.StyleItems.ToolBoxForm, SETUNA, Version=3.0.0.6, Culture=neutral, PublicKeyToken=null</value>
@@ -337,7 +337,7 @@
     <value>2</value>
   </data>
   <data name="comboBox1.Items2" xml:space="preserve">
-    <value>全部不保存</value>
+    <value>Don't save all</value>
   </data>
   <data name="linkLabel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>18, 184</value>
@@ -346,7 +346,7 @@
     <value>25, 31</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>密码：</value>
+    <value>Password:</value>
   </data>
   <data name="&gt;&gt;label4.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -382,7 +382,7 @@
     <value>https://picasaweb.google.com/</value>
   </data>
   <data name="comboBox1.Items" xml:space="preserve">
-    <value>保存帐号和密码</value>
+    <value>Save account and password</value>
   </data>
   <data name="&gt;&gt;cmdOK.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -415,7 +415,7 @@
     <value>136, 234</value>
   </data>
   <data name="comboBox1.Items1" xml:space="preserve">
-    <value>只保存帐号</value>
+    <value>Only save account</value>
   </data>
   <data name="&gt;&gt;label3.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -423,10 +423,10 @@
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
     <value>zh</value>
-  </metadata>
+  </data>
 </root>

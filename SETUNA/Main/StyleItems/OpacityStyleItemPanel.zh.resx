@@ -120,19 +120,19 @@
   <data name="btnPreview.Text" xml:space="preserve">
     <value>应用相对值</value>
   </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>设置</value>
-  </data>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>预览</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>不透明度：</value>
+  <data name="rdoIncrement.Text" xml:space="preserve">
+    <value>相对值</value>
   </data>
   <data name="rdoFixed.Text" xml:space="preserve">
     <value>绝对值</value>
   </data>
-  <data name="rdoIncrement.Text" xml:space="preserve">
-    <value>相对值</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>不透明度：</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>设置</value>
   </data>
 </root>

@@ -1313,28 +1313,28 @@
     <value>右に移動（微調整）</value>
   </data>
   <data name="label27" xml:space="preserve">
-    <value>50%に縮小</value>
+    <value>倍率50%</value>
   </data>
   <data name="label28" xml:space="preserve">
-    <value>60%に縮小</value>
+    <value>倍率60%</value>
   </data>
   <data name="label29" xml:space="preserve">
-    <value>70%に縮小</value>
+    <value>倍率70%</value>
   </data>
   <data name="label3" xml:space="preserve">
-    <value>カット</value>
+    <value>切り取り</value>
   </data>
   <data name="label30" xml:space="preserve">
-    <value>80%に縮小</value>
+    <value>倍率80%</value>
   </data>
   <data name="label31" xml:space="preserve">
-    <value>90%に縮小</value>
+    <value>倍率90%</value>
   </data>
   <data name="label32" xml:space="preserve">
-    <value>100%に縮小</value>
+    <value>倍率100%</value>
   </data>
   <data name="label33" xml:space="preserve">
-    <value>150%に拡大</value>
+    <value>倍率150%</value>
   </data>
   <data name="label34" xml:space="preserve">
     <value>立体枠</value>
@@ -1355,7 +1355,7 @@
     <value>基本的な自動操作</value>
   </data>
   <data name="label4" xml:space="preserve">
-    <value>カット（枠あり）</value>
+    <value>切り取り（枠あり）</value>
   </data>
   <data name="label40" xml:space="preserve">
     <value>収縮</value>
@@ -1364,7 +1364,7 @@
     <value>トリミング</value>
   </data>
   <data name="label5" xml:space="preserve">
-    <value>ペースト</value>
+    <value>貼り付け</value>
   </data>
   <data name="label6" xml:space="preserve">
     <value>保存</value>
@@ -1382,10 +1382,10 @@
     <value>ごみ箱</value>
   </data>
   <data name="label51" xml:space="preserve">
-    <value>参考画像一覧</value>
+    <value>スクラップリスト</value>
   </data>
   <data name="label52" xml:space="preserve">
-    <value>参照マップを作成する</value>
+    <value>スクラップリストを作成する</value>
   </data>
   <data name="label53" xml:space="preserve">
     <value>区切り記号</value>
@@ -1412,7 +1412,7 @@
     <value>すべてのスクリーンショットを閉じる</value>
   </data>
   <data name="label61" xml:space="preserve">
-    <value>すべてのスクリーンショットを閉じますか</value>
+    <value>すべてのスクリーンショットを閉じますか？</value>
   </data>
   <data name="label62" xml:space="preserve">
     <value>ヒント</value>

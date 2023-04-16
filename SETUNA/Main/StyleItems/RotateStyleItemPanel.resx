@@ -122,19 +122,19 @@
     <value>10</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>旋转参考图：</value>
+    <value>Rotate reference image:</value>
   </data>
   <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
     <value>groupBox2</value>
   </data>
   <data name="rdoLeft90.Text" xml:space="preserve">
-    <value>左转90度</value>
+    <value>Rotate left 90°</value>
   </data>
   <data name="rdoLeft90.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="chkVertical.Text" xml:space="preserve">
-    <value>垂直翻转</value>
+    <value>Vertical flip</value>
   </data>
   <data name="&gt;&gt;cmdOK.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -150,7 +150,7 @@
     <value>True</value>
   </data>
   <data name="rdoRight90.Text" xml:space="preserve">
-    <value>右转90度</value>
+    <value>Rotate right 90°</value>
   </data>
   <data name="&gt;&gt;panel1.Name" xml:space="preserve">
     <value>panel1</value>
@@ -165,7 +165,7 @@
     <value>label1</value>
   </data>
   <data name="chkHorizon.Text" xml:space="preserve">
-    <value>水平翻转</value>
+    <value>Horizontal flip</value>
   </data>
   <data name="picPreview.Size" type="System.Drawing.Size, System.Drawing">
     <value>167, 131</value>
@@ -222,7 +222,7 @@
     <value>True</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>设置</value>
+    <value>Settings</value>
   </data>
   <data name="&gt;&gt;chkHorizon.Name" xml:space="preserve">
     <value>chkHorizon</value>
@@ -387,7 +387,7 @@
     <value>179, 157</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>翻转参考图∶</value>
+    <value>Flip reference image:</value>
   </data>
   <data name="&gt;&gt;rdoRight90.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -406,10 +406,10 @@
     <value>Bottom, Right</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>预览</value>
+    <value>Preview</value>
   </data>
   <data name="rdoNone.Text" xml:space="preserve">
-    <value>无</value>
+    <value>Empty</value>
   </data>
   <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>261, 8</value>
@@ -471,10 +471,10 @@
   <data name="&gt;&gt;rdoRight90.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
     <value>zh</value>
-  </metadata>
+  </data>
 </root>

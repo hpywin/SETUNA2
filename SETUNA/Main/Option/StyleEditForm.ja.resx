@@ -117,11 +117,98 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 12</value>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="btnItemDelete.ToolTip" xml:space="preserve">
+    <value>選択した項目を削除する。</value>
+  </data>
+  <data name="btnItemDelete.ToolTip1" xml:space="preserve">
+    <value>選択した項目を削除する。</value>
+  </data>
+  <data name="btnItemDown.ToolTip" xml:space="preserve">
+    <value>選択した項目の順序を変更する。</value>
+  </data>
+  <data name="btnItemDown.ToolTip1" xml:space="preserve">
+    <value>選択した項目の順序を変更する。</value>
+  </data>
+  <data name="btnItemUp.ToolTip" xml:space="preserve">
+    <value>選択した項目の順序を変更する。</value>
+  </data>
+  <data name="btnItemUp.ToolTip1" xml:space="preserve">
+    <value>選択した項目の順序を変更する。</value>
+  </data>
+  <data name="btnKeyDelete.Text" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="btnKeyEntry.Text" xml:space="preserve">
+    <value>登録</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>ショートカットキーを指定する</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>自動操作の組み立て</value>
+  </data>
+  <data name="hotkey.ToolTip" xml:space="preserve">
+    <value>自動操作のショートカットキーを作成する。</value>
+  </data>
+  <data name="hotkey.ToolTip1" xml:space="preserve">
+    <value>自動操作のショートカットキーを作成する。</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>この項目は設定されていません</value>
+    <value>自動操作の名前:</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 12</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>自動操作のリスト:</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>登録方法:</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>ショートカットキー:</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>ショートカットキーの割り当て:</value>
+  </data>
+  <data name="listAllStyleItem.Items" xml:space="preserve">
+    <value>第1項</value>
+  </data>
+  <data name="listAllStyleItem.Items1" xml:space="preserve">
+    <value>第2項</value>
+  </data>
+  <data name="listAllStyleItem.Items2" xml:space="preserve">
+    <value>第3項</value>
+  </data>
+  <data name="listKeys.ToolTip" xml:space="preserve">
+    <value>参考図を選択し、割り当てられたショートカットキーをクリックすると自動操作が適用されます。</value>
+  </data>
+  <data name="listKeys.ToolTip1" xml:space="preserve">
+    <value>参考図を選択し、割り当てられたショートカットキーをクリックすると自動操作が適用されます。</value>
+  </data>
+  <data name="listStyleItem.Items" xml:space="preserve">
+    <value>第1項</value>
+  </data>
+  <data name="listStyleItem.Items1" xml:space="preserve">
+    <value>第2項</value>
+  </data>
+  <data name="listStyleItem.Items2" xml:space="preserve">
+    <value>第3項</value>
+  </data>
+  <data name="listStyleItem.ToolTip" xml:space="preserve">
+    <value>上から下に自動操作の項目を適用する。</value>
+  </data>
+  <data name="listStyleItem.ToolTip1" xml:space="preserve">
+    <value>上から下に自動操作の項目を適用する。</value>
+  </data>
+  <data name="txtStyleName.ToolTip" xml:space="preserve">
+    <value>具体的な自動操作に名前を付けることができます。</value>
   </data>
 </root>

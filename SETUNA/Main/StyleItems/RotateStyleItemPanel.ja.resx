@@ -118,30 +118,30 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="chkHorizon.Text" xml:space="preserve">
-    <value>水平翻转</value>
+    <value>水平反転</value>
   </data>
   <data name="chkVertical.Text" xml:space="preserve">
-    <value>垂直翻转</value>
+    <value>垂直反転</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>设置</value>
+    <value>設定</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>预览</value>
+    <value>プレビュー</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>旋转参考图：</value>
+    <value>参照画像を回転する:</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>翻转参考图∶</value>
+    <value>参照画像を反転する:</value>
   </data>
   <data name="rdoLeft90.Text" xml:space="preserve">
-    <value>左转90度</value>
+    <value>左に90度回転</value>
   </data>
   <data name="rdoNone.Text" xml:space="preserve">
-    <value>无</value>
+    <value>なし</value>
   </data>
   <data name="rdoRight90.Text" xml:space="preserve">
-    <value>右转90度</value>
+    <value>右に90度回転</value>
   </data>
 </root>

@@ -118,18 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>设置</value>
+    <value>設定</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>尺度∶</value>
+    <value>縮尺:</value>
   </data>
   <data name="lblInterpolation.Text" xml:space="preserve">
-    <value>插值方法：</value>
+    <value>補間方法:</value>
   </data>
   <data name="rdoFixed.Text" xml:space="preserve">
-    <value>绝对值</value>
+    <value>絶対値</value>
   </data>
   <data name="rdoIncrement.Text" xml:space="preserve">
-    <value>相对值</value>
+    <value>相対値</value>
   </data>
 </root>

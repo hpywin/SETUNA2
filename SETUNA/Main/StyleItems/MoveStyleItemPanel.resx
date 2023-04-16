@@ -121,9 +121,9 @@
   <data name="numUp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>326, 251</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chkLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;numLeft.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -134,20 +134,18 @@
   <data name="&gt;&gt;cmdOK.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="chkRight.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopCenter</value>
   </data>
   <data name="chkLeft.Text" xml:space="preserve">
-    <value>左</value>
+    <value>Left</value>
   </data>
   <data name="&gt;&gt;chkLeft.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;chkLeft.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="chkDown.Text" xml:space="preserve">
-    <value>下</value>
   </data>
   <data name="&gt;&gt;numRight.Name" xml:space="preserve">
     <value>numRight</value>
@@ -158,8 +156,8 @@
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MoveStyleItemPanel</value>
   </data>
-  <data name="&gt;&gt;chkLeft.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;chkRight.Name" xml:space="preserve">
+    <value>chkRight</value>
   </data>
   <data name="&gt;&gt;chkRight.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -176,6 +174,9 @@
   <data name="chkRight.Location" type="System.Drawing.Point, System.Drawing">
     <value>176, 81</value>
   </data>
+  <data name="&gt;&gt;chkLeft.Name" xml:space="preserve">
+    <value>chkLeft</value>
+  </data>
   <data name="&gt;&gt;numUp.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
@@ -191,15 +192,17 @@
   <data name="numLeft.Location" type="System.Drawing.Point, System.Drawing">
     <value>75, 96</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="numRight.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
+  </data>
+  <data name="chkLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 49</value>
   </data>
   <data name="numRight.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 19</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>设置</value>
+    <value>Settings</value>
   </data>
   <data name="chkUp.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -223,7 +226,7 @@
     <value>115, 24</value>
   </data>
   <data name="chkUp.Text" xml:space="preserve">
-    <value>上</value>
+    <value>Top</value>
   </data>
   <data name="&gt;&gt;chkDown.ZOrder" xml:space="preserve">
     <value>7</value>
@@ -231,20 +234,14 @@
   <data name="numLeft.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;cmdOK.Name" xml:space="preserve">
-    <value>cmdOK</value>
-  </data>
   <data name="chkDown.Location" type="System.Drawing.Point, System.Drawing">
     <value>115, 139</value>
   </data>
-  <data name="&gt;&gt;chkDown.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="numLeft.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Off</value>
   </data>
   <data name="&gt;&gt;chkUp.ZOrder" xml:space="preserve">
     <value>6</value>
-  </data>
-  <data name="&gt;&gt;chkUp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="chkRight.Size" type="System.Drawing.Size, System.Drawing">
     <value>73, 49</value>
@@ -256,13 +253,16 @@
     <value>2</value>
   </data>
   <data name="chkRight.Text" xml:space="preserve">
-    <value>右</value>
+    <value>Right</value>
   </data>
   <data name="chkLeft.Location" type="System.Drawing.Point, System.Drawing">
     <value>57, 81</value>
   </data>
   <data name="chkRight.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;chkDown.Name" xml:space="preserve">
     <value>chkDown</value>
@@ -303,26 +303,26 @@
   <data name="numUp.Location" type="System.Drawing.Point, System.Drawing">
     <value>133, 39</value>
   </data>
+  <data name="numDown.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
   <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;chkRight.Name" xml:space="preserve">
-    <value>chkRight</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>SETUNA.Main.StyleItems.ToolBoxForm, SETUNA, Version=3.0.0.6, Culture=neutral, PublicKeyToken=null</value>
+  <data name="&gt;&gt;chkDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;numRight.Parent" xml:space="preserve">
     <value>groupBox1</value>
-  </data>
-  <data name="cmdCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
   </data>
   <data name="&gt;&gt;chkUp.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;numLeft.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;numDown.Name" xml:space="preserve">
     <value>numDown</value>
@@ -333,11 +333,11 @@
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 8</value>
   </data>
-  <data name="chkLeft.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="cmdCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
   </data>
-  <data name="&gt;&gt;chkLeft.Name" xml:space="preserve">
-    <value>chkLeft</value>
+  <data name="&gt;&gt;chkUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="numUp.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -348,11 +348,11 @@
   <data name="&gt;&gt;numUp.Name" xml:space="preserve">
     <value>numUp</value>
   </data>
-  <data name="chkLeft.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 49</value>
+  <data name="&gt;&gt;cmdOK.Name" xml:space="preserve">
+    <value>cmdOK</value>
   </data>
-  <data name="numDown.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="chkDown.Text" xml:space="preserve">
+    <value>Bottom</value>
   </data>
   <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
     <value>groupBox1</value>
@@ -360,20 +360,20 @@
   <data name="cmdCancel.Location" type="System.Drawing.Point, System.Drawing">
     <value>248, 219</value>
   </data>
-  <data name="&gt;&gt;cmdCancel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;chkLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;numUp.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="numLeft.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Off</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>326, 251</value>
   </data>
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>SETUNA.Main.StyleItems.ToolBoxForm, SETUNA, Version=3.0.0.6, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;numRight.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -396,10 +396,7 @@
   <data name="chkUp.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopCenter</value>
   </data>
-  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </data>
-  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
-    <value>zh</value>
-  </data>
+  </metadata>
 </root>

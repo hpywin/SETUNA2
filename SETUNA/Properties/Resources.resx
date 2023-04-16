@@ -1259,7 +1259,7 @@
     <value>Copy</value>
   </data>
   <data name="label10" xml:space="preserve">
-    <value>Fliphorizontally</value>
+    <value>Flip horizontally</value>
   </data>
   <data name="label11" xml:space="preserve">
     <value>Enlarge</value>
@@ -1274,85 +1274,85 @@
     <value>Reduce(fine-tune)</value>
   </data>
   <data name="label15" xml:space="preserve">
-    <value>Increaseopacity</value>
+    <value>Increase opacity</value>
   </data>
   <data name="label16" xml:space="preserve">
-    <value>Increaseopacity(fine-tune)</value>
+    <value>Increase opacity(fine-tune)</value>
   </data>
   <data name="label17" xml:space="preserve">
-    <value>Decreaseopacity</value>
+    <value>Decrease opacity</value>
   </data>
   <data name="label18" xml:space="preserve">
-    <value>Decreaseopacity(fine-tune)</value>
+    <value>Decrease opacity(fine-tune)</value>
   </data>
   <data name="label19" xml:space="preserve">
-    <value>Moveup</value>
+    <value>Move up</value>
   </data>
   <data name="label2" xml:space="preserve">
     <value>Copy(withborder)</value>
   </data>
   <data name="label20" xml:space="preserve">
-    <value>Moveup(fine-tune)</value>
+    <value>Move up(fine-tune)</value>
   </data>
   <data name="label21" xml:space="preserve">
-    <value>Movedown</value>
+    <value>Move down</value>
   </data>
   <data name="label22" xml:space="preserve">
-    <value>Movedown(fine-tune)</value>
+    <value>Move down(fine-tune)</value>
   </data>
   <data name="label23" xml:space="preserve">
-    <value>Moveleft</value>
+    <value>Move left</value>
   </data>
   <data name="label24" xml:space="preserve">
-    <value>Moveleft(fine-tune)</value>
+    <value>Move left(fine-tune)</value>
   </data>
   <data name="label25" xml:space="preserve">
-    <value>Moveright</value>
+    <value>Move right</value>
   </data>
   <data name="label26" xml:space="preserve">
     <value>Moveright(fine-tune)</value>
   </data>
   <data name="label27" xml:space="preserve">
-    <value>Scaleto50%</value>
+    <value>Scaleto 50%</value>
   </data>
   <data name="label28" xml:space="preserve">
-    <value>Scaleto60%</value>
+    <value>Scaleto 60%</value>
   </data>
   <data name="label29" xml:space="preserve">
-    <value>Scaleto70%</value>
+    <value>Scaleto 70%</value>
   </data>
   <data name="label3" xml:space="preserve">
     <value>Cut</value>
   </data>
   <data name="label30" xml:space="preserve">
-    <value>Scaleto80%</value>
+    <value>Scaleto 80%</value>
   </data>
   <data name="label31" xml:space="preserve">
-    <value>Scaleto90%</value>
+    <value>Scaleto 90%</value>
   </data>
   <data name="label32" xml:space="preserve">
-    <value>Scaleto100%</value>
+    <value>Scaleto 100%</value>
   </data>
   <data name="label33" xml:space="preserve">
-    <value>Scaleto150%</value>
+    <value>Scaleto 150%</value>
   </data>
   <data name="label34" xml:space="preserve">
-    <value>3Dborder</value>
+    <value>3D border</value>
   </data>
   <data name="label35" xml:space="preserve">
-    <value>Monochromeborder</value>
+    <value>Monochrome border</value>
   </data>
   <data name="label36" xml:space="preserve">
-    <value>Windowize</value>
+    <value>Window size</value>
   </data>
   <data name="label37" xml:space="preserve">
-    <value>Noborder</value>
+    <value>No border</value>
   </data>
   <data name="label38" xml:space="preserve">
     <value>Close</value>
   </data>
   <data name="label39" xml:space="preserve">
-    <value>Basicautomaticoperation</value>
+    <value>Basic automatic operation</value>
   </data>
   <data name="label4" xml:space="preserve">
     <value>Cut(withborder)</value>
@@ -1370,13 +1370,13 @@
     <value>Save</value>
   </data>
   <data name="label7" xml:space="preserve">
-    <value>Save(withborder)</value>
+    <value>Save(with border)</value>
   </data>
   <data name="label8" xml:space="preserve">
-    <value>Rotate90degrees</value>
+    <value>Rotate 90 degrees</value>
   </data>
   <data name="label9" xml:space="preserve">
-    <value>Flipvertically</value>
+    <value>Flip vertically</value>
   </data>
   <data name="label50" xml:space="preserve">
     <value>recycle bin</value>
@@ -1391,28 +1391,28 @@
     <value>Separator</value>
   </data>
   <data name="label54" xml:space="preserve">
-    <value>VersionInformation</value>
+    <value>Version information</value>
   </data>
   <data name="label55" xml:space="preserve">
-    <value>ExitSETUNA</value>
+    <value>Exit SETUNA</value>
   </data>
   <data name="label56" xml:space="preserve">
-    <value>HideAll</value>
+    <value>Hide all</value>
   </data>
   <data name="label57" xml:space="preserve">
-    <value>ShowAll</value>
+    <value>Show all</value>
   </data>
   <data name="label58" xml:space="preserve">
     <value>Close</value>
   </data>
   <data name="label59" xml:space="preserve">
-    <value>EmptyRecycleBin</value>
+    <value>Empty recycle bin</value>
   </data>
   <data name="label60" xml:space="preserve">
-    <value>CloseAllScreenshots</value>
+    <value>Close all screenshots</value>
   </data>
   <data name="label61" xml:space="preserve">
-    <value>CloseAllScreenshots?</value>
+    <value>Close all screenshots?</value>
   </data>
   <data name="label62" xml:space="preserve">
     <value>Hint</value>
@@ -1421,49 +1421,49 @@
     <value>Options</value>
   </data>
   <data name="label64" xml:space="preserve">
-    <value>PasteScreenshotfromClipboard</value>
+    <value>Paste Screenshot from Clipboard</value>
   </data>
   <data name="label65" xml:space="preserve">
     <value>Empty</value>
   </data>
   <data name="label66" xml:space="preserve">
-    <value>Unabletosaveconfigurationfile.</value>
+    <value>Unable to save configuration file.</value>
   </data>
   <data name="label67" xml:space="preserve">
-    <value>Unabletosaveconfigurationfile.Usingdefaultsettings.</value>
+    <value>Unable to save configuration file. Using default settings.</value>
   </data>
   <data name="label68" xml:space="preserve">
-    <value>SETUNAisalreadyrunninginadifferentversion.</value>
+    <value>SETUNA is already running in a different version.</value>
   </data>
   <data name="label69" xml:space="preserve">
-    <value>-Commandlineparameters--------------------</value>
+    <value>-Command line parameters--------------------</value>
   </data>
   <data name="label70" xml:space="preserve">
     <value>[Location]</value>
   </data>
   <data name="label71" xml:space="preserve">
-    <value>Invalidfoldername.</value>
+    <value>Invalid folder name.</value>
   </data>
   <data name="label72" xml:space="preserve">
-    <value>Nofilenamespecified.</value>
+    <value>No file name specified.</value>
   </data>
   <data name="label73" xml:space="preserve">
-    <value>Invalidfilename.</value>
+    <value>Invalid filename.</value>
   </data>
   <data name="label74" xml:space="preserve">
-    <value>Rotateandflip</value>
+    <value>Rotate and flip</value>
   </data>
   <data name="label75" xml:space="preserve">
-    <value>Referenceimageforrotationandflipping.</value>
+    <value>Reference image for rotation and flipping.</value>
   </data>
   <data name="label76" xml:space="preserve">
-    <value>Referenceimageforscaling.</value>
+    <value>Reference image for scaling.</value>
   </data>
   <data name="label77" xml:space="preserve">
-    <value>Referenceimageforscalingdown/up.</value>
+    <value>Reference image for scaling down/up.</value>
   </data>
   <data name="label78" xml:space="preserve">
-    <value>Originalsize</value>
+    <value>Original size</value>
   </data>
   <data name="label79" xml:space="preserve">
     <value>%Fixed</value>
@@ -1478,7 +1478,7 @@
     <value>Windowize</value>
   </data>
   <data name="label83" xml:space="preserve">
-    <value>Addwindowbordertothereferenceimage.</value>
+    <value>Add window border to the reference image.</value>
   </data>
   <data name="label84" xml:space="preserve">
     <value>Yes</value>

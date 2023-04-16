@@ -156,7 +156,7 @@
     <value>107, 80</value>
   </data>
   <data name="lblInterpolation.Text" xml:space="preserve">
-    <value>插值方法：</value>
+    <value>Interpolation method:</value>
   </data>
   <data name="numRelativeScale.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 19</value>
@@ -228,7 +228,7 @@
     <value>9</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>设置</value>
+    <value>Settings</value>
   </data>
   <data name="cmbInterpolation.Location" type="System.Drawing.Point, System.Drawing">
     <value>107, 124</value>
@@ -264,7 +264,7 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="rdoIncrement.Text" xml:space="preserve">
-    <value>相对值</value>
+    <value>Relative value</value>
   </data>
   <data name="&gt;&gt;barFixed.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -340,7 +340,7 @@
     <value>True</value>
   </data>
   <data name="rdoFixed.Text" xml:space="preserve">
-    <value>绝对值</value>
+    <value>Absolute value</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -463,7 +463,7 @@
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>尺度∶</value>
+    <value>Scale:</value>
   </data>
   <data name="&gt;&gt;label3.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -471,10 +471,10 @@
   <data name="&gt;&gt;rdoIncrement.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
     <value>zh</value>
-  </metadata>
+  </data>
 </root>

@@ -572,9 +572,6 @@
     <EmbeddedResource Include="Main\Magnifier.resx">
       <DependentUpon>Magnifier.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main\Option\OptionForm.is.resx">
-      <DependentUpon>OptionForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Main\Option\OptionForm.ja.resx">
       <DependentUpon>OptionForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -593,7 +590,13 @@
     <EmbeddedResource Include="Main\Option\OptionForm.zh.resx">
       <DependentUpon>OptionForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Main\Option\StyleEditForm.ja.resx">
+      <DependentUpon>StyleEditForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main\Option\StyleEditForm.resx">
+      <DependentUpon>StyleEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Option\StyleEditForm.zh.resx">
       <DependentUpon>StyleEditForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\ScrapBase.resx">
@@ -897,8 +900,9 @@
   </Target>
   <PropertyGroup>
     <PostBuildEvent>mkdir $(SolutionDir)\publish
-7z a $(TargetName)_$(ConfigurationName)_$(PlatformName).zip $(ProjectDir)$(OutDir)$(TargetFileName) $(ProjectDir)$(OutDir)$(TargetFileName).config
-copy /y $(TargetName)_$(ConfigurationName)_$(PlatformName).zip $(SolutionDir)\publish\$(TargetName)_$(ConfigurationName)_$(PlatformName).zip</PostBuildEvent>
+7z a $(TargetName)_$(ConfigurationName)_$(PlatformName).zip $(ProjectDir)$(OutDir)$(TargetFileName) $(ProjectDir)$(OutDir)$(TargetFileName).config $(ProjectDir)$(OutDir)ja $(ProjectDir)$(OutDir)zh
+copy /y $(TargetName)_$(ConfigurationName)_$(PlatformName).zip $(SolutionDir)\publish\$(TargetName)_$(ConfigurationName)_$(PlatformName).zip
+</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
     <PreBuildEvent>

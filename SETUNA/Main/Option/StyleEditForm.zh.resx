@@ -117,11 +117,94 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 12</value>
-  </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>この項目は設定されていません</value>
+    <value>自动操作名∶</value>
+  </data>
+  <data name="txtStyleName.ToolTip" xml:space="preserve">
+    <value>您可以对具体自动操作命名。</value>
+  </data>
+  <data name="hotkey.ToolTip" xml:space="preserve">
+    <value>创建应用自动操作的快捷键。</value>
+  </data>
+  <data name="hotkey.ToolTip1" xml:space="preserve">
+    <value>创建应用自动操作的快捷键。</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>快捷键分配：</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>快捷键：</value>
+  </data>
+  <data name="btnKeyDelete.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="listKeys.ToolTip" xml:space="preserve">
+    <value>选择参考图，如果点击分配的快捷键则应用自动操作。</value>
+  </data>
+  <data name="listKeys.ToolTip1" xml:space="preserve">
+    <value>选择参考图，如果点击分配的快捷键则应用自动操作。</value>
+  </data>
+  <data name="btnKeyEntry.Text" xml:space="preserve">
+    <value>登记</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>指定快捷键</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="listStyleItem.Items" xml:space="preserve">
+    <value>第1项</value>
+  </data>
+  <data name="listStyleItem.Items1" xml:space="preserve">
+    <value>第2项</value>
+  </data>
+  <data name="listStyleItem.Items2" xml:space="preserve">
+    <value>第3项</value>
+  </data>
+  <data name="listStyleItem.ToolTip" xml:space="preserve">
+    <value>自上而下依次应用自动操作项目。</value>
+  </data>
+  <data name="listStyleItem.ToolTip1" xml:space="preserve">
+    <value>自上而下依次应用自动操作项目。</value>
+  </data>
+  <data name="listAllStyleItem.Items" xml:space="preserve">
+    <value>第1项</value>
+  </data>
+  <data name="listAllStyleItem.Items1" xml:space="preserve">
+    <value>第2项</value>
+  </data>
+  <data name="listAllStyleItem.Items2" xml:space="preserve">
+    <value>第3项</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>登记方式：</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>自动操作列表：</value>
+  </data>
+  <data name="btnItemDelete.ToolTip" xml:space="preserve">
+    <value>删除选定的项目。</value>
+  </data>
+  <data name="btnItemDelete.ToolTip1" xml:space="preserve">
+    <value>删除选定的项目。</value>
+  </data>
+  <data name="btnItemDown.ToolTip" xml:space="preserve">
+    <value>更改选定项目的顺序。</value>
+  </data>
+  <data name="btnItemDown.ToolTip1" xml:space="preserve">
+    <value>更改选定项目的顺序。</value>
+  </data>
+  <data name="btnItemUp.ToolTip" xml:space="preserve">
+    <value>更改选定项目的顺序。</value>
+  </data>
+  <data name="btnItemUp.ToolTip1" xml:space="preserve">
+    <value>更改选定项目的顺序。</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>自动操作的装配</value>
   </data>
 </root>

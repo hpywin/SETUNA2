@@ -524,4 +524,7 @@
   <data name="lblMenuAll.Text" xml:space="preserve">
     <value>常规</value>
   </data>
+  <data name="groupBox17.Text" xml:space="preserve">
+    <value>语言</value>
+  </data>
 </root>

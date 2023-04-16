@@ -118,27 +118,27 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="chkTopMost.Text" xml:space="preserve">
-    <value>设置为总在最上面</value>
+    <value>常に最前面に表示</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>设置</value>
+    <value>設定</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>预览</value>
+    <value>プレビュー</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>宽度：</value>
+    <value>幅:</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>颜色∶</value>
+    <value>色:</value>
   </data>
   <data name="rdo3D.Text" xml:space="preserve">
-    <value>立体边框</value>
+    <value>立体的なボーダー</value>
   </data>
   <data name="rdoSolid.Text" xml:space="preserve">
-    <value>单色边框</value>
+    <value>単色のボーダー</value>
   </data>
   <data name="rdoWindow.Text" xml:space="preserve">
-    <value>窗口边框</value>
+    <value>ウィンドウのボーダー</value>
   </data>
 </root>
