@@ -1379,7 +1379,7 @@
     <value>Flip vertically</value>
   </data>
   <data name="label50" xml:space="preserve">
-    <value>recycle bin</value>
+    <value>Recycle bin</value>
   </data>
   <data name="label51" xml:space="preserve">
     <value>Screenshot  list</value>
@@ -1589,7 +1589,7 @@
     <value>Save the screenshot as PNG format image.</value>
   </data>
   <data name="label94" xml:space="preserve">
-    <value>Png format (.png)|.png|All Files (*.*)|*.*</value>
+    <value>PNG format (.png)|.png|All Files (*.*)|*.*</value>
   </data>
   <data name="label95" xml:space="preserve">
     <value>Can not save.</value>
@@ -1610,7 +1610,7 @@
     <value>Shrink the size of the screenshot.</value>
   </data>
   <data name="label127" xml:space="preserve">
-    <value>Shrink the size of the screenshot.\nSubsequent automatic operations will not be used.</value>
+    <value>Shrink the size of the screenshot.\nSubsequent automatic operation not applied.</value>
   </data>
   <data name="label128" xml:space="preserve">
     <value>Copy to clipboard</value>
@@ -1622,7 +1622,7 @@
     <value>Close</value>
   </data>
   <data name="label131" xml:space="preserve">
-    <value>Close the screenshot.\nSubsequent automatic operations will not be used.</value>
+    <value>Close the screenshot.\nSubsequent automatic operation not applied.</value>
   </data>
   <data name="label149" xml:space="preserve">
     <value>Official version (site closed)</value>
@@ -1643,7 +1643,7 @@
     <value>Settings for screenshot.</value>
   </data>
   <data name="label155" xml:space="preserve">
-    <value>Create styles by combination of style items.</value>
+    <value>Create automatic operation by combination of tasks.</value>
   </data>
   <data name="label156" xml:space="preserve">
     <value>Setings for right-click menu on screenshot.</value>

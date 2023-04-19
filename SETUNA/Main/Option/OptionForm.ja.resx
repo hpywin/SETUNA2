@@ -120,121 +120,10 @@
   <data name="btnCancel.Text" xml:space="preserve">
     <value>キャンセル</value>
   </data>
-  <data name="pageAll.Text" xml:space="preserve">
-    <value>全般</value>
-  </data>
-  <data name="pageCapture.Text" xml:space="preserve">
-    <value>キャプチャー設定</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="chkScrapImageDrag.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 12</value>
-  </data>
-  <data name="chkScrapImageDrag.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 16</value>
-  </data>
-  <data name="chkScrapImageDrag.Text" xml:space="preserve">
-    <value>画像ファイルのドラッグでスクラップを作成</value>
-  </data>
-  <data name="chkScrapImageDrag.ToolTip" xml:space="preserve">
-    <value>画像ファイルをスクラップブックにドラッグして、参照画像として表示します。</value>
-  </data>
-  <data name="chkMouseOverAlphaChange.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 16</value>
-  </data>
-  <data name="chkMouseOverAlphaChange.Text" xml:space="preserve">
-    <value>スクラップの不透明度を変える</value>
-  </data>
-  <data name="chkMouseOverAlphaChange.ToolTip" xml:space="preserve">
-    <value>マウス カーソルが上にあるときの参照イメージの透明度を設定します。
-応答が遅い場合はオフにしてください。</value>
-  </data>
-  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 12</value>
-  </data>
-  <data name="label11.Text" xml:space="preserve">
-    <value>マウスが触れている時</value>
-  </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 12</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>マウスが触れていない時</value>
-  </data>
-  <data name="chkInactiveAlphaChange.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 16</value>
-  </data>
-  <data name="chkInactiveAlphaChange.Text" xml:space="preserve">
-    <value>スクラップの不透明度を変える</value>
-  </data>
-  <data name="chkInactiveAlphaChange.ToolTip" xml:space="preserve">
-    <value>マウス カーソルがリファレンス マップから離れた後のリファレンス マップの透明度を設定します。
-応答が遅い場合はオフにしてください。</value>
-  </data>
-  <data name="groupBox11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 47</value>
-  </data>
-  <data name="groupBox11.Text" xml:space="preserve">
-    <value>非選択時の効果</value>
-  </data>
-  <data name="pageScrap.Text" xml:space="preserve">
-    <value>スクラップ設定</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>スタイル一覧</value>
-  </data>
-  <data name="pageStyle.Text" xml:space="preserve">
-    <value>スタイルを作る</value>
-  </data>
-  <data name="groupBox10.Text" xml:space="preserve">
-    <value>スクラップメニュー</value>
-  </data>
-  <data name="groupBox9.Text" xml:space="preserve">
-    <value>その他</value>
-  </data>
-  <data name="groupBox8.Text" xml:space="preserve">
-    <value>スタイル一覧</value>
-  </data>
-  <data name="pageScrapMenu.Text" xml:space="preserve">
-    <value>スクラップメニュー</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="groupBox17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="groupBox17.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="groupBox17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>430, 86</value>
-  </data>
-  <data name="groupBox17.Text" xml:space="preserve">
-    <value>言語</value>
-  </data>
-  <data name="groupBox14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 224</value>
-  </data>
-  <data name="groupBox14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>430, 73</value>
-  </data>
-  <data name="groupBox14.Text" xml:space="preserve">
-    <value>その他</value>
-  </data>
-  <data name="groupBox16.Text" xml:space="preserve">
-    <value>全画面十字線スタイル</value>
-  </data>
-  <data name="groupBox15.Text" xml:space="preserve">
-    <value>スクリーンショットの背景</value>
-  </data>
-  <data name="pageMisc.Text" xml:space="preserve">
-    <value>その他</value>
-  </data>
   <data name="button2.Text" xml:space="preserve">
     <value>キャッシュディレクトリを開く</value>
   </data>
-  <data name="groupBox7.Text" xml:space="preserve">
-    <value>その他</value>
-  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="checkBox_autoStartup.Location" type="System.Drawing.Point, System.Drawing">
     <value>314, 22</value>
   </data>
@@ -262,8 +151,8 @@
   <data name="chkSplash.ToolTip" xml:space="preserve">
     <value>SETUNAを起動するとロゴが数秒間表示されます。</value>
   </data>
-  <data name="groupBox5.Text" xml:space="preserve">
-    <value>ごみ箱の設定</value>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>その他</value>
   </data>
   <data name="chkDustBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>84, 16</value>
@@ -285,11 +174,11 @@
     <value>ごみ箱に入れる最大枚数を指定します。
 制限を超えると、古い参照マップが破棄されます。</value>
   </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>ごみ箱の設定</value>
+  </data>
   <data name="btnInitialize.Text" xml:space="preserve">
     <value>すべての設定をデフォルトにリセット</value>
-  </data>
-  <data name="groupBox6.Text" xml:space="preserve">
-    <value>動作タイプ</value>
   </data>
   <data name="chkShowMainWindow.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 16</value>
@@ -315,14 +204,17 @@
   <data name="rdoExeTypeApp.ToolTip" xml:space="preserve">
     <value>メインウィンドウを表示、タスクバーに最小化</value>
   </data>
-  <data name="groupBox12.Text" xml:space="preserve">
-    <value>クリックキャプチャー</value>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>動作タイプ</value>
+  </data>
+  <data name="pageAll.Text" xml:space="preserve">
+    <value>全般</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
     <value>指定した画面の端をクリックすると、キャプチャーを行います。</value>
   </data>
-  <data name="groupBox3.Text" xml:space="preserve">
-    <value>二重起動防止時の動作</value>
+  <data name="groupBox12.Text" xml:space="preserve">
+    <value>クリックキャプチャー</value>
   </data>
   <data name="rdoDupCapture.Size" type="System.Drawing.Size, System.Drawing">
     <value>96, 16</value>
@@ -342,8 +234,8 @@
   <data name="rdoDupNone.ToolTip" xml:space="preserve">
     <value>SETUNA を繰り返し起動しようとすると、何も実行されません。(-_-;)</value>
   </data>
-  <data name="groupBox4.Text" xml:space="preserve">
-    <value>キャプチャー選択範囲</value>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>二重起動防止時の動作</value>
   </data>
   <data name="rdoSelLineTypeDotted.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 16</value>
@@ -398,8 +290,8 @@
   <data name="label7.Text" xml:space="preserve">
     <value>選択ラインの種類∶</value>
   </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>ホットキー設定</value>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>キャプチャー選択範囲</value>
   </data>
   <data name="hotkeyControl2.ToolTip" xml:space="preserve">
     <value>Ctrl キー、Shift キー、Alt キー、各キーの組み合わせで、すべてのスクリーンショットを非表示/表示するためのショートカット キーを設定します。
@@ -433,6 +325,15 @@
   <data name="label3.Text" xml:space="preserve">
     <value>ホットキー∶</value>
   </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>ホットキー設定</value>
+  </data>
+  <data name="pageCapture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 331</value>
+  </data>
+  <data name="pageCapture.Text" xml:space="preserve">
+    <value>キャプチャー設定</value>
+  </data>
   <data name="cmbWClickStyle.ToolTip" xml:space="preserve">
     <value>参照イメージをダブルクリックしたときに使用する自動アクションを指定します。</value>
   </data>
@@ -450,6 +351,59 @@
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>基本スタイル：</value>
+  </data>
+  <data name="chkScrapImageDrag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="chkScrapImageDrag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 16</value>
+  </data>
+  <data name="chkScrapImageDrag.Text" xml:space="preserve">
+    <value>画像ファイルのドラッグでスクラップを作成</value>
+  </data>
+  <data name="chkScrapImageDrag.ToolTip" xml:space="preserve">
+    <value>画像ファイルをスクラップブックにドラッグして、参照画像として表示します。</value>
+  </data>
+  <data name="chkMouseOverAlphaChange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 16</value>
+  </data>
+  <data name="chkMouseOverAlphaChange.Text" xml:space="preserve">
+    <value>スクラップの不透明度を変える</value>
+  </data>
+  <data name="chkMouseOverAlphaChange.ToolTip" xml:space="preserve">
+    <value>マウス カーソルが上にあるときの参照イメージの透明度を設定します。
+応答が遅い場合はオフにしてください。</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 12</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>マウスが触れている時</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 12</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>マウスが触れていない時</value>
+  </data>
+  <data name="chkInactiveAlphaChange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 16</value>
+  </data>
+  <data name="chkInactiveAlphaChange.Text" xml:space="preserve">
+    <value>スクラップの不透明度を変える</value>
+  </data>
+  <data name="chkInactiveAlphaChange.ToolTip" xml:space="preserve">
+    <value>マウス カーソルがリファレンス マップから離れた後のリファレンス マップの透明度を設定します。
+応答が遅い場合はオフにしてください。</value>
+  </data>
+  <data name="groupBox11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 47</value>
+  </data>
+  <data name="groupBox11.Text" xml:space="preserve">
+    <value>非選択時の効果</value>
+  </data>
+  <data name="pageScrap.Text" xml:space="preserve">
+    <value>スクラップ設定</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
     <value>複製</value>
@@ -475,8 +429,32 @@
   <data name="btnNewStyle.Text" xml:space="preserve">
     <value>新規作成</value>
   </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>スタイル一覧</value>
+  </data>
+  <data name="pageStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 331</value>
+  </data>
+  <data name="pageStyle.Text" xml:space="preserve">
+    <value>スタイルを作る</value>
+  </data>
   <data name="listScrapMenuList.ToolTip" xml:space="preserve">
     <value>参照図面を右クリックしたときに表示されるメニュー構造。</value>
+  </data>
+  <data name="groupBox10.Text" xml:space="preserve">
+    <value>スクラップメニュー</value>
+  </data>
+  <data name="groupBox9.Text" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <data name="groupBox8.Text" xml:space="preserve">
+    <value>スタイル一覧</value>
+  </data>
+  <data name="pageScrapMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 331</value>
+  </data>
+  <data name="pageScrapMenu.Text" xml:space="preserve">
+    <value>スクラップメニュー</value>
   </data>
   <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
     <value>305, 36</value>
@@ -487,6 +465,7 @@
 設定の初期化を行ってください。
 </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="comboBoxSelectLanguage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
@@ -508,6 +487,18 @@
   </data>
   <data name="checkBox_language_auto.Text" xml:space="preserve">
     <value>自動設定</value>
+  </data>
+  <data name="groupBox17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="groupBox17.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="groupBox17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 86</value>
+  </data>
+  <data name="groupBox17.Text" xml:space="preserve">
+    <value>言語</value>
   </data>
   <data name="checkBox_cursor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -535,6 +526,15 @@
   </data>
   <data name="checkBox_magnifier.ToolTip" xml:space="preserve">
     <value>スクリーンショットを撮るときに参照用に拡大鏡を表示する</value>
+  </data>
+  <data name="groupBox14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 224</value>
+  </data>
+  <data name="groupBox14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 73</value>
+  </data>
+  <data name="groupBox14.Text" xml:space="preserve">
+    <value>その他</value>
   </data>
   <data name="checkBox_fullscreenCursor.Location" type="System.Drawing.Point, System.Drawing">
     <value>326, 15</value>
@@ -587,11 +587,23 @@
   <data name="label19.Text" xml:space="preserve">
     <value>マーキー ラインの種類:</value>
   </data>
+  <data name="groupBox16.Text" xml:space="preserve">
+    <value>全画面十字線スタイル</value>
+  </data>
   <data name="checkBox_transparent.Size" type="System.Drawing.Size, System.Drawing">
     <value>290, 16</value>
   </data>
   <data name="checkBox_transparent.Text" xml:space="preserve">
     <value>スクリーンショットの透明部分をマウスが貫通できるかどうか</value>
+  </data>
+  <data name="groupBox15.Text" xml:space="preserve">
+    <value>スクリーンショットの背景</value>
+  </data>
+  <data name="pageMisc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 331</value>
+  </data>
+  <data name="pageMisc.Text" xml:space="preserve">
+    <value>その他</value>
   </data>
   <data name="lblMenuMisc.Text" xml:space="preserve">
     <value>その他</value>

@@ -223,6 +223,9 @@ namespace SETUNA.Main.Option
         private void StyleEditForm_Shown(object sender, EventArgs e)
         {
             txtStyleName.Focus();
+
+            // Force show over OptionForm
+            Layer.LayerManager.Instance.RefreshLayer();
         }
 
         // Token: 0x06000451 RID: 1105 RVA: 0x0001C713 File Offset: 0x0001A913

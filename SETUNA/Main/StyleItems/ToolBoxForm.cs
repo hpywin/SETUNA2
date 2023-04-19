@@ -59,5 +59,11 @@ namespace SETUNA.Main.StyleItems
         protected virtual void OKCheck(ref bool cancel)
         {
         }
+
+        private void ToolBoxForm_Shown(object sender, EventArgs e)
+        {
+            // Force show over StyleEditForm
+            Layer.LayerManager.Instance.RefreshLayer();
+        }
     }
 }

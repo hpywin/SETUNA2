@@ -1589,7 +1589,7 @@
     <value>PNG形式の画像として参考画像を保存する</value>
   </data>
   <data name="label94" xml:space="preserve">
-    <value>Png形式 (.png)|.png|すべてのファイル (*.*)|*.*</value>
+    <value>PNG形式 (.png)|.png|すべてのファイル (*.*)|*.*</value>
   </data>
   <data name="label95" xml:space="preserve">
     <value>保存できません。</value>
@@ -1610,7 +1610,7 @@
     <value>スクラップのサイズを縮小する</value>
   </data>
   <data name="label127" xml:space="preserve">
-    <value>スクラップのサイズを縮小する\nその後の自動操作は使用されません</value>
+    <value>スクラップのサイズを縮小する。\n自動処理は実行されません。</value>
   </data>
   <data name="label128" xml:space="preserve">
     <value>クリップボードにコピー</value>
@@ -1622,10 +1622,10 @@
     <value>閉じる</value>
   </data>
   <data name="label131" xml:space="preserve">
-    <value>スクラップを閉じる。\nその後の自動操作は使用されません</value>
+    <value>スクラップを閉じる。\n自動処理は実行されません。</value>
   </data>
   <data name="label149" xml:space="preserve">
-    <value>公式バージョン（閉鎖）</value>
+    <value>公式バージョン（サイト閉鎖）</value>
   </data>
   <data name="label150" xml:space="preserve">
     <value>最適化バージョン</value>
@@ -1643,7 +1643,7 @@
     <value>スクラップ全般の設定を行います。</value>
   </data>
   <data name="label155" xml:space="preserve">
-    <value>スタイルアイテムを組み合わせてスタイルを作成します。</value>
+    <value>タスクを組み合わせて自動処理を作成します。</value>
   </data>
   <data name="label156" xml:space="preserve">
     <value>スクラップを右クリックした時のサブメニューを設定します。</value>
@@ -1652,7 +1652,7 @@
     <value>マウスのスタイル設定など</value>
   </data>
   <data name="label158" xml:space="preserve">
-    <value>新しいスタイルを作成する</value>
+    <value>自動処理を作成する</value>
   </data>
   <data name="label159" xml:space="preserve">
     <value>設定を初期化する</value>

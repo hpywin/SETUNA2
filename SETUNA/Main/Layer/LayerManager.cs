@@ -22,6 +22,9 @@ namespace SETUNA.Main.Layer
         // 层级刷新 挂起开关
         private int isSuspendCount = 0;
 
+        private bool isTopOption = false;
+
+
         // 窗体过滤器
         private IWindowFilter windowFilter;
 
@@ -136,11 +139,19 @@ namespace SETUNA.Main.Layer
             // 是否挂起
             if (isSuspendCount > 0)
             {
-                return;
+                if (!isTopOption)
+                {
+                    return;
+                }
+                else
+                {
+                    RefreshLayer();
+                    return;
+                }
             }
 
-            // 是否当前项目的窗体
-            if (formDic.ContainsKey(windowInfo.Handle))
+                // 是否当前项目的窗体
+                if (formDic.ContainsKey(windowInfo.Handle))
             {
                 return;
             }

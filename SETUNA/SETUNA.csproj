@@ -127,6 +127,7 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Main\StyleItems\CFillRectangleStyleItem.cs" />
     <Compile Include="Plugins\ResourceExtractor.cs" />
     <Compile Include="Plugins\WebPWrapper.cs" />
     <Compile Include="ClickCapture.cs">

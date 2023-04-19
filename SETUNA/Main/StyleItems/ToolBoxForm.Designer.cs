@@ -51,6 +51,7 @@
             this.Name = "ToolBoxForm";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
+            this.Shown += new System.EventHandler(this.ToolBoxForm_Shown);
             this.ResumeLayout(false);
 
 		}

@@ -21,26 +21,26 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtStyleName = new System.Windows.Forms.TextBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.hotkey = new SETUNA.Main.HotkeyControl();
+            this.listKeys = new System.Windows.Forms.ListBox();
+            this.listStyleItem = new SETUNA.Main.StyleItemListBox();
+            this.btnItemDelete = new System.Windows.Forms.Button();
+            this.btnItemDown = new System.Windows.Forms.Button();
+            this.btnItemUp = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.hotkey = new SETUNA.Main.HotkeyControl();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.btnKeyDelete = new System.Windows.Forms.Button();
-            this.listKeys = new System.Windows.Forms.ListBox();
             this.btnKeyEntry = new System.Windows.Forms.Button();
             this.btnOk = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.listStyleItem = new SETUNA.Main.StyleItemListBox();
             this.listAllStyleItem = new SETUNA.Main.StyleItemListBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnItemDelete = new System.Windows.Forms.Button();
             this.btnInsert = new System.Windows.Forms.Button();
-            this.btnItemDown = new System.Windows.Forms.Button();
-            this.btnItemUp = new System.Windows.Forms.Button();
             this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -73,6 +73,76 @@
             this.toolTip1.UseAnimation = false;
             this.toolTip1.UseFading = false;
             // 
+            // hotkey
+            // 
+            this.hotkey.Hotkey = System.Windows.Forms.Keys.None;
+            resources.ApplyResources(this.hotkey, "hotkey");
+            this.hotkey.Name = "hotkey";
+            this.toolTip2.SetToolTip(this.hotkey, resources.GetString("hotkey.ToolTip"));
+            this.toolTip1.SetToolTip(this.hotkey, resources.GetString("hotkey.ToolTip1"));
+            this.hotkey.KeyUp += new System.Windows.Forms.KeyEventHandler(this.hotkey_KeyUp);
+            // 
+            // listKeys
+            // 
+            this.listKeys.FormattingEnabled = true;
+            resources.ApplyResources(this.listKeys, "listKeys");
+            this.listKeys.Name = "listKeys";
+            this.toolTip1.SetToolTip(this.listKeys, resources.GetString("listKeys.ToolTip"));
+            this.toolTip2.SetToolTip(this.listKeys, resources.GetString("listKeys.ToolTip1"));
+            // 
+            // listStyleItem
+            // 
+            resources.ApplyResources(this.listStyleItem, "listStyleItem");
+            this.listStyleItem.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.listStyleItem.FormattingEnabled = true;
+            this.listStyleItem.HelpFont = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.listStyleItem.HelpForeColor = System.Drawing.Color.SteelBlue;
+            this.listStyleItem.ItemDragMove = true;
+            this.listStyleItem.ItemKeyDelete = true;
+            this.listStyleItem.ItemLine = true;
+            this.listStyleItem.ItemLineColor = System.Drawing.Color.LightSteelBlue;
+            this.listStyleItem.Items.AddRange(new object[] {
+            resources.GetString("listStyleItem.Items"),
+            resources.GetString("listStyleItem.Items1"),
+            resources.GetString("listStyleItem.Items2")});
+            this.listStyleItem.LeftSpace = 34;
+            this.listStyleItem.Name = "listStyleItem";
+            this.listStyleItem.TerminateEnd = true;
+            this.toolTip1.SetToolTip(this.listStyleItem, resources.GetString("listStyleItem.ToolTip"));
+            this.toolTip2.SetToolTip(this.listStyleItem, resources.GetString("listStyleItem.ToolTip1"));
+            this.listStyleItem.Click += new System.EventHandler(this.listAllStyleItem_Click);
+            this.listStyleItem.DoubleClick += new System.EventHandler(this.listStyleItem_DoubleClick);
+            // 
+            // btnItemDelete
+            // 
+            resources.ApplyResources(this.btnItemDelete, "btnItemDelete");
+            this.btnItemDelete.Image = global::SETUNA.Properties.Resources.Close;
+            this.btnItemDelete.Name = "btnItemDelete";
+            this.toolTip1.SetToolTip(this.btnItemDelete, resources.GetString("btnItemDelete.ToolTip"));
+            this.toolTip2.SetToolTip(this.btnItemDelete, resources.GetString("btnItemDelete.ToolTip1"));
+            this.btnItemDelete.UseVisualStyleBackColor = true;
+            this.btnItemDelete.Click += new System.EventHandler(this.btnItemDelete_Click);
+            // 
+            // btnItemDown
+            // 
+            resources.ApplyResources(this.btnItemDown, "btnItemDown");
+            this.btnItemDown.Image = global::SETUNA.Properties.Resources.ArrowDown;
+            this.btnItemDown.Name = "btnItemDown";
+            this.toolTip1.SetToolTip(this.btnItemDown, resources.GetString("btnItemDown.ToolTip"));
+            this.toolTip2.SetToolTip(this.btnItemDown, resources.GetString("btnItemDown.ToolTip1"));
+            this.btnItemDown.UseVisualStyleBackColor = true;
+            this.btnItemDown.Click += new System.EventHandler(this.btnItemDown_Click);
+            // 
+            // btnItemUp
+            // 
+            resources.ApplyResources(this.btnItemUp, "btnItemUp");
+            this.btnItemUp.Image = global::SETUNA.Properties.Resources.ArrowUp;
+            this.btnItemUp.Name = "btnItemUp";
+            this.toolTip1.SetToolTip(this.btnItemUp, resources.GetString("btnItemUp.ToolTip"));
+            this.toolTip2.SetToolTip(this.btnItemUp, resources.GetString("btnItemUp.ToolTip1"));
+            this.btnItemUp.UseVisualStyleBackColor = true;
+            this.btnItemUp.Click += new System.EventHandler(this.btnItemUp_Click);
+            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.label1);
@@ -95,15 +165,6 @@
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
-            // hotkey
-            // 
-            this.hotkey.Hotkey = System.Windows.Forms.Keys.None;
-            resources.ApplyResources(this.hotkey, "hotkey");
-            this.hotkey.Name = "hotkey";
-            this.toolTip2.SetToolTip(this.hotkey, resources.GetString("hotkey.ToolTip"));
-            this.toolTip1.SetToolTip(this.hotkey, resources.GetString("hotkey.ToolTip1"));
-            this.hotkey.KeyUp += new System.Windows.Forms.KeyEventHandler(this.hotkey_KeyUp);
-            // 
             // label5
             // 
             resources.ApplyResources(this.label5, "label5");
@@ -120,14 +181,6 @@
             this.btnKeyDelete.Name = "btnKeyDelete";
             this.btnKeyDelete.UseVisualStyleBackColor = true;
             this.btnKeyDelete.Click += new System.EventHandler(this.btnKeyDelete_Click);
-            // 
-            // listKeys
-            // 
-            this.listKeys.FormattingEnabled = true;
-            resources.ApplyResources(this.listKeys, "listKeys");
-            this.listKeys.Name = "listKeys";
-            this.toolTip1.SetToolTip(this.listKeys, resources.GetString("listKeys.ToolTip"));
-            this.toolTip2.SetToolTip(this.listKeys, resources.GetString("listKeys.ToolTip1"));
             // 
             // btnKeyEntry
             // 
@@ -172,29 +225,6 @@
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
             // 
-            // listStyleItem
-            // 
-            resources.ApplyResources(this.listStyleItem, "listStyleItem");
-            this.listStyleItem.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.listStyleItem.FormattingEnabled = true;
-            this.listStyleItem.HelpFont = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.listStyleItem.HelpForeColor = System.Drawing.Color.SteelBlue;
-            this.listStyleItem.ItemDragMove = true;
-            this.listStyleItem.ItemKeyDelete = true;
-            this.listStyleItem.ItemLine = true;
-            this.listStyleItem.ItemLineColor = System.Drawing.Color.LightSteelBlue;
-            this.listStyleItem.Items.AddRange(new object[] {
-            resources.GetString("listStyleItem.Items"),
-            resources.GetString("listStyleItem.Items1"),
-            resources.GetString("listStyleItem.Items2")});
-            this.listStyleItem.LeftSpace = 34;
-            this.listStyleItem.Name = "listStyleItem";
-            this.listStyleItem.TerminateEnd = true;
-            this.toolTip1.SetToolTip(this.listStyleItem, resources.GetString("listStyleItem.ToolTip"));
-            this.toolTip2.SetToolTip(this.listStyleItem, resources.GetString("listStyleItem.ToolTip1"));
-            this.listStyleItem.Click += new System.EventHandler(this.listAllStyleItem_Click);
-            this.listStyleItem.DoubleClick += new System.EventHandler(this.listStyleItem_DoubleClick);
-            // 
             // listAllStyleItem
             // 
             resources.ApplyResources(this.listAllStyleItem, "listAllStyleItem");
@@ -226,42 +256,12 @@
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
             // 
-            // btnItemDelete
-            // 
-            resources.ApplyResources(this.btnItemDelete, "btnItemDelete");
-            this.btnItemDelete.Image = global::SETUNA.Properties.Resources.Close;
-            this.btnItemDelete.Name = "btnItemDelete";
-            this.toolTip1.SetToolTip(this.btnItemDelete, resources.GetString("btnItemDelete.ToolTip"));
-            this.toolTip2.SetToolTip(this.btnItemDelete, resources.GetString("btnItemDelete.ToolTip1"));
-            this.btnItemDelete.UseVisualStyleBackColor = true;
-            this.btnItemDelete.Click += new System.EventHandler(this.btnItemDelete_Click);
-            // 
             // btnInsert
             // 
             resources.ApplyResources(this.btnInsert, "btnInsert");
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.UseVisualStyleBackColor = true;
             this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click);
-            // 
-            // btnItemDown
-            // 
-            resources.ApplyResources(this.btnItemDown, "btnItemDown");
-            this.btnItemDown.Image = global::SETUNA.Properties.Resources.ArrowDown;
-            this.btnItemDown.Name = "btnItemDown";
-            this.toolTip1.SetToolTip(this.btnItemDown, resources.GetString("btnItemDown.ToolTip"));
-            this.toolTip2.SetToolTip(this.btnItemDown, resources.GetString("btnItemDown.ToolTip1"));
-            this.btnItemDown.UseVisualStyleBackColor = true;
-            this.btnItemDown.Click += new System.EventHandler(this.btnItemDown_Click);
-            // 
-            // btnItemUp
-            // 
-            resources.ApplyResources(this.btnItemUp, "btnItemUp");
-            this.btnItemUp.Image = global::SETUNA.Properties.Resources.ArrowUp;
-            this.btnItemUp.Name = "btnItemUp";
-            this.toolTip1.SetToolTip(this.btnItemUp, resources.GetString("btnItemUp.ToolTip"));
-            this.toolTip2.SetToolTip(this.btnItemUp, resources.GetString("btnItemUp.ToolTip1"));
-            this.btnItemUp.UseVisualStyleBackColor = true;
-            this.btnItemUp.Click += new System.EventHandler(this.btnItemUp_Click);
             // 
             // StyleEditForm
             // 

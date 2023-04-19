@@ -529,7 +529,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Shrink the size of the screenshot.\nSubsequent automatic operations will not be used. に類似しているローカライズされた文字列を検索します。
+        ///   Shrink the size of the screenshot.\nSubsequent automatic operation not applied. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label127 {
             get {
@@ -574,7 +574,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Close the screenshot.\nSubsequent automatic operations will not be used. に類似しているローカライズされた文字列を検索します。
+        ///   Close the screenshot.\nSubsequent automatic operation not applied. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label131 {
             get {
@@ -655,7 +655,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Create styles by combination of style items. に類似しているローカライズされた文字列を検索します。
+        ///   Create automatic operation by combination of tasks. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label155 {
             get {
@@ -970,7 +970,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   recycle bin に類似しているローカライズされた文字列を検索します。
+        ///   Recycle bin に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label50 {
             get {
@@ -1402,7 +1402,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Png format (.png)|.png|All Files (*.*)|*.* に類似しているローカライズされた文字列を検索します。
+        ///   PNG format (.png)|.png|All Files (*.*)|*.* に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label94 {
             get {

@@ -124,6 +124,13 @@
   <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
+  <data name="rdoSelLineTypeSolid.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 36</value>
+  </data>
   <data name="&gt;&gt;radioButton1_fullscreenCursor.Name" xml:space="preserve">
     <value>radioButton1_fullscreenCursor</value>
   </data>
@@ -132,10 +139,6 @@
   </data>
   <data name="&gt;&gt;lblMenuMenu.Parent" xml:space="preserve">
     <value>panel1</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="numInactiveAlpha.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 19</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="chkCC1.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
@@ -150,14 +153,17 @@
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>11, 12</value>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
   </data>
   <data name="&gt;&gt;lblMenuAll.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
     <value>98, 26</value>
+  </data>
+  <data name="&gt;&gt;numMouseOverAlpha.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="hotkeyControl2.Location" type="System.Drawing.Point, System.Drawing">
     <value>181, 58</value>
@@ -167,9 +173,6 @@
   </data>
   <data name="rdoSelLineTypeDotted.Size" type="System.Drawing.Size, System.Drawing">
     <value>83, 16</value>
-  </data>
-  <data name="checkBox_fullscreenCursor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>307, 15</value>
   </data>
   <data name="rdoExeTypeApp.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 16</value>
@@ -189,9 +192,6 @@
   <data name="pageAll.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="linkLabel1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
   <data name="&gt;&gt;chkSplash.Parent" xml:space="preserve">
     <value>groupBox7</value>
   </data>
@@ -201,17 +201,14 @@
   <data name="checkBox_autoStartup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
-  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
   <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupBox10.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="listScrapMenuList.ToolTip" xml:space="preserve">
     <value>The single structure shown on the right is for reference only.</value>
-  </data>
-  <data name="pageCapture.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 6, 5, 6</value>
   </data>
   <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 101</value>
@@ -250,6 +247,11 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="listKeyItems.Location" type="System.Drawing.Point, System.Drawing">
     <value>237, 204</value>
   </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>A restart is required after changing the language.
+Since the style name before the change remains, 
+Please initialize the settings to reflect the language change.</value>
+  </data>
   <data name="&gt;&gt;checkBox_fullscreenCursor.Name" xml:space="preserve">
     <value>checkBox_fullscreenCursor</value>
   </data>
@@ -277,9 +279,6 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="&gt;&gt;label13.Parent" xml:space="preserve">
     <value>groupBox11</value>
   </data>
-  <data name="&gt;&gt;lblMenuMenu.Name" xml:space="preserve">
-    <value>lblMenuMenu</value>
-  </data>
   <data name="linkLabel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>25, 12</value>
   </data>
@@ -288,6 +287,9 @@ Unusable and other procedure-installed speed keys.</value>
   </data>
   <data name="pageMisc.Text" xml:space="preserve">
     <value>Miscellaneous settings</value>
+  </data>
+  <data name="&gt;&gt;groupBox16.Name" xml:space="preserve">
+    <value>groupBox16</value>
   </data>
   <data name="button2.Text" xml:space="preserve">
     <value>Open cache directory</value>
@@ -305,11 +307,11 @@ Please close if the response speed is slow.</value>
   <data name="label5.Text" xml:space="preserve">
     <value>On Double Click:</value>
   </data>
-  <data name="&gt;&gt;linkLabel2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="&gt;&gt;numSelectAreaTrans.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 26</value>
   </data>
   <data name="linkLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -320,6 +322,9 @@ Please close if the response speed is slow.</value>
   <data name="&gt;&gt;linkLabel1.Name" xml:space="preserve">
     <value>linkLabel1</value>
   </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
   <data name="&gt;&gt;cmbWClickStyle.Parent" xml:space="preserve">
     <value>pnlScrapStyle</value>
   </data>
@@ -328,6 +333,9 @@ Please close if the response speed is slow.</value>
   </data>
   <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
     <value>flowLayoutPanel1</value>
+  </data>
+  <data name="radioButton1_fullscreenCursor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 16</value>
   </data>
   <data name="&gt;&gt;panel1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -347,8 +355,8 @@ Please close if the response speed is slow.</value>
   <data name="pnlScrapStyle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
-  <data name="listScrapMenuItems.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 18</value>
+  <data name="listScrapMenuItems.ItemHeight" type="System.Int32, mscorlib">
+    <value>20</value>
   </data>
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -365,8 +373,8 @@ Please close if the response speed is slow.</value>
   <data name="rdoDupNone.ToolTip" xml:space="preserve">
     <value>If you attempt to restart SETUNA again, do nothing.</value>
   </data>
-  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="hotkeyControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 30</value>
   </data>
   <data name="listScrapMenuList.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 18</value>
@@ -374,14 +382,14 @@ Please close if the response speed is slow.</value>
   <data name="linkLabel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
   </data>
-  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="chkCC9.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
-    <value>Button</value>
+  <data name="&gt;&gt;rdoSelLineTypeDotted.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblMenuCapture.Text" xml:space="preserve">
+    <value>Capture settings</value>
   </data>
   <data name="chkSplash.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -404,14 +412,14 @@ Please close if the response speed is slow.</value>
   <data name="&gt;&gt;groupBox11.Parent" xml:space="preserve">
     <value>panel4</value>
   </data>
-  <data name="&gt;&gt;picSelectAreaBackColor.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>287, 10</value>
   </data>
   <data name="rdoSelLineTypeDotted.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
+  </data>
+  <data name="pageScrap.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="&gt;&gt;hotkeyControl2.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -425,11 +433,11 @@ Please close if the response speed is slow.</value>
   <data name="label8.Text" xml:space="preserve">
     <value>Color of selection border line:</value>
   </data>
-  <data name="pictureBox_fullscreenCursor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 18</value>
-  </data>
   <data name="chkScrapImageDrag.ToolTip" xml:space="preserve">
     <value>Dragging an image file onto the reference image allows it to be viewed as a reference image.</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>%</value>
   </data>
   <data name="chkCC8.Size" type="System.Drawing.Size, System.Drawing">
     <value>78, 26</value>
@@ -437,8 +445,11 @@ Please close if the response speed is slow.</value>
   <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
     <value>pictureBox1</value>
   </data>
-  <data name="&gt;&gt;groupBox8.Name" xml:space="preserve">
-    <value>groupBox8</value>
+  <data name="btnDeleteStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;groupBox9.Parent" xml:space="preserve">
+    <value>pageScrapMenu</value>
   </data>
   <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
     <value>toolTip1</value>
@@ -479,9 +490,6 @@ Please close if the response speed is slow.</value>
   <data name="groupBox14.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
-  <data name="comboBoxSelectLanguage.Items2" xml:space="preserve">
-    <value>Chinese</value>
-  </data>
   <data name="rdoSelLineTypeDotted.ToolTip" xml:space="preserve">
     <value>Set the type of border line for selection range.</value>
   </data>
@@ -506,12 +514,6 @@ Please close if the response speed is slow.</value>
   <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
     <value>154, 12</value>
   </data>
-  <data name="groupBox6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="chkSplash.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
     <value>22, 34</value>
   </data>
@@ -533,9 +535,6 @@ Please close if the response speed is slow.</value>
   <data name="groupBox12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
-  <data name="&gt;&gt;cmbCreateStyle.Name" xml:space="preserve">
-    <value>cmbCreateStyle</value>
-  </data>
   <data name="&gt;&gt;groupBox16.Parent" xml:space="preserve">
     <value>pageMisc</value>
   </data>
@@ -545,8 +544,8 @@ Please close if the response speed is slow.</value>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;numDustBox.Name" xml:space="preserve">
-    <value>numDustBox</value>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="chkCC3.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
     <value>Button</value>
@@ -579,23 +578,20 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="&gt;&gt;linkLabel1.Parent" xml:space="preserve">
     <value>groupBox13</value>
   </data>
-  <data name="&gt;&gt;lblMenuCapture.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
   </data>
-  <data name="listScrapMenuStyles.Font" type="System.Drawing.Font, System.Drawing">
-    <value>MS UI Gothic, 9pt</value>
-  </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;flowLayoutPanel1.Name" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
   </data>
   <data name="&gt;&gt;detailPanel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
   <data name="picSelectAreaLineColor.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
   </data>
   <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -606,8 +602,8 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="&gt;&gt;picSelectAreaLineColor.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="numDustBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Right</value>
+  <data name="chkCC3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="rdoDupCapture.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 42</value>
@@ -630,9 +626,6 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="panel4.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="pageAll.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
   <data name="chkScrapImageDrag.Text" xml:space="preserve">
     <value>Double-clicking creates a reference image by dragging an image file.</value>
   </data>
@@ -648,8 +641,8 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pnlScrapStyle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="pageMisc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 327</value>
   </data>
   <data name="checkBox_magnifier.Size" type="System.Drawing.Size, System.Drawing">
     <value>319, 16</value>
@@ -660,8 +653,8 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="label20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;hotkeyControl2.Type" xml:space="preserve">
-    <value>SETUNA.Main.HotkeyControl, SETUNA, Version=3.0.0.6, Culture=neutral, PublicKeyToken=null</value>
+  <data name="radioButton1_fullscreenCursor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 49</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>Basic Auto Operation:</value>
@@ -677,9 +670,6 @@ You can retrieve it from the recycle bin as needed.</value>
   </data>
   <data name="pictureBox_fullscreenCursor.ToolTip" xml:space="preserve">
     <value>The color of the designated frame selection band.</value>
-  </data>
-  <data name="rdoDupNone.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
   </data>
   <data name="listScrapMenuStyles.ItemHeight" type="System.Int32, mscorlib">
     <value>20</value>
@@ -705,14 +695,8 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="pageAll.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
-  <data name="label16.Text" xml:space="preserve">
-    <value>When you click on a specified edge of the screen, capture will start.</value>
-  </data>
   <data name="groupBox7.ToolTip" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;groupBox16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="panel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
@@ -723,14 +707,17 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="checkBox_topMost.ToolTip" xml:space="preserve">
     <value />
   </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 188</value>
+  </data>
   <data name="&gt;&gt;detailPanel.Parent" xml:space="preserve">
     <value>panel3</value>
   </data>
   <data name="groupBox16.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
-  <data name="&gt;&gt;cmbCreateStyle.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
   </data>
   <data name="&gt;&gt;groupBox9.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -744,8 +731,8 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="checkBox_fullscreenCursor.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;groupBox10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="chkMouseOverAlphaChange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 107</value>
   </data>
   <data name="numMouseOverAlpha.Location" type="System.Drawing.Point, System.Drawing">
     <value>62, 127</value>
@@ -758,9 +745,6 @@ You can retrieve it from the recycle bin as needed.</value>
   </data>
   <data name="label17.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
-  </data>
-  <data name="&gt;&gt;groupBox14.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -777,8 +761,8 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="&gt;&gt;checkBox_transparent.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="listScrapMenuStyles.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="rdoDupCapture.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="chkShowMainWindow.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
@@ -792,8 +776,8 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="&gt;&gt;comboBoxSelectLanguage.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;pageAll.Parent" xml:space="preserve">
-    <value>tabControl1</value>
+  <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 6, 3, 2</value>
   </data>
   <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -801,26 +785,23 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="btnDeleteStyle.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="checkBox_language_auto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
   </data>
   <data name="listScrapMenuStyles.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 18</value>
   </data>
-  <data name="&gt;&gt;linkLabel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="chkCC9.Size" type="System.Drawing.Size, System.Drawing">
     <value>26, 26</value>
   </data>
-  <data name="chkMouseOverAlphaChange.Size" type="System.Drawing.Size, System.Drawing">
-    <value>267, 16</value>
+  <data name="groupBox9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="lblMenuAll.Text" xml:space="preserve">
+    <value>Geneal</value>
   </data>
   <data name="chkSplash.Text" xml:space="preserve">
     <value>Show startup screen</value>
-  </data>
-  <data name="&gt;&gt;lblMenuStyle.Parent" xml:space="preserve">
-    <value>panel1</value>
   </data>
   <data name="chkShowMainWindow.Location" type="System.Drawing.Point, System.Drawing">
     <value>34, 60</value>
@@ -831,9 +812,6 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="rdoDupNone.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 22</value>
   </data>
-  <data name="&gt;&gt;pnlScrapStyle.Name" xml:space="preserve">
-    <value>pnlScrapStyle</value>
-  </data>
   <data name="label20.ToolTip" xml:space="preserve">
     <value />
   </data>
@@ -843,14 +821,17 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="&gt;&gt;btnDeleteStyle.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
+  <data name="lblMenuMisc.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="btnEditStyle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
-  <data name="&gt;&gt;groupBox6.Parent" xml:space="preserve">
-    <value>pageAll</value>
+  <data name="numInactiveAlpha.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 19</value>
   </data>
-  <data name="&gt;&gt;label10.Name" xml:space="preserve">
-    <value>label10</value>
+  <data name="checkBox_cursor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="pageCapture.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 25</value>
@@ -864,20 +845,17 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="&gt;&gt;pageAll.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label16.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
   <data name="lblMenuMisc.Text" xml:space="preserve">
     <value>Miscellaneous settings</value>
   </data>
   <data name="&gt;&gt;flowLayoutPanel1.Parent" xml:space="preserve">
     <value>pageScrap</value>
   </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
   <data name="&gt;&gt;btnEditStyle.ZOrder" xml:space="preserve">
     <value>5</value>
-  </data>
-  <data name="&gt;&gt;label10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;checkBox1.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -890,9 +868,6 @@ You can retrieve it from the recycle bin as needed.</value>
   </data>
   <data name="&gt;&gt;chkCC7.Parent" xml:space="preserve">
     <value>groupBox12</value>
-  </data>
-  <data name="label20.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <data name="picSelectAreaLineColor.ToolTip" xml:space="preserve">
     <value>The color of the designated frame selection band.</value>
@@ -936,9 +911,6 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="lblMenuStyle.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="hotkeyControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>181, 30</value>
-  </data>
   <data name="chkMouseOverAlphaChange.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
@@ -981,6 +953,9 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="&gt;&gt;listScrapMenuStyles.Type" xml:space="preserve">
     <value>SETUNA.Main.SetunaListBox, SETUNA, Version=3.0.0.6, Culture=neutral, PublicKeyToken=null</value>
   </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 12</value>
+  </data>
   <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
     <value>173, 36</value>
   </data>
@@ -999,11 +974,17 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="linkLabel1.ToolTip" xml:space="preserve">
     <value>test</value>
   </data>
+  <data name="&gt;&gt;groupBox10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="chkShowMainWindow.Text" xml:space="preserve">
     <value>Show icon on taskbar</value>
   </data>
   <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
     <value>groupBox1</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="checkBox_transparent.Location" type="System.Drawing.Point, System.Drawing">
     <value>32, 19</value>
@@ -1023,9 +1004,6 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="groupBox7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 178</value>
-  </data>
   <data name="label20.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
@@ -1041,8 +1019,8 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="btnInitialize.Size" type="System.Drawing.Size, System.Drawing">
     <value>182, 26</value>
   </data>
-  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="chkCC4.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="groupBox8.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 8</value>
@@ -1067,6 +1045,9 @@ You can retrieve it from the recycle bin as needed.</value>
   </data>
   <data name="hotkeyControl2.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
+  </data>
+  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;lblMenuCapture.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -1101,11 +1082,20 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="lblMenuMenu.Location" type="System.Drawing.Point, System.Drawing">
     <value>27, 90</value>
   </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
   <data name="flowLayoutPanel1.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
     <value>TopDown</value>
   </data>
   <data name="numMouseOverAlpha.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
+  </data>
+  <data name="checkBox_magnifier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 39</value>
+  </data>
+  <data name="pageMisc.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 360</value>
@@ -1119,17 +1109,17 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="pageStyle.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>5, 6, 5, 6</value>
   </data>
-  <data name="&gt;&gt;rdoDupCapture.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
   </data>
   <data name="&gt;&gt;checkBox_topMost.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="listScrapMenuList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 278</value>
+  </data>
   <data name="label7.Text" xml:space="preserve">
     <value>Type of selection border line:</value>
-  </data>
-  <data name="btnCancel.Text" xml:space="preserve">
-    <value>Cancel</value>
   </data>
   <data name="listKeyItems.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -1137,14 +1127,11 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="&gt;&gt;checkBox_topMost.Name" xml:space="preserve">
     <value>checkBox_topMost</value>
   </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
   <data name="groupBox9.Text" xml:space="preserve">
     <value>Others</value>
   </data>
-  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="groupBox16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="pageStyle.Size" type="System.Drawing.Size, System.Drawing">
     <value>439, 327</value>
@@ -1158,14 +1145,17 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="cmbCreateStyle.ToolTip" xml:space="preserve">
     <value>Automatic operation for use when designing for reference only.</value>
   </data>
-  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btnNewStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 26</value>
   </data>
   <data name="lblMenuMisc.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;numInactiveAlpha.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;numDustBox.Name" xml:space="preserve">
+    <value>numDustBox</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Option</value>
   </data>
   <data name="lblMenuCapture.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 14</value>
@@ -1181,6 +1171,9 @@ You can retrieve it from the recycle bin as needed.</value>
   </data>
   <data name="checkBox_magnifier.Text" xml:space="preserve">
     <value>Display magnifying glass for reference during screenshot.</value>
+  </data>
+  <data name="checkBox_cursor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 19</value>
   </data>
   <data name="chkCC4.Location" type="System.Drawing.Point, System.Drawing">
     <value>26, 50</value>
@@ -1221,6 +1214,9 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="&gt;&gt;checkBox_cursor.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="listScrapMenuItems.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -1230,11 +1226,17 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="&gt;&gt;listScrapMenuStyles.Name" xml:space="preserve">
+    <value>listScrapMenuStyles</value>
+  </data>
+  <data name="listScrapMenuItems.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
   <data name="linkLabel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
   </data>
-  <data name="radioButton1_fullscreenCursor.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="listScrapMenuList.ItemHeight" type="System.Int32, mscorlib">
+    <value>20</value>
   </data>
   <data name="&gt;&gt;label2.Name" xml:space="preserve">
     <value>label2</value>
@@ -1247,9 +1249,6 @@ You can retrieve it from the recycle bin as needed.</value>
   </data>
   <data name="&gt;&gt;groupBox13.Name" xml:space="preserve">
     <value>groupBox13</value>
-  </data>
-  <data name="&gt;&gt;pageStyle.Parent" xml:space="preserve">
-    <value>tabControl1</value>
   </data>
   <data name="&gt;&gt;rdoExeTypeResident.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1296,14 +1295,14 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="&gt;&gt;picSelectAreaLineColor.Name" xml:space="preserve">
     <value>picSelectAreaLineColor</value>
   </data>
-  <data name="chkCC4.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="&gt;&gt;groupBox6.Parent" xml:space="preserve">
+    <value>pageAll</value>
   </data>
   <data name="&gt;&gt;listStyles.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="listScrapMenuItems.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+  <data name="pageMisc.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <data name="&gt;&gt;listStyles.Type" xml:space="preserve">
     <value>SETUNA.Main.SetunaListBox, SETUNA, Version=3.0.0.6, Culture=neutral, PublicKeyToken=null</value>
@@ -1311,11 +1310,8 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>pageAll</value>
+  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;checkBox_fullscreenCursor.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -1329,11 +1325,11 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="&gt;&gt;label16.Parent" xml:space="preserve">
     <value>groupBox12</value>
   </data>
+  <data name="&gt;&gt;checkBox_autoStartup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="chkInactiveAlphaChange.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
-  </data>
-  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>11, 12</value>
   </data>
   <data name="&gt;&gt;lblMenuAll.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -1354,23 +1350,20 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="pageCapture.ToolTip" xml:space="preserve">
     <value />
   </data>
+  <data name="&gt;&gt;chkSplash.Name" xml:space="preserve">
+    <value>chkSplash</value>
+  </data>
   <data name="&gt;&gt;listScrapMenuItems.Type" xml:space="preserve">
     <value>SETUNA.Main.SetunaListBox, SETUNA, Version=3.0.0.6, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="btnScrapMenuMove.Text" xml:space="preserve">
-    <value>&gt;&gt;</value>
+  <data name="&gt;&gt;btnScrapMenuMove.Name" xml:space="preserve">
+    <value>btnScrapMenuMove</value>
   </data>
   <data name="&gt;&gt;groupBox5.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="checkBox_language_auto.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 24</value>
-  </data>
   <data name="&gt;&gt;label17.Parent" xml:space="preserve">
     <value>groupBox2</value>
-  </data>
-  <data name="groupBox8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>182, 190</value>
   </data>
   <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -1390,9 +1383,6 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="&gt;&gt;lblMenuCapture.Name" xml:space="preserve">
     <value>lblMenuCapture</value>
   </data>
-  <data name="&gt;&gt;label16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="chkScrapImageDrag.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -1404,6 +1394,9 @@ You can retrieve it from the recycle bin as needed.</value>
   </data>
   <data name="checkBox_autoStartup.Location" type="System.Drawing.Point, System.Drawing">
     <value>276, 22</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 12</value>
   </data>
   <data name="&gt;&gt;rdoExeTypeApp.Name" xml:space="preserve">
     <value>rdoExeTypeApp</value>
@@ -1429,6 +1422,9 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="&gt;&gt;groupBox15.Parent" xml:space="preserve">
     <value>pageMisc</value>
   </data>
+  <data name="listStyles.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
   <data name="groupBox12.ToolTip" xml:space="preserve">
     <value />
   </data>
@@ -1453,6 +1449,9 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 12</value>
   </data>
+  <data name="&gt;&gt;rdoDupNone.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="&gt;&gt;numInactiveAlpha.Name" xml:space="preserve">
     <value>numInactiveAlpha</value>
   </data>
@@ -1465,8 +1464,8 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 298</value>
   </data>
-  <data name="chkMouseOverAlphaChange.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 107</value>
+  <data name="&gt;&gt;lblMenuCapture.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="chkCC8.ToolTip" xml:space="preserve">
     <value />
@@ -1474,14 +1473,14 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="chkScrapImageDrag.Location" type="System.Drawing.Point, System.Drawing">
     <value>22, 2</value>
   </data>
-  <data name="groupBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
   <data name="checkBox_autoStartup.Text" xml:space="preserve">
     <value>Start on Windows</value>
   </data>
   <data name="checkBox_topMost.Size" type="System.Drawing.Size, System.Drawing">
     <value>97, 16</value>
+  </data>
+  <data name="tabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
   <data name="&gt;&gt;chkCC9.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1510,14 +1509,11 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="chkInactiveAlphaChange.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
-  <data name="&gt;&gt;listKeyItems.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;lblComment.Name" xml:space="preserve">
     <value>lblComment</value>
-  </data>
-  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
   </data>
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 8</value>
@@ -1528,11 +1524,11 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="rdoSelLineTypeSolid.Size" type="System.Drawing.Size, System.Drawing">
     <value>70, 16</value>
   </data>
+  <data name="checkBox_language_auto.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="&gt;&gt;button1.Name" xml:space="preserve">
     <value>button1</value>
-  </data>
-  <data name="&gt;&gt;cmbCreateStyle.Parent" xml:space="preserve">
-    <value>pnlScrapStyle</value>
   </data>
   <data name="&gt;&gt;groupBox7.Name" xml:space="preserve">
     <value>groupBox7</value>
@@ -1576,9 +1572,6 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="checkBox_language_auto.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;label9.Name" xml:space="preserve">
-    <value>label9</value>
-  </data>
   <data name="chkCC2.ToolTip" xml:space="preserve">
     <value />
   </data>
@@ -1609,6 +1602,9 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="lblMenuAll.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 10</value>
   </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>11, 12</value>
+  </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>129, 360</value>
   </data>
@@ -1621,14 +1617,8 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="groupBox2.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="button1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;groupBox17.Name" xml:space="preserve">
     <value>groupBox17</value>
-  </data>
-  <data name="&gt;&gt;groupBox14.Name" xml:space="preserve">
-    <value>groupBox14</value>
   </data>
   <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
     <value>29, 50</value>
@@ -1636,17 +1626,23 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="label5.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
+  <data name="listScrapMenuItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 84</value>
+  </data>
   <data name="pageCapture.Size" type="System.Drawing.Size, System.Drawing">
     <value>439, 327</value>
   </data>
   <data name="&gt;&gt;btnScrapMenuMove.Parent" xml:space="preserve">
     <value>pageScrapMenu</value>
   </data>
+  <data name="&gt;&gt;chkCC3.Name" xml:space="preserve">
+    <value>chkCC3</value>
+  </data>
   <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 2</value>
   </data>
-  <data name="&gt;&gt;pageScrap.Parent" xml:space="preserve">
-    <value>tabControl1</value>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="detailPanel.Size" type="System.Drawing.Size, System.Drawing">
     <value>451, 360</value>
@@ -1666,17 +1662,11 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="lblMenuCapture.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 30</value>
   </data>
-  <data name="chkCC4.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;pageScrapMenu.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>Shortcut key settings</value>
-  </data>
-  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 146</value>
   </data>
   <data name="checkBox_fullscreenCursor.Text" xml:space="preserve">
     <value>Full screen cursor</value>
@@ -1690,9 +1680,6 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="chkCC2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
-  <data name="cmbCreateStyle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>163, 10</value>
-  </data>
   <data name="&gt;&gt;groupBox13.Parent" xml:space="preserve">
     <value>pageAll</value>
   </data>
@@ -1702,22 +1689,19 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="&gt;&gt;label18.Parent" xml:space="preserve">
     <value>groupBox16</value>
   </data>
-  <data name="groupBox10.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
   <data name="pageMisc.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="&gt;&gt;btnScrapMenuMove.Name" xml:space="preserve">
-    <value>btnScrapMenuMove</value>
+  <data name="chkSplash.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
-  <data name="pageMisc.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="listScrapMenuItems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 18</value>
   </data>
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+  <data name="checkBox1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="checkBox_language_auto.Text" xml:space="preserve">
@@ -1725,9 +1709,6 @@ You can retrieve it from the recycle bin as needed.</value>
   </data>
   <data name="btnDeleteStyle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
-  </data>
-  <data name="&gt;&gt;rdoDupNone.Parent" xml:space="preserve">
-    <value>groupBox3</value>
   </data>
   <data name="checkBox1.ToolTip" xml:space="preserve">
     <value>Check to enable shortcut keys.</value>
@@ -1741,7 +1722,7 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="chkCC3.Location" type="System.Drawing.Point, System.Drawing">
     <value>130, 128</value>
   </data>
-  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;groupBox14.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
@@ -1749,6 +1730,9 @@ You can retrieve it from the recycle bin as needed.</value>
   </data>
   <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
+  </data>
+  <data name="panel2.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;comboBoxSelectLanguage.Parent" xml:space="preserve">
     <value>groupBox17</value>
@@ -1768,9 +1752,6 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="groupBox13.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Composition of automatic operations:</value>
-  </data>
   <data name="label19.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
@@ -1780,8 +1761,14 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="groupBox3.Text" xml:space="preserve">
     <value>Prevent double restart operation</value>
   </data>
+  <data name="pageMisc.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
   <data name="&gt;&gt;btnDeleteStyle.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;rdoSelLineTypeSolid.Parent" xml:space="preserve">
     <value>groupBox4</value>
@@ -1795,11 +1782,8 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 12</value>
   </data>
-  <data name="groupBox16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 16</value>
+  <data name="&gt;&gt;listKeyItems.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="checkBox_transparent.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -1810,11 +1794,17 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="panel4.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
+  <data name="&gt;&gt;checkBox_magnifier.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rdoDupCapture.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="groupBox4.Text" xml:space="preserve">
     <value>Selection range during capture</value>
   </data>
-  <data name="linkLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>25, 12</value>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>pageCapture</value>
   </data>
   <data name="rdoDupNone.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1849,6 +1839,9 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>117, 12</value>
   </data>
+  <data name="lblComment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>358, 22</value>
+  </data>
   <data name="&gt;&gt;groupBox17.Parent" xml:space="preserve">
     <value>pageMisc</value>
   </data>
@@ -1876,17 +1869,11 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="&gt;&gt;chkCC3.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="groupBox13.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="pageMisc.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
-  </data>
-  <data name="tabControl1.Appearance" type="System.Windows.Forms.TabAppearance, System.Windows.Forms">
-    <value>Buttons</value>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
   </data>
   <data name="&gt;&gt;detailPanel.Name" xml:space="preserve">
     <value>detailPanel</value>
@@ -1903,11 +1890,17 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="groupBox9.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
   <data name="lblMenuMenu.Text" xml:space="preserve">
     <value>Reference image menu</value>
   </data>
   <data name="listKeyItems.ItemHeight" type="System.Int32, mscorlib">
     <value>12</value>
+  </data>
+  <data name="label4.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="groupBox6.Text" xml:space="preserve">
     <value>Operation type</value>
@@ -1930,11 +1923,8 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="&gt;&gt;rdoSelLineTypeDotted.Parent" xml:space="preserve">
     <value>groupBox4</value>
   </data>
-  <data name="&gt;&gt;rdoDupCapture.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;btnScrapMenuMove.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="chkInactiveAlphaChange.Text" xml:space="preserve">
+    <value>Change the opacity when the mouse is not touching it.</value>
   </data>
   <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -1942,8 +1932,14 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
     <value>pageStyle</value>
   </data>
+  <data name="checkBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
   <data name="&gt;&gt;chkInactiveAlphaChange.Parent" xml:space="preserve">
     <value>groupBox11</value>
+  </data>
+  <data name="checkBox_magnifier.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1960,17 +1956,14 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="&gt;&gt;pageMisc.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 12</value>
+  <data name="&gt;&gt;groupBox7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="groupBox7.Text" xml:space="preserve">
     <value>Others</value>
   </data>
   <data name="pnlScrapStyle.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 2</value>
-  </data>
-  <data name="comboBoxSelectLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 17</value>
   </data>
   <data name="pageCapture.Text" xml:space="preserve">
     <value>Capture settings</value>
@@ -1984,14 +1977,17 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
     <value>447, 356</value>
   </data>
-  <data name="chkInactiveAlphaChange.Text" xml:space="preserve">
-    <value>Change the opacity when the mouse is not touching it.</value>
+  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Composition of automatic operations:</value>
   </data>
   <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
     <value>btnOK</value>
   </data>
-  <data name="rdoExeTypeApp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 18</value>
+  <data name="groupBox14.Text" xml:space="preserve">
+    <value>Others</value>
   </data>
   <data name="&gt;&gt;groupBox11.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2001,9 +1997,6 @@ You can retrieve it from the recycle bin as needed.</value>
   </data>
   <data name="&gt;&gt;chkShowMainWindow.Parent" xml:space="preserve">
     <value>groupBox6</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
-    <value>groupBox3</value>
   </data>
   <data name="&gt;&gt;label2.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2023,8 +2016,8 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="groupBox6.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="picSelectAreaBackColor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+  <data name="&gt;&gt;cmbWClickStyle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="checkBox_topMost.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2035,8 +2028,8 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="groupBox16.Text" xml:space="preserve">
-    <value>Full screen crosshair cursor style</value>
+  <data name="label8.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;rdoSelLineTypeDotted.Name" xml:space="preserve">
     <value>rdoSelLineTypeDotted</value>
@@ -2056,8 +2049,8 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="btnInitialize.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="label12.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="lblMenuScrap.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;groupBox17.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -2083,8 +2076,8 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="groupBox8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
-  <data name="checkBox_cursor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+  <data name="cmbCreateStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;pageScrap.Name" xml:space="preserve">
     <value>pageScrap</value>
@@ -2122,8 +2115,8 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="btnOK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
-  <data name="checkBox_magnifier.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;pnlScrapStyle.Name" xml:space="preserve">
+    <value>pnlScrapStyle</value>
   </data>
   <data name="btnDeleteStyle.ToolTip" xml:space="preserve">
     <value />
@@ -2152,8 +2145,8 @@ You can retrieve it from the recycle bin as needed.</value>
   <data name="&gt;&gt;numDustBox.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="picSelectAreaBackColor.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+  <data name="pageStyle.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="chkInactiveAlphaChange.ToolTip" xml:space="preserve">
     <value>Set the opacity of the reference image when the mouse cursor leaves it.
@@ -2164,9 +2157,6 @@ Please close if the response speed is slow.</value>
   </data>
   <data name="&gt;&gt;label20.Parent" xml:space="preserve">
     <value>groupBox17</value>
-  </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
   </data>
   <data name="btnInitialize.Text" xml:space="preserve">
     <value>Reset all settings to default.</value>
@@ -2183,8 +2173,8 @@ Please close if the response speed is slow.</value>
   <data name="listStyleItems.ItemHeight" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
-  <data name="groupBox14.Text" xml:space="preserve">
-    <value>Others</value>
+  <data name="&gt;&gt;lblMenuMenu.Name" xml:space="preserve">
+    <value>lblMenuMenu</value>
   </data>
   <data name="groupBox12.Location" type="System.Drawing.Point, System.Drawing">
     <value>249, 101</value>
@@ -2207,17 +2197,11 @@ Please close if the response speed is slow.</value>
   <data name="&gt;&gt;label4.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label8.Name" xml:space="preserve">
-    <value>label8</value>
-  </data>
   <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
-  <data name="checkBox_magnifier.Location" type="System.Drawing.Point, System.Drawing">
-    <value>32, 39</value>
-  </data>
-  <data name="rdoDupCapture.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 16</value>
+  <data name="&gt;&gt;lblMenuCapture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label18.ToolTip" xml:space="preserve">
     <value />
@@ -2234,9 +2218,6 @@ Please close if the response speed is slow.</value>
   <data name="rdoExeTypeResident.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="groupBox16.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="chkCC8.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
@@ -2252,8 +2233,8 @@ Please close if the response speed is slow.</value>
   <data name="rdoExeTypeApp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
-  <data name="&gt;&gt;chkSplash.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;pageAll.Parent" xml:space="preserve">
+    <value>tabControl1</value>
   </data>
   <data name="chkCC7.ToolTip" xml:space="preserve">
     <value />
@@ -2279,8 +2260,8 @@ Please close if the response speed is slow.</value>
   <data name="cmbCreateStyle.Size" type="System.Drawing.Size, System.Drawing">
     <value>186, 20</value>
   </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>Duplicate</value>
+  <data name="pageCapture.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 6, 5, 6</value>
   </data>
   <data name="groupBox4.ToolTip" xml:space="preserve">
     <value />
@@ -2291,8 +2272,8 @@ Please close if the response speed is slow.</value>
   <data name="&gt;&gt;label19.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox6.Name" xml:space="preserve">
-    <value>groupBox6</value>
+  <data name="&gt;&gt;cmbCreateStyle.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="numSelectAreaTrans.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -2300,8 +2281,8 @@ Please close if the response speed is slow.</value>
   <data name="pageCapture.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="&gt;&gt;listScrapMenuItems.Name" xml:space="preserve">
-    <value>listScrapMenuItems</value>
+  <data name="pageMisc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
   </data>
   <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
     <value>com.clearunit.WithoutTabControl, SETUNA, Version=3.0.0.6, Culture=neutral, PublicKeyToken=null</value>
@@ -2324,6 +2305,9 @@ Please close if the response speed is slow.</value>
   <data name="listStyles.Location" type="System.Drawing.Point, System.Drawing">
     <value>20, 50</value>
   </data>
+  <data name="&gt;&gt;picSelectAreaLineColor.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
   <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>580, 40</value>
   </data>
@@ -2342,20 +2326,17 @@ Please close if the response speed is slow.</value>
   <data name="&gt;&gt;chkCC6.Parent" xml:space="preserve">
     <value>groupBox12</value>
   </data>
-  <data name="&gt;&gt;label20.Name" xml:space="preserve">
-    <value>label20</value>
-  </data>
   <data name="numSelectAreaTrans.Location" type="System.Drawing.Point, System.Drawing">
     <value>152, 121</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
     <value>test</value>
   </data>
-  <data name="&gt;&gt;btnEditStyle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="chkMouseOverAlphaChange.Text" xml:space="preserve">
     <value>Change the opacity when the mouse touches it.</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="&gt;&gt;label4.Name" xml:space="preserve">
     <value>label4</value>
@@ -2369,14 +2350,14 @@ Please close if the response speed is slow.</value>
   <data name="groupBox15.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
-  <data name="label18.Text" xml:space="preserve">
-    <value>Sselection box color:</value>
+  <data name="&gt;&gt;pageScrapMenu.Parent" xml:space="preserve">
+    <value>tabControl1</value>
   </data>
   <data name="&gt;&gt;label15.Name" xml:space="preserve">
     <value>label15</value>
   </data>
-  <data name="chkCC7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 24</value>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
   </data>
   <data name="chkMouseOverAlphaChange.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2393,8 +2374,11 @@ Please close if the response speed is slow.</value>
   <data name="&gt;&gt;hotkeyControl1.Parent" xml:space="preserve">
     <value>groupBox2</value>
   </data>
-  <data name="label13.Text" xml:space="preserve">
-    <value>%</value>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_topMost.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;groupBox13.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2405,23 +2389,26 @@ Please close if the response speed is slow.</value>
   <data name="&gt;&gt;checkBox_cursor.Parent" xml:space="preserve">
     <value>groupBox14</value>
   </data>
-  <data name="groupBox16.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+  <data name="picSelectAreaLineColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 18</value>
   </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>235, 188</value>
+  <data name="chkMouseOverAlphaChange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 16</value>
   </data>
-  <data name="&gt;&gt;pageScrapMenu.Parent" xml:space="preserve">
-    <value>tabControl1</value>
+  <data name="groupBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 178</value>
   </data>
   <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
     <value>81, 43</value>
   </data>
+  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>424, 302</value>
+  </data>
   <data name="&gt;&gt;pictureBox_fullscreenCursor.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox_fullscreenCursor.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;listScrapMenuList.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="checkBox_topMost.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -2441,14 +2428,11 @@ Please close if the response speed is slow.</value>
   <data name="chkCC2.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
     <value>Button</value>
   </data>
-  <data name="checkBox_autoStartup.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="numDustBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
-  <data name="&gt;&gt;picSelectAreaBackColor.Parent" xml:space="preserve">
-    <value>groupBox4</value>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
   </data>
   <data name="&gt;&gt;listStyleItems.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -2461,9 +2445,6 @@ Please close if the response speed is slow.</value>
   </data>
   <data name="&gt;&gt;label6.Parent" xml:space="preserve">
     <value>groupBox11</value>
-  </data>
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
   </data>
   <data name="linkLabel1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2489,6 +2470,9 @@ Please close if the response speed is slow.</value>
   <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 102</value>
   </data>
+  <data name="&gt;&gt;groupBox15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="rdoSelLineTypeDotted.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -2504,11 +2488,11 @@ Please close if the response speed is slow.</value>
   <data name="groupBox9.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;chkCC4.Parent" xml:space="preserve">
-    <value>groupBox12</value>
+  <data name="&gt;&gt;pictureBox_fullscreenCursor.Parent" xml:space="preserve">
+    <value>groupBox16</value>
   </data>
-  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="groupBox8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 190</value>
   </data>
   <data name="&gt;&gt;comboBoxSelectLanguage.Name" xml:space="preserve">
     <value>comboBoxSelectLanguage</value>
@@ -2519,41 +2503,41 @@ Please close if the response speed is slow.</value>
   <data name="&gt;&gt;listStyleItems.Name" xml:space="preserve">
     <value>listStyleItems</value>
   </data>
+  <data name="pageScrap.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
   <data name="&gt;&gt;pictureBox_fullscreenCursor.Name" xml:space="preserve">
     <value>pictureBox_fullscreenCursor</value>
   </data>
-  <data name="label17.Text" xml:space="preserve">
-    <value>Hide/Show all shortcut keys:</value>
-  </data>
-  <data name="&gt;&gt;numInactiveAlpha.Parent" xml:space="preserve">
-    <value>groupBox11</value>
-  </data>
-  <data name="listScrapMenuList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 278</value>
-  </data>
-  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pageCapture.Parent" xml:space="preserve">
+    <value>tabControl1</value>
   </data>
   <data name="groupBox10.Text" xml:space="preserve">
     <value>Reference image menu</value>
   </data>
+  <data name="&gt;&gt;groupBox12.Name" xml:space="preserve">
+    <value>groupBox12</value>
+  </data>
+  <data name="chkCC9.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
   <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
     <value>11, 12</value>
   </data>
-  <data name="chkInactiveAlphaChange.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="detailPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 0</value>
   </data>
   <data name="&gt;&gt;label5.Parent" xml:space="preserve">
     <value>pnlScrapStyle</value>
   </data>
   <data name="chkCC3.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
-  </data>
-  <data name="&gt;&gt;pageAll.Name" xml:space="preserve">
-    <value>pageAll</value>
-  </data>
-  <data name="&gt;&gt;label17.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="pageStyle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -2582,8 +2566,11 @@ Please close if the response speed is slow.</value>
   <data name="&gt;&gt;rdoSelLineTypeSolid.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
-    <value>panel1</value>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="radioButton1_fullscreenCursor.Text" xml:space="preserve">
+    <value>Solid line</value>
   </data>
   <data name="hotkeyControl1.ToolTip" xml:space="preserve">
     <value>Ctrl key, Shift key and Alt key, each combination comes with a set of quick keys.
@@ -2601,20 +2588,20 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="label6.Text" xml:space="preserve">
     <value>Effect when mouse is not hovering</value>
   </data>
-  <data name="&gt;&gt;pictureBox_fullscreenCursor.Parent" xml:space="preserve">
-    <value>groupBox16</value>
+  <data name="&gt;&gt;groupBox8.Name" xml:space="preserve">
+    <value>groupBox8</value>
   </data>
-  <data name="groupBox6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="groupBox9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 202</value>
+  </data>
+  <data name="rdoDupNone.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
-  </data>
-  <data name="&gt;&gt;lblMenuCapture.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="chkCC2.Location" type="System.Drawing.Point, System.Drawing">
     <value>52, 128</value>
   </data>
-  <data name="&gt;&gt;rdoExeTypeApp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;lblComment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblMenuMisc.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -2622,17 +2609,14 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="radioButton1_fullscreenCursor.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
-  <data name="&gt;&gt;checkBox1.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
   <data name="panel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
   <data name="groupBox11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
-  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
+  <data name="checkBox_fullscreenCursor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 15</value>
   </data>
   <data name="&gt;&gt;radioButton1_fullscreenCursor.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2648,6 +2632,9 @@ Unusable and other procedure-installed speed keys.</value>
   </data>
   <data name="&gt;&gt;groupBox8.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;rdoExeTypeResident.Parent" xml:space="preserve">
     <value>groupBox6</value>
@@ -2697,8 +2684,8 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="&gt;&gt;checkBox_magnifier.Parent" xml:space="preserve">
     <value>groupBox14</value>
   </data>
-  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;chkCC7.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2715,8 +2702,8 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="&gt;&gt;numSelectAreaTrans.Parent" xml:space="preserve">
     <value>groupBox4</value>
   </data>
-  <data name="&gt;&gt;btnScrapMenuMove.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="chkCC7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 24</value>
   </data>
   <data name="radioButton2_fullscreenCursor.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2727,14 +2714,14 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
+  <data name="label9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="groupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
   <data name="panel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
-  </data>
-  <data name="linkLabel2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <data name="checkBox_cursor.Size" type="System.Drawing.Size, System.Drawing">
     <value>159, 16</value>
@@ -2742,11 +2729,8 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="btnScrapMenuMove.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="chkScrapImageDrag.Size" type="System.Drawing.Size, System.Drawing">
-    <value>377, 16</value>
-  </data>
-  <data name="groupBox16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>430, 74</value>
+  <data name="button1.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="groupBox9.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>5, 2, 5, 2</value>
@@ -2763,20 +2747,23 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
     <value>21, 91</value>
   </data>
+  <data name="linkLabel2.Text" xml:space="preserve">
+    <value>test</value>
+  </data>
   <data name="&gt;&gt;groupBox17.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;hotkeyControl1.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="radioButton1_fullscreenCursor.Text" xml:space="preserve">
-    <value>Solid line</value>
+  <data name="label20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="groupBox11.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="groupBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+  <data name="groupBox16.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="checkBox_magnifier.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
@@ -2784,14 +2771,14 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="&gt;&gt;numInactiveAlpha.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="tabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="tabControl1.Appearance" type="System.Windows.Forms.TabAppearance, System.Windows.Forms">
+    <value>Buttons</value>
   </data>
-  <data name="&gt;&gt;chkCC7.Name" xml:space="preserve">
-    <value>chkCC7</value>
+  <data name="btnScrapMenuMove.Text" xml:space="preserve">
+    <value>&gt;&gt;</value>
   </data>
-  <data name="pageScrap.Size" type="System.Drawing.Size, System.Drawing">
-    <value>439, 327</value>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 48</value>
@@ -2808,6 +2795,9 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="&gt;&gt;chkCC6.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;lblMenuScrap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="groupBox12.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
@@ -2817,17 +2807,14 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="chkCC6.Size" type="System.Drawing.Size, System.Drawing">
     <value>26, 78</value>
   </data>
-  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="tabControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="chkCC1.Location" type="System.Drawing.Point, System.Drawing">
     <value>26, 128</value>
   </data>
-  <data name="radioButton1_fullscreenCursor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 16</value>
+  <data name="&gt;&gt;rdoExeTypeApp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
@@ -2838,8 +2825,8 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="&gt;&gt;button1.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="detailPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>129, 0</value>
+  <data name="groupBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="&gt;&gt;label18.Name" xml:space="preserve">
     <value>label18</value>
@@ -2847,11 +2834,14 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="&gt;&gt;chkCC4.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="chkShowMainWindow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 16</value>
+  <data name="radioButton1_fullscreenCursor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="checkBox_transparent.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="radioButton2_fullscreenCursor.ToolTip" xml:space="preserve">
     <value>Type of border line for selection box.</value>
@@ -2865,11 +2855,11 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="lblMenuScrap.Text" xml:space="preserve">
     <value>Reference image settings</value>
   </data>
-  <data name="radioButton1_fullscreenCursor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>146, 49</value>
+  <data name="linkLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 12</value>
   </data>
-  <data name="&gt;&gt;listScrapMenuList.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;groupBox16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="rdoSelLineTypeSolid.ToolTip" xml:space="preserve">
     <value>Set the type of border line for selection range.</value>
@@ -2886,8 +2876,8 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="lblMenuScrap.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 50</value>
   </data>
-  <data name="&gt;&gt;checkBox_autoStartup.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="checkBox_transparent.Text" xml:space="preserve">
     <value>Whether mouse can penetrate through transparent parts of screenshot</value>
@@ -2901,17 +2891,17 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="&gt;&gt;listScrapMenuList.Type" xml:space="preserve">
     <value>SETUNA.Main.SetunaListBox, SETUNA, Version=3.0.0.6, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;groupBox10.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;numInactiveAlpha.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="rdoDupCapture.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="chkCC9.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
   </data>
   <data name="&gt;&gt;chkMouseOverAlphaChange.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="checkBox_language_auto.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>pageAll</value>
   </data>
   <data name="groupBox3.ToolTip" xml:space="preserve">
     <value />
@@ -2927,9 +2917,6 @@ Unusable and other procedure-installed speed keys.</value>
   </data>
   <data name="pageScrapMenu.Text" xml:space="preserve">
     <value>Reference image menu</value>
-  </data>
-  <data name="&gt;&gt;lblMenuScrap.ZOrder" xml:space="preserve">
-    <value>4</value>
   </data>
   <data name="groupBox17.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -2952,47 +2939,44 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="&gt;&gt;chkScrapImageDrag.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="pageAll.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 6, 5, 6</value>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 360</value>
   </data>
   <data name="lblMenuStyle.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 14</value>
   </data>
-  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="&gt;&gt;chkCC7.Name" xml:space="preserve">
+    <value>chkCC7</value>
   </data>
-  <data name="listScrapMenuItems.ItemHeight" type="System.Int32, mscorlib">
-    <value>20</value>
+  <data name="&gt;&gt;btnScrapMenuMove.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;radioButton2_fullscreenCursor.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
+  <data name="&gt;&gt;rdoDupCapture.Parent" xml:space="preserve">
+    <value>groupBox3</value>
   </data>
-  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="groupBox13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
-    <value>panel4</value>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;pageScrap.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="checkBox_transparent.AutoSize" type="System.Boolean, mscorlib">
+  <data name="&gt;&gt;cmbCreateStyle.Name" xml:space="preserve">
+    <value>cmbCreateStyle</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lblComment.Size" type="System.Drawing.Size, System.Drawing">
-    <value>358, 22</value>
-  </data>
-  <data name="rdoSelLineTypeSolid.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="&gt;&gt;pictureBox_fullscreenCursor.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="picSelectAreaLineColor.Location" type="System.Drawing.Point, System.Drawing">
     <value>179, 21</value>
@@ -3000,8 +2984,11 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="&gt;&gt;label3.Parent" xml:space="preserve">
     <value>groupBox2</value>
   </data>
-  <data name="listScrapMenuItems.Font" type="System.Drawing.Font, System.Drawing">
-    <value>MS UI Gothic, 9pt</value>
+  <data name="groupBox6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="chkCC6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 50</value>
   </data>
   <data name="rdoDupNone.Size" type="System.Drawing.Size, System.Drawing">
     <value>78, 16</value>
@@ -3012,8 +2999,8 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="groupBox17.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 134</value>
   </data>
-  <data name="cmbCreateStyle.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="groupBox16.Text" xml:space="preserve">
+    <value>Full screen crosshair cursor style</value>
   </data>
   <data name="&gt;&gt;label8.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3030,8 +3017,8 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="groupBox6.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;checkBox_magnifier.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;picSelectAreaBackColor.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="btnScrapMenuMove.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 278</value>
@@ -3045,9 +3032,6 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
     <value>376, 6</value>
   </data>
-  <data name="&gt;&gt;numMouseOverAlpha.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="&gt;&gt;groupBox6.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -3057,14 +3041,14 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 88</value>
   </data>
-  <data name="listStyles.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 244</value>
+  <data name="chkShowMainWindow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 16</value>
   </data>
-  <data name="&gt;&gt;groupBox15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
-  <data name="label18.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+  <data name="&gt;&gt;rdoDupNone.Parent" xml:space="preserve">
+    <value>groupBox3</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>235, 58</value>
@@ -3075,8 +3059,8 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="label15.Text" xml:space="preserve">
     <value>%</value>
   </data>
-  <data name="lblMenuCapture.Text" xml:space="preserve">
-    <value>Capture settings</value>
+  <data name="linkLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>423, 306</value>
@@ -3086,9 +3070,6 @@ Unusable and other procedure-installed speed keys.</value>
   </data>
   <data name="listStyles.ItemHeight" type="System.Int32, mscorlib">
     <value>20</value>
-  </data>
-  <data name="&gt;&gt;listKeyItems.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
     <value>30, 46</value>
@@ -3102,23 +3083,23 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="groupBox12.Size" type="System.Drawing.Size, System.Drawing">
     <value>182, 224</value>
   </data>
-  <data name="listScrapMenuItems.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 84</value>
+  <data name="listScrapMenuItems.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="&gt;&gt;hotkeyControl1.Name" xml:space="preserve">
     <value>hotkeyControl1</value>
   </data>
-  <data name="&gt;&gt;checkBox_topMost.Parent" xml:space="preserve">
-    <value>groupBox7</value>
-  </data>
   <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
     <value>103, 59</value>
   </data>
-  <data name="lblMenuMenu.ToolTip" xml:space="preserve">
-    <value />
+  <data name="listScrapMenuStyles.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
   </data>
   <data name="groupBox10.Size" type="System.Drawing.Size, System.Drawing">
     <value>182, 306</value>
+  </data>
+  <data name="chkCC1.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;checkBox_magnifier.Name" xml:space="preserve">
     <value>checkBox_magnifier</value>
@@ -3141,11 +3122,14 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="btnNewStyle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>580, 360</value>
+  </data>
   <data name="cmbWClickStyle.Size" type="System.Drawing.Size, System.Drawing">
     <value>186, 20</value>
   </data>
-  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>423, 89</value>
+  <data name="pictureBox_fullscreenCursor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 18</value>
   </data>
   <data name="groupBox13.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 234</value>
@@ -3156,8 +3140,8 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="groupBox14.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="checkBox_cursor.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;picSelectAreaLineColor.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -3174,23 +3158,26 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="&gt;&gt;pageScrapMenu.Name" xml:space="preserve">
     <value>pageScrapMenu</value>
   </data>
-  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 26</value>
+  <data name="groupBox16.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="&gt;&gt;btnScrapMenuMove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;checkBox_language_auto.Name" xml:space="preserve">
     <value>checkBox_language_auto</value>
   </data>
-  <data name="&gt;&gt;groupBox7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="listScrapMenuStyles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 164</value>
   </data>
   <data name="&gt;&gt;groupBox12.Parent" xml:space="preserve">
     <value>pageCapture</value>
   </data>
-  <data name="&gt;&gt;rdoSelLineTypeDotted.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pageScrapMenu.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+  <data name="&gt;&gt;chkCC4.Parent" xml:space="preserve">
+    <value>groupBox12</value>
   </data>
   <data name="&gt;&gt;chkScrapImageDrag.Parent" xml:space="preserve">
     <value>panel4</value>
@@ -3207,50 +3194,50 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="groupBox11.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 30</value>
   </data>
-  <data name="&gt;&gt;groupBox9.Parent" xml:space="preserve">
-    <value>pageScrapMenu</value>
+  <data name="picSelectAreaBackColor.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
   <data name="button2.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="groupBox12.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="comboBoxSelectLanguage.Items2" xml:space="preserve">
+    <value>Chinese</value>
   </data>
-  <data name="checkBox1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="groupBox13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="chkCC8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="chkCC3.Size" type="System.Drawing.Size, System.Drawing">
     <value>26, 26</value>
   </data>
-  <data name="picSelectAreaLineColor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 18</value>
+  <data name="&gt;&gt;listKeyItems.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
     <value>235, 70</value>
   </data>
-  <data name="&gt;&gt;cmbWClickStyle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;checkBox_topMost.Parent" xml:space="preserve">
+    <value>groupBox7</value>
   </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 12</value>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
   </data>
-  <data name="&gt;&gt;numMouseOverAlpha.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;listScrapMenuItems.Name" xml:space="preserve">
+    <value>listScrapMenuItems</value>
   </data>
-  <data name="&gt;&gt;groupBox12.Name" xml:space="preserve">
-    <value>groupBox12</value>
+  <data name="&gt;&gt;chkSplash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="pageAll.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 25</value>
   </data>
-  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 12</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 12</value>
@@ -3258,14 +3245,11 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="&gt;&gt;label7.Name" xml:space="preserve">
     <value>label7</value>
   </data>
-  <data name="&gt;&gt;lblComment.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Duplicate</value>
   </data>
   <data name="label11.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="&gt;&gt;listScrapMenuStyles.Parent" xml:space="preserve">
-    <value>groupBox8</value>
   </data>
   <data name="comboBoxSelectLanguage.ToolTip" xml:space="preserve">
     <value>Language</value>
@@ -3273,17 +3257,17 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="&gt;&gt;checkBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;hotkeyControl2.Type" xml:space="preserve">
+    <value>SETUNA.Main.HotkeyControl, SETUNA, Version=3.0.0.6, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="pictureBox_fullscreenCursor.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
-  <data name="&gt;&gt;checkBox_cursor.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="label16.Text" xml:space="preserve">
+    <value>When you click on a specified edge of the screen, capture will start.</value>
   </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 146</value>
   </data>
   <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
     <value>182, 26</value>
@@ -3291,32 +3275,38 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="label12.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;picSelectAreaLineColor.Parent" xml:space="preserve">
-    <value>groupBox4</value>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Hide/Show all shortcut keys:</value>
   </data>
   <data name="label19.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
-    <value>pageCapture</value>
+  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 16</value>
   </data>
-  <data name="listScrapMenuStyles.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 164</value>
+  <data name="lblMenuMenu.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;btnNewStyle.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="pageScrap.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="picSelectAreaBackColor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
-  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>266, 360</value>
+  <data name="comboBoxSelectLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 17</value>
   </data>
-  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>580, 360</value>
+  <data name="&gt;&gt;numInactiveAlpha.Parent" xml:space="preserve">
+    <value>groupBox11</value>
   </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="lblMenuScrap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 14</value>
+  </data>
+  <data name="rdoDupCapture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 16</value>
+  </data>
+  <data name="groupBox8.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 2, 5, 2</value>
   </data>
   <data name="chkCC4.Size" type="System.Drawing.Size, System.Drawing">
     <value>26, 78</value>
@@ -3336,14 +3326,11 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="radioButton1_fullscreenCursor.ToolTip" xml:space="preserve">
     <value>Type of border line for selection box.</value>
   </data>
-  <data name="&gt;&gt;label14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;btnEditStyle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;picSelectAreaBackColor.Name" xml:space="preserve">
     <value>picSelectAreaBackColor</value>
-  </data>
-  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 8</value>
   </data>
   <data name="groupBox7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
@@ -3351,8 +3338,11 @@ Unusable and other procedure-installed speed keys.</value>
   <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
     <value>423, 70</value>
   </data>
-  <data name="&gt;&gt;chkCC3.Name" xml:space="preserve">
-    <value>chkCC3</value>
+  <data name="&gt;&gt;pnlScrapStyle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox17.Text" xml:space="preserve">
+    <value>Language</value>
   </data>
   <data name="numSelectAreaTrans.ToolTip" xml:space="preserve">
     <value>The transparency of the color of the installation frame selection.
@@ -3370,7 +3360,7 @@ Selected 100% transparency and high response speed.</value>
   <data name="btnEditStyle.Location" type="System.Drawing.Point, System.Drawing">
     <value>89, 18</value>
   </data>
-  <data name="groupBox9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="groupBox6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
   <data name="lblMenuScrap.ToolTip" xml:space="preserve">
@@ -3379,14 +3369,14 @@ Selected 100% transparency and high response speed.</value>
   <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
     <value>103, 131</value>
   </data>
-  <data name="groupBox9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 202</value>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
   </data>
   <data name="radioButton2_fullscreenCursor.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
   </data>
-  <data name="checkBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+  <data name="&gt;&gt;lblMenuStyle.Parent" xml:space="preserve">
+    <value>panel1</value>
   </data>
   <data name="&gt;&gt;linkLabel2.Name" xml:space="preserve">
     <value>linkLabel2</value>
@@ -3397,14 +3387,17 @@ Selected 100% transparency and high response speed.</value>
   <data name="&gt;&gt;label15.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;checkBox_transparent.Name" xml:space="preserve">
+    <value>checkBox_transparent</value>
+  </data>
   <data name="checkBox_transparent.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="detailPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="label8.ToolTip" xml:space="preserve">
-    <value />
+  <data name="numDustBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
   </data>
   <data name="groupBox8.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -3421,11 +3414,11 @@ Selected 100% transparency and high response speed.</value>
   <data name="pnlScrapStyle.Size" type="System.Drawing.Size, System.Drawing">
     <value>412, 62</value>
   </data>
-  <data name="lblMenuMisc.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
+    <value>panel4</value>
   </data>
-  <data name="listScrapMenuList.ItemHeight" type="System.Int32, mscorlib">
-    <value>20</value>
+  <data name="groupBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="&gt;&gt;groupBox12.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -3436,14 +3429,14 @@ Selected 100% transparency and high response speed.</value>
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="rdoDupCapture.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="&gt;&gt;rdoDupCapture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lblMenuCapture.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="listStyles.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+  <data name="checkBox_autoStartup.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;lblMenuMisc.Name" xml:space="preserve">
     <value>lblMenuMisc</value>
@@ -3466,14 +3459,14 @@ Selected 100% transparency and high response speed.</value>
   <data name="&gt;&gt;rdoExeTypeApp.Parent" xml:space="preserve">
     <value>groupBox6</value>
   </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 12</value>
+  <data name="&gt;&gt;picSelectAreaBackColor.Parent" xml:space="preserve">
+    <value>groupBox4</value>
   </data>
   <data name="groupBox1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="checkBox_cursor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>32, 19</value>
+  <data name="chkCC4.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="label14.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -3481,8 +3474,8 @@ Selected 100% transparency and high response speed.</value>
   <data name="rdoDupNone.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="chkCC3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
   </data>
   <data name="label17.ToolTip" xml:space="preserve">
     <value />
@@ -3490,17 +3483,14 @@ Selected 100% transparency and high response speed.</value>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
     <value>20, 14</value>
   </data>
-  <data name="&gt;&gt;checkBox_topMost.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;rdoSelLineTypeDotted.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="chkScrapImageDrag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>377, 16</value>
   </data>
   <data name="&gt;&gt;button1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;rdoDupNone.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;numMouseOverAlpha.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="lblMenuStyle.Location" type="System.Drawing.Point, System.Drawing">
     <value>27, 70</value>
@@ -3523,8 +3513,8 @@ Selected 100% transparency and high response speed.</value>
   <data name="chkCC4.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
     <value>Button</value>
   </data>
-  <data name="&gt;&gt;lblMenuAll.Name" xml:space="preserve">
-    <value>lblMenuAll</value>
+  <data name="pageScrapMenu.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="&gt;&gt;groupBox5.Parent" xml:space="preserve">
     <value>pageAll</value>
@@ -3535,14 +3525,17 @@ Selected 100% transparency and high response speed.</value>
   <data name="&gt;&gt;cmbWClickStyle.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="pageScrap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 327</value>
+  </data>
   <data name="&gt;&gt;chkCC6.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="groupBox10.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>5, 2, 5, 2</value>
   </data>
-  <data name="btnNewStyle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 26</value>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>11, 12</value>
   </data>
   <data name="chkDustBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
@@ -3550,20 +3543,26 @@ Selected 100% transparency and high response speed.</value>
   <data name="checkBox_fullscreenCursor.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>10, 6, 3, 2</value>
+  <data name="&gt;&gt;lblMenuScrap.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
-  <data name="&gt;&gt;checkBox_transparent.Name" xml:space="preserve">
-    <value>checkBox_transparent</value>
+  <data name="groupBox10.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pageScrap.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="btnOK.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;label9.Parent" xml:space="preserve">
     <value>groupBox4</value>
   </data>
-  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="chkInactiveAlphaChange.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="chkCC1.ToolTip" xml:space="preserve">
-    <value />
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>423, 89</value>
   </data>
   <data name="groupBox6.Size" type="System.Drawing.Size, System.Drawing">
     <value>423, 88</value>
@@ -3571,20 +3570,20 @@ Selected 100% transparency and high response speed.</value>
   <data name="groupBox13.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
-  <data name="lblMenuScrap.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 14</value>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="groupBox17.Text" xml:space="preserve">
-    <value>Language</value>
+  <data name="&gt;&gt;groupBox6.Name" xml:space="preserve">
+    <value>groupBox6</value>
   </data>
   <data name="&gt;&gt;label6.Name" xml:space="preserve">
     <value>label6</value>
   </data>
-  <data name="&gt;&gt;pageCapture.Parent" xml:space="preserve">
-    <value>tabControl1</value>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="pageMisc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>439, 327</value>
+  <data name="pageAll.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 6, 5, 6</value>
   </data>
   <data name="&gt;&gt;lblMenuStyle.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3595,23 +3594,23 @@ Selected 100% transparency and high response speed.</value>
   <data name="&gt;&gt;chkCC1.Parent" xml:space="preserve">
     <value>groupBox12</value>
   </data>
-  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>312, 36</value>
+  <data name="groupBox12.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
-  <data name="label4.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;linkLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="pageStyle.Text" xml:space="preserve">
     <value>Edit automatic operations</value>
   </data>
-  <data name="&gt;&gt;groupBox16.Name" xml:space="preserve">
-    <value>groupBox16</value>
+  <data name="listScrapMenuStyles.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;btnNewStyle.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="panel2.ToolTip" xml:space="preserve">
-    <value />
+  <data name="linkLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="btnCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
@@ -3631,8 +3630,11 @@ Selected 100% transparency and high response speed.</value>
   <data name="chkCC7.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="chkCC9.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="pageScrap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="cmbCreateStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 10</value>
   </data>
   <data name="&gt;&gt;rdoDupNone.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3643,8 +3645,8 @@ Selected 100% transparency and high response speed.</value>
   <data name="&gt;&gt;pageStyle.Name" xml:space="preserve">
     <value>pageStyle</value>
   </data>
-  <data name="pageScrap.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
+  <data name="pageAll.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;listScrapMenuStyles.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -3652,31 +3654,29 @@ Selected 100% transparency and high response speed.</value>
   <data name="&gt;&gt;label11.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnOK.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="label15.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="pageMisc.ToolTip" xml:space="preserve">
-    <value />
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
   <data name="&gt;&gt;pageMisc.Parent" xml:space="preserve">
     <value>tabControl1</value>
   </data>
-  <data name="linkLabel2.Text" xml:space="preserve">
-    <value>test</value>
+  <data name="&gt;&gt;listScrapMenuStyles.Parent" xml:space="preserve">
+    <value>groupBox8</value>
   </data>
-  <data name="label20.Text" xml:space="preserve">
-    <value>A restart is required after changing the language.
-Since the style name before the change remains, 
-Please initialize the settings to reflect the language change.</value>
+  <data name="listStyles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 244</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Option</value>
+  <data name="&gt;&gt;pageAll.Name" xml:space="preserve">
+    <value>pageAll</value>
   </data>
-  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>424, 302</value>
+  <data name="&gt;&gt;checkBox1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
   </data>
   <data name="numDustBox.ToolTip" xml:space="preserve">
     <value>The maximum number of trains that can be released during a designated station.
@@ -3685,11 +3685,11 @@ An old-fashioned reference map.</value>
   <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
-  <data name="pageScrap.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+  <data name="&gt;&gt;rdoSelLineTypeDotted.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;listScrapMenuStyles.Name" xml:space="preserve">
-    <value>listScrapMenuStyles</value>
+  <data name="&gt;&gt;lblMenuAll.Name" xml:space="preserve">
+    <value>lblMenuAll</value>
   </data>
   <data name="&gt;&gt;radioButton1_fullscreenCursor.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -3706,32 +3706,32 @@ An old-fashioned reference map.</value>
   <data name="checkBox_transparent.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
-  <data name="lblMenuScrap.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="&gt;&gt;groupBox14.Name" xml:space="preserve">
+    <value>groupBox14</value>
   </data>
   <data name="chkDustBox.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="label12.Text" xml:space="preserve">
-    <value>%</value>
+  <data name="&gt;&gt;cmbCreateStyle.Parent" xml:space="preserve">
+    <value>pnlScrapStyle</value>
   </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="lblMenuAll.Text" xml:space="preserve">
-    <value>Geneal</value>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="pageScrap.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="groupBox8.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 2, 5, 2</value>
+  <data name="&gt;&gt;label20.Name" xml:space="preserve">
+    <value>label20</value>
   </data>
   <data name="rdoExeTypeApp.ToolTip" xml:space="preserve">
     <value>Show Main Window, Minimize</value>
   </data>
-  <data name="&gt;&gt;lblMenuScrap.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;pageStyle.Parent" xml:space="preserve">
+    <value>tabControl1</value>
   </data>
   <data name="&gt;&gt;groupBox6.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -3757,11 +3757,11 @@ An old-fashioned reference map.</value>
   <data name="label19.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="pageStyle.ToolTip" xml:space="preserve">
-    <value />
+  <data name="label18.Text" xml:space="preserve">
+    <value>Sselection box color:</value>
   </data>
-  <data name="chkCC6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>130, 50</value>
+  <data name="checkBox_cursor.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;pageStyle.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -3772,11 +3772,11 @@ An old-fashioned reference map.</value>
   <data name="listScrapMenuList.IntegralHeight" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="pageMisc.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="rdoExeTypeApp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 18</value>
   </data>
-  <data name="label9.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="cmbWClickStyle.ToolTip" xml:space="preserve">
     <value>Automatic operation when used for specified double reference.</value>
@@ -3793,20 +3793,17 @@ An old-fashioned reference map.</value>
   <data name="&gt;&gt;pageMisc.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;flowLayoutPanel1.Name" xml:space="preserve">
-    <value>flowLayoutPanel1</value>
+  <data name="&gt;&gt;linkLabel2.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;chkSplash.Name" xml:space="preserve">
-    <value>chkSplash</value>
+  <data name="groupBox16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 74</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>ja</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>51</value>

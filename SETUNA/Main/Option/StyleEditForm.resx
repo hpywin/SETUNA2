@@ -150,7 +150,7 @@
     <value>0</value>
   </data>
   <data name="txtStyleName.Font" type="System.Drawing.Font, System.Drawing">
-    <value>SimSun, 10pt</value>
+    <value>MS UI Gothic, 9.75pt</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="txtStyleName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
@@ -160,7 +160,7 @@
     <value>3, 317</value>
   </data>
   <data name="txtStyleName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>193, 23</value>
+    <value>193, 20</value>
   </data>
   <data name="txtStyleName.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -212,6 +212,186 @@
   </data>
   <data name="&gt;&gt;hotkey.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="listKeys.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="listKeys.ItemHeight" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="listKeys.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 104</value>
+  </data>
+  <data name="listKeys.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 78</value>
+  </data>
+  <data name="listKeys.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="listKeys.ToolTip" xml:space="preserve">
+    <value>Select a reference image, and if you click the assigned shortcut key, the automatic operation will be applied.</value>
+  </data>
+  <data name="listKeys.ToolTip1" xml:space="preserve">
+    <value>Select a reference image, and if you click the assigned shortcut key, the automatic operation will be applied.</value>
+  </data>
+  <data name="&gt;&gt;listKeys.Name" xml:space="preserve">
+    <value>listKeys</value>
+  </data>
+  <data name="&gt;&gt;listKeys.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listKeys.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;listKeys.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="listStyleItem.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="listStyleItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="listStyleItem.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="listStyleItem.ItemHeight" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="listStyleItem.Items" xml:space="preserve">
+    <value>Item 1</value>
+  </data>
+  <data name="listStyleItem.Items1" xml:space="preserve">
+    <value>Item 2</value>
+  </data>
+  <data name="listStyleItem.Items2" xml:space="preserve">
+    <value>Item 3</value>
+  </data>
+  <data name="listStyleItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 40</value>
+  </data>
+  <data name="listStyleItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 310</value>
+  </data>
+  <data name="listStyleItem.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="listStyleItem.ToolTip" xml:space="preserve">
+    <value>Apply automation items sequentially from top to bottom.</value>
+  </data>
+  <data name="listStyleItem.ToolTip1" xml:space="preserve">
+    <value>Apply automation items sequentially from top to bottom.</value>
+  </data>
+  <data name="&gt;&gt;listStyleItem.Name" xml:space="preserve">
+    <value>listStyleItem</value>
+  </data>
+  <data name="&gt;&gt;listStyleItem.Type" xml:space="preserve">
+    <value>SETUNA.Main.StyleItemListBox, SETUNA, Version=3.0.0.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;listStyleItem.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;listStyleItem.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnItemDelete.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnItemDelete.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SimSun, 8.25pt</value>
+  </data>
+  <data name="btnItemDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>517, 14</value>
+  </data>
+  <data name="btnItemDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 23</value>
+  </data>
+  <data name="btnItemDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnItemDelete.ToolTip" xml:space="preserve">
+    <value>Delete selected items.</value>
+  </data>
+  <data name="btnItemDelete.ToolTip1" xml:space="preserve">
+    <value>Delete selected items.</value>
+  </data>
+  <data name="&gt;&gt;btnItemDelete.Name" xml:space="preserve">
+    <value>btnItemDelete</value>
+  </data>
+  <data name="&gt;&gt;btnItemDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnItemDelete.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;btnItemDelete.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnItemDown.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnItemDown.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SimSun, 8.25pt</value>
+  </data>
+  <data name="btnItemDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>456, 14</value>
+  </data>
+  <data name="btnItemDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 23</value>
+  </data>
+  <data name="btnItemDown.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnItemDown.ToolTip" xml:space="preserve">
+    <value>Change the order of selected items.</value>
+  </data>
+  <data name="btnItemDown.ToolTip1" xml:space="preserve">
+    <value>Change the order of selected items.</value>
+  </data>
+  <data name="&gt;&gt;btnItemDown.Name" xml:space="preserve">
+    <value>btnItemDown</value>
+  </data>
+  <data name="&gt;&gt;btnItemDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnItemDown.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;btnItemDown.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnItemUp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnItemUp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SimSun, 8.25pt</value>
+  </data>
+  <data name="btnItemUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 14</value>
+  </data>
+  <data name="btnItemUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 23</value>
+  </data>
+  <data name="btnItemUp.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnItemUp.ToolTip" xml:space="preserve">
+    <value>Change the order of selected items.</value>
+  </data>
+  <data name="btnItemUp.ToolTip1" xml:space="preserve">
+    <value>Change the order of selected items.</value>
+  </data>
+  <data name="&gt;&gt;btnItemUp.Name" xml:space="preserve">
+    <value>btnItemUp</value>
+  </data>
+  <data name="&gt;&gt;btnItemUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnItemUp.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;btnItemUp.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -290,39 +470,6 @@
   </data>
   <data name="&gt;&gt;btnKeyDelete.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="listKeys.IntegralHeight" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="listKeys.ItemHeight" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="listKeys.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 104</value>
-  </data>
-  <data name="listKeys.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 78</value>
-  </data>
-  <data name="listKeys.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="listKeys.ToolTip" xml:space="preserve">
-    <value>Select a reference image, and if you click the assigned shortcut key, the automatic operation will be applied.</value>
-  </data>
-  <data name="listKeys.ToolTip1" xml:space="preserve">
-    <value>Select a reference image, and if you click the assigned shortcut key, the automatic operation will be applied.</value>
-  </data>
-  <data name="&gt;&gt;listKeys.Name" xml:space="preserve">
-    <value>listKeys</value>
-  </data>
-  <data name="&gt;&gt;listKeys.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;listKeys.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;listKeys.ZOrder" xml:space="preserve">
-    <value>4</value>
   </data>
   <data name="btnKeyEntry.Location" type="System.Drawing.Point, System.Drawing">
     <value>133, 60</value>
@@ -453,54 +600,6 @@
   <data name="groupBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="listStyleItem.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="listStyleItem.Font" type="System.Drawing.Font, System.Drawing">
-    <value>MS UI Gothic, 9.75pt</value>
-  </data>
-  <data name="listStyleItem.IntegralHeight" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="listStyleItem.ItemHeight" type="System.Int32, mscorlib">
-    <value>39</value>
-  </data>
-  <data name="listStyleItem.Items" xml:space="preserve">
-    <value>Item 1</value>
-  </data>
-  <data name="listStyleItem.Items1" xml:space="preserve">
-    <value>Item 2</value>
-  </data>
-  <data name="listStyleItem.Items2" xml:space="preserve">
-    <value>Item 3</value>
-  </data>
-  <data name="listStyleItem.Location" type="System.Drawing.Point, System.Drawing">
-    <value>296, 40</value>
-  </data>
-  <data name="listStyleItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 310</value>
-  </data>
-  <data name="listStyleItem.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="listStyleItem.ToolTip" xml:space="preserve">
-    <value>Apply automation items sequentially from top to bottom.</value>
-  </data>
-  <data name="listStyleItem.ToolTip1" xml:space="preserve">
-    <value>Apply automation items sequentially from top to bottom.</value>
-  </data>
-  <data name="&gt;&gt;listStyleItem.Name" xml:space="preserve">
-    <value>listStyleItem</value>
-  </data>
-  <data name="&gt;&gt;listStyleItem.Type" xml:space="preserve">
-    <value>SETUNA.Main.StyleItemListBox, SETUNA, Version=3.0.0.6, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;listStyleItem.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;listStyleItem.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="listAllStyleItem.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left</value>
   </data>
@@ -600,39 +699,6 @@
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="btnItemDelete.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="btnItemDelete.Font" type="System.Drawing.Font, System.Drawing">
-    <value>SimSun, 8.25pt</value>
-  </data>
-  <data name="btnItemDelete.Location" type="System.Drawing.Point, System.Drawing">
-    <value>517, 14</value>
-  </data>
-  <data name="btnItemDelete.Size" type="System.Drawing.Size, System.Drawing">
-    <value>29, 23</value>
-  </data>
-  <data name="btnItemDelete.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="btnItemDelete.ToolTip" xml:space="preserve">
-    <value>Delete selected items.</value>
-  </data>
-  <data name="btnItemDelete.ToolTip1" xml:space="preserve">
-    <value>Delete selected items.</value>
-  </data>
-  <data name="&gt;&gt;btnItemDelete.Name" xml:space="preserve">
-    <value>btnItemDelete</value>
-  </data>
-  <data name="&gt;&gt;btnItemDelete.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnItemDelete.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;btnItemDelete.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <data name="btnInsert.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left</value>
   </data>
@@ -659,72 +725,6 @@
   </data>
   <data name="&gt;&gt;btnInsert.ZOrder" xml:space="preserve">
     <value>5</value>
-  </data>
-  <data name="btnItemDown.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="btnItemDown.Font" type="System.Drawing.Font, System.Drawing">
-    <value>SimSun, 8.25pt</value>
-  </data>
-  <data name="btnItemDown.Location" type="System.Drawing.Point, System.Drawing">
-    <value>456, 14</value>
-  </data>
-  <data name="btnItemDown.Size" type="System.Drawing.Size, System.Drawing">
-    <value>29, 23</value>
-  </data>
-  <data name="btnItemDown.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="btnItemDown.ToolTip" xml:space="preserve">
-    <value>Change the order of selected items.</value>
-  </data>
-  <data name="btnItemDown.ToolTip1" xml:space="preserve">
-    <value>Change the order of selected items.</value>
-  </data>
-  <data name="&gt;&gt;btnItemDown.Name" xml:space="preserve">
-    <value>btnItemDown</value>
-  </data>
-  <data name="&gt;&gt;btnItemDown.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnItemDown.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;btnItemDown.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="btnItemUp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="btnItemUp.Font" type="System.Drawing.Font, System.Drawing">
-    <value>SimSun, 8.25pt</value>
-  </data>
-  <data name="btnItemUp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>484, 14</value>
-  </data>
-  <data name="btnItemUp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>29, 23</value>
-  </data>
-  <data name="btnItemUp.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="btnItemUp.ToolTip" xml:space="preserve">
-    <value>Change the order of selected items.</value>
-  </data>
-  <data name="btnItemUp.ToolTip1" xml:space="preserve">
-    <value>Change the order of selected items.</value>
-  </data>
-  <data name="&gt;&gt;btnItemUp.Name" xml:space="preserve">
-    <value>btnItemUp</value>
-  </data>
-  <data name="&gt;&gt;btnItemUp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnItemUp.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;btnItemUp.ZOrder" xml:space="preserve">
-    <value>7</value>
   </data>
   <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 11</value>

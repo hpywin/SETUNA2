@@ -117,13 +117,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>設定項目</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="rdoIncrement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 16</value>
+  </data>
+  <data name="rdoIncrement.Text" xml:space="preserve">
+    <value>ウインドウの種類</value>
+  </data>
+  <data name="rdoFixed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 16</value>
   </data>
   <data name="rdoFixed.Text" xml:space="preserve">
     <value>参照画像の種類</value>
   </data>
-  <data name="rdoIncrement.Text" xml:space="preserve">
-    <value>ウインドウの種類</value>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>設定項目</value>
   </data>
 </root>

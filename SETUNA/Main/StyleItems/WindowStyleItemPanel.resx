@@ -120,15 +120,14 @@
   <data name="&gt;&gt;rdoIncrement.Parent" xml:space="preserve">
     <value>panel1</value>
   </data>
-  <data name="&gt;&gt;rdoIncrement.Name" xml:space="preserve">
-    <value>rdoIncrement</value>
+  <data name="&gt;&gt;cmdCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 12</value>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
   </data>
   <data name="&gt;&gt;cmdCancel.Name" xml:space="preserve">
     <value>cmdCancel</value>
@@ -140,11 +139,12 @@
   <data name="cmdCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
+  <data name="&gt;&gt;rdoIncrement.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>156, 51</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>SETUNA.Main.StyleItems.ToolBoxForm, SETUNA, Version=3.0.0.6, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;cmdOK.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -164,8 +164,8 @@
   <data name="&gt;&gt;cmdOK.Name" xml:space="preserve">
     <value>cmdOK</value>
   </data>
-  <data name="&gt;&gt;rdoFixed.Parent" xml:space="preserve">
-    <value>panel1</value>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;rdoFixed.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -185,24 +185,30 @@
   <data name="cmdOK.Location" type="System.Drawing.Point, System.Drawing">
     <value>36, 92</value>
   </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+  <data name="&gt;&gt;rdoFixed.Parent" xml:space="preserve">
     <value>panel1</value>
-  </data>
-  <data name="rdoIncrement.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 16</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
+  <data name="rdoIncrement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 16</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;rdoFixed.Name" xml:space="preserve">
+    <value>rdoFixed</value>
+  </data>
   <data name="rdoIncrement.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 30</value>
   </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>SETUNA.Main.StyleItems.ToolBoxForm, SETUNA, Version=3.0.0.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
   <data name="rdoFixed.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 16</value>
+    <value>135, 16</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>WindowStyleItemPanel</value>
@@ -222,10 +228,7 @@
   <data name="cmdCancel.Location" type="System.Drawing.Point, System.Drawing">
     <value>112, 92</value>
   </data>
-  <data name="&gt;&gt;cmdCancel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rdoIncrement.ZOrder" xml:space="preserve">
+  <data name="rdoFixed.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="rdoIncrement.AutoSize" type="System.Boolean, mscorlib">
@@ -233,9 +236,6 @@
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>Settings</value>
-  </data>
-  <data name="&gt;&gt;rdoFixed.Name" xml:space="preserve">
-    <value>rdoFixed</value>
   </data>
   <data name="rdoIncrement.Text" xml:space="preserve">
     <value>Window type</value>
@@ -249,25 +249,25 @@
   <data name="&gt;&gt;rdoIncrement.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="rdoFixed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;rdoFixed.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="rdoFixed.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>171, 80</value>
   </data>
-  <data name="rdoFixed.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;rdoIncrement.Name" xml:space="preserve">
+    <value>rdoIncrement</value>
   </data>
-  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </data>
-  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>zh</value>
-  </data>
+  </metadata>
 </root>
