@@ -1,98 +1,84 @@
 # Disclaimer
-- [Official Website](http://www.clearunit.com/clearup/setuna2) (Address has been linked)
-- The official website no longer maintains the software. I optimize and maintain the software based on the incomplete screenshots of the high score screen. If there is any infringement, please contact to delete it!
+- [Official website](http://www.clearunit.com/clearup/setuna2) (Address has been linked)
+- The official no longer maintains the software. I optimize and maintain the software based on the incomplete screenshots of the high score screen. If there is any infringement, please contact to delete it!
 
 ---
 
-## introduce
-A best screenshot small tool (support high dpi screenshots)
-
-An easy-to-use screenshot tool (supports high-score screenshots)
+## Introduction
+A best screenshot small tool (support high dpi screenshots) 
 
 ---
 
-![Effect image 1](壁纸示例图/示例1.png)
-![Effect image 2](壁纸示例图/示例2.png)
-![Effect image 3](壁纸示例图/示例3.png)
+![example_1](Screenshots/example_1.png)
+![example_2](Screenshots/example_2.png)
+![example_3](Screenshots/example_3.png)
 
 ---
 
-## Release Notes
-- **SETUNA 3.x version running requirements** (continuously updated) ([Latest version 3.x download link](https://github.com/tylearymf/SETUNA2/releases))
+## Version description
+- **SETUNA 3.x version operating requirements** (continuous update) ([Latest Version 3.x download link](https://github.com/tylearymf/SETUNA2/releases))
   
-   - Windows 10 14393 and above
+  - Windows 10 14393 and above
   
-     - ###### Check the Win10 system version: Settings -> System -> About -> OS version in the Windows specification details page
+    - ###### Check the Win10 system version: Settings -> System -> About -> Operating system version in the Windows specification page
   
-   - Install .Net Framework 4.7 components
-- **RUNNING REQUIREMENTS FOR SETUNA 2.x VERSION** (NOT MAINTENANCE) ([LAST VERSION 2.x DOWNLOAD LINK](https://github.com/tylearymf/SETUNA2/releases/tag/2.6.0))
+  - **SETUNA 2.x version operating requirements** (stop maintenance) ([last version 2.x download link](https://github.com/tylearymf/SETUNA2/releases/tag/2.6.0))
   
-   - Install .Net Framework 2.0 components
+  - Install .Net Framework 2.0 components
 
-**Notice:**
+**note:**
 
-- If the system does not meet the requirements, **you can try to use the 3.x version**, if there is a problem of **the screen will be shrunk when taking a screenshot**, then you can only use the 2.x version.
-- The cache format of the 3.x version has changed, so if you used 2.x to capture some pictures before, you can save them locally and then paste them in 3.x.
-- In case of **Screenshot Blur**, please try to open **Miscellaneous Settings** -> **Screenshot Background** -> **Penetrate Screenshot**
+- If the system does not meet the requirements, **you can try to use the 3.x version**, if there is a **screen will be reduced when taking screenshots**, then you can only use the 2.x version.
+- The cache format of the 3.x version has been changed, so if you used 2.x to capture some pictures, you can save them locally and paste them in 3.x.
+- In case of **fuzzy screenshot**, please try to open **Miscellaneous Settings** -> **Screenshot Background** -> **Penetration Screenshot**
 
 ---
 
 ## Function Description
 - Support multiple monitors with different DPI
+- ###### If it is the **2.x** version, please go to Options -> Display DPI Settings to manually set the DPI of the display.
 
-   - ###### If it is **2.x** version, please go to Options -> Display DPI Settings to manually set the DPI of the display.
+- After the computer is restarted, it can continue to display the screenshots that have not been closed before (retain the screenshot information: location, style, level)
 
-- Support to continue to display screenshots that have not been closed before restarting the computer (keep screenshot information: position, style, level)
+- Support configuration startup, support configuration screenshots are always on top
 
-- Support configuration booting, support configuration screenshots always on top
+  - ###### Configuration method: Options -> General -> Other
 
-   - ###### Configuration method: Options -> General -> Others
+- Click the program icon in the taskbar to activate all screenshots once and put them on top
 
-- Click the program icon on the taskbar to activate all the screenshots once and make them stick to the top
+- Support shortcut keys to hide and show all screenshots
 
-- Support shortcut keys to hide and display all screenshots
-
-   - ###### Configuration method: Options -> Screenshot Settings
+  - ###### Configuration method: Options -> Screenshot settings
   
-- Support displaying full screen cross cursor
+- Support display full screen cross cursor
 
-   - ###### Configuration method: Options -> Miscellaneous Settings -> Full Screen Cross Cursor Style
+  - ###### Configuration method: Options -> Miscellaneous settings -> Full screen cross cursor style
 
 - Support to keep the display of the mouse in the screenshot
 
-   - ###### Configuration method: Options -> Miscellaneous Settings -> Others -> Keep the mouse in the screenshot
+  - ###### Configuration method: Options -> Miscellaneous Settings -> Others -> Keep the mouse in the screenshot
 
 - Support displaying a magnifying glass to capture pictures more accurately
 
-   - ###### Configuration method: Options -> Miscellaneous Settings -> Others -> Show Magnifying Glass
+  - ###### Configuration method: Options -> Miscellaneous settings -> Others -> Show magnifying glass
 
-- Support drag and drop pictures from the website to create screenshots
+- Support dragging and dropping pictures from the website to create screenshots
 
-   - ###### Drag a picture from the website to a screenshot and it will automatically create a screenshot (this function needs to be connected to the Internet, because the corresponding website picture needs to be downloaded)
+  - ###### Drag and drop a picture from the website to a screenshot will automatically create a screenshot (this function needs to be connected to the Internet, because the corresponding website picture needs to be downloaded)
   
-- Support from image formats **JPEG**, **PNG**, **PSD**, **GIF**, **BMP**, **ICO**, **TIFF**, **WEBP Create screenshots in **, **SVG**, **TGA**, **SVG**
-
-
-
+- Support image formats **JPEG**, **PNG**, **PSD**, **GIF**, **BMP**, **ICO**, **TIFF**, **WEBP Create screenshots in **, **SVG**, **TGA**, **SVG**
 
 ---
 
-## Currently Known Issues
-- 前往 [Projects](https://github.com/tylearymf/SETUNA2/projects/1) tab to view
+## Currently known issues
+- Go to the [Projects](https://github.com/tylearymf/SETUNA2/projects/1) tab to view
 
 ---
 
-## Functions to be added later
-- 前往 [Projects](https://github.com/tylearymf/SETUNA2/projects/1) tab to view
+## Features to be added later
+- Go to the [Projects](https://github.com/tylearymf/SETUNA2/projects/1) tab to view
 
 ---
 
-## quoting
+## Quote
 - [JosePineiro/WebP-wrapper](https://github.com/JosePineiro/WebP-wrapper)
-
-
-# Disclaimer
-- [Official Website](http://www.clearunit.com/clearup/setuna2) (Address has been linked)
-- The official website no longer maintains the software. I optimize and maintain the software based on the incomplete screenshots of the high score screen. If there is any infringement, please contact to delete it!
-
----
