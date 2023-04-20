@@ -4,6 +4,7 @@ using System.Windows.Forms;
 
 namespace SETUNA.Main.StyleItems
 {
+    using System;
     using SETUNA.Properties;
 
     // Token: 0x02000065 RID: 101
@@ -14,40 +15,70 @@ namespace SETUNA.Main.StyleItems
         {
             using (var trimWindow = new TrimWindow(scrap))
             {
+                var rnd = new Random();
+                var isSolid = false;
+                var isRandom = true;
+                var c = Color.White;
                 if (trimWindow.ShowDialog() == DialogResult.OK)
                 {
-                    ColorDialog colorDialog1 = new ColorDialog();
-                    Color color = Color.White;
-                    colorDialog1.AnyColor = true;
-                    colorDialog1.Color = color;
-                    if (colorDialog1.ShowDialog() == DialogResult.OK)
+                    if (isSolid)
                     {
-                        color = colorDialog1.Color;
+                        var colorDialog1 = new ColorDialog();
+                        colorDialog1.AnyColor = true;
+                        colorDialog1.Color = c;
+                        if (colorDialog1.ShowDialog() == DialogResult.OK)
+                        {
+                            c = colorDialog1.Color;
+                        }
                     }
-                    Brush brush = new SolidBrush(color);
 
-                    //using (var bitmap = new Bitmap(trimWindow.TrimRectangle.Width, trimWindow.TrimRectangle.Height, PixelFormat.Format24bppRgb))
-                    //{
-                    //    using (var graphics = Graphics.FromImage(bitmap))
-                    //    {
-                    //        graphics.DrawImage(scrap.Image, 0, 0, new Rectangle(trimWindow.TrimLeft, trimWindow.TrimTop, trimWindow.TrimRectangle.Width, trimWindow.TrimRectangle.Height), GraphicsUnit.Pixel);
-                    //    }
-                    //    scrap.Image = bitmap;
-                    //    scrap.Left += trimWindow.TrimLeft;
-                    //    scrap.Top += trimWindow.TrimTop;
-                    //    scrap.Focus();
-                    //}
+                    using (var rectBitmap = new Bitmap(trimWindow.TrimRectangle.Width, trimWindow.TrimRectangle.Height))
                     using (var bitmap = new Bitmap(scrap.Width, scrap.Height, PixelFormat.Format24bppRgb))
                     {
+                        if (!isSolid)
+                        {
+                            using (var myBitmap = new Bitmap(scrap.Image))
+                            {
+                                for (var y = 0; y < trimWindow.TrimRectangle.Height; y++)
+                                {
+                                    for (var x = 0; x < trimWindow.TrimRectangle.Width; x++)
+                                    {
+
+                                        if (isRandom)
+                                        {
+                                            //random color
+                                            c = Color.FromArgb(rnd.Next(256), rnd.Next(256), rnd.Next(256));
+                                        }
+                                        else
+                                        {
+                                            //gray scale
+                                            var p = myBitmap.GetPixel(trimWindow.TrimLeft + x, trimWindow.TrimTop + y);
+                                            var na = p.A;
+                                            var nc = (p.R + p.G + p.B) / 3;
+                                            c = Color.FromArgb(na, nc, nc, nc); //p.A, p.R, p.G, p.B);//
+                                        }
+                                        //img.SetPixel(rnd.Next(img.Width), rnd.Next(img.Height), c);
+                                        rectBitmap.SetPixel(x, y, c);
+                                    }
+                                }
+                            }
+                        }
+
                         using (var graphics = Graphics.FromImage(bitmap))
                         {
-                            graphics.DrawImage(  scrap.Image, 0, 0);
-                            var rect = new Rectangle(trimWindow.TrimLeft, trimWindow.TrimTop, trimWindow.TrimRectangle.Width, trimWindow.TrimRectangle.Height);
-                            graphics.FillRectangle(brush, rect);
+                            graphics.DrawImage(scrap.Image, 0, 0);
+                            if (isSolid)
+                            {
+                                var rect = new Rectangle(trimWindow.TrimLeft, trimWindow.TrimTop, trimWindow.TrimRectangle.Width, trimWindow.TrimRectangle.Height);
+                                Brush brush = new SolidBrush(c);
+                                graphics.FillRectangle(brush, rect);
+                            }
+                            else
+                            {
+                                graphics.DrawImage(rectBitmap, trimWindow.TrimLeft, trimWindow.TrimTop, rectBitmap.Width, rectBitmap.Height);
+                            }
                         }
                         scrap.Image = bitmap;
-                        //scrap.Left += trimWindow.TrimLeft;
-                        //scrap.Top += trimWindow.TrimTop;
                         scrap.Focus();
                     }
                 }

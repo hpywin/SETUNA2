@@ -174,7 +174,7 @@
     <value>8, 8</value>
   </data>
   <data name="rdoFixed.Text" xml:space="preserve">
-    <value>Reference image type</value>
+    <value>Screenshot type</value>
   </data>
   <data name="&gt;&gt;cmdOK.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>

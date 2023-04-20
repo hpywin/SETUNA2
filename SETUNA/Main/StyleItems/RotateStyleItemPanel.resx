@@ -122,7 +122,7 @@
     <value>10</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Rotate reference image:</value>
+    <value>Rotate screenshot:</value>
   </data>
   <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
     <value>groupBox2</value>
@@ -387,7 +387,7 @@
     <value>179, 157</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Flip reference image:</value>
+    <value>Flip screenshot:</value>
   </data>
   <data name="&gt;&gt;rdoRight90.Parent" xml:space="preserve">
     <value>panel1</value>

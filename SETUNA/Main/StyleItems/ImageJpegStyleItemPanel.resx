@@ -222,7 +222,7 @@
     <value>groupBox1</value>
   </data>
   <data name="rdoScrapName.Text" xml:space="preserve">
-    <value>Use reference image name</value>
+    <value>Use screenshot name</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>17</value>

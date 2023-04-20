@@ -268,7 +268,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Set the type of border for the reference image. に類似しているローカライズされた文字列を検索します。
+        ///   Set the type of border for the screenshot. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label100 {
             get {
@@ -412,7 +412,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Use the image from clipboard as a reference image. に類似しているローカライズされた文字列を検索します。
+        ///   Use the image from clipboard as a screenshot. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label115 {
             get {
@@ -439,7 +439,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Upload the reference image to Picasa web album. に類似しているローカライズされた文字列を検索します。
+        ///   Upload the screenshot to Picasa web album. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label118 {
             get {
@@ -520,7 +520,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Shrink the size of the screenshot. に類似しているローカライズされた文字列を検索します。
+        ///   Swtich to thumbnail に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label126 {
             get {
@@ -529,7 +529,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Shrink the size of the screenshot.\nSubsequent automatic operation not applied. に類似しているローカライズされた文字列を検索します。
+        ///   Swtich to thumbnail.\nFollowing taks won&apos;t be applied. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label127 {
             get {
@@ -547,7 +547,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Copy the reference image as an image to the clipboard. に類似しているローカライズされた文字列を検索します。
+        ///   Copy the screenshot as an image to the clipboard. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label129 {
             get {
@@ -943,7 +943,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Shrink に類似しているローカライズされた文字列を検索します。
+        ///   Swtich to thumbnail に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label40 {
             get {

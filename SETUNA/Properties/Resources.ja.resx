@@ -1607,10 +1607,10 @@
     <value>枠線</value>
   </data>
   <data name="label126" xml:space="preserve">
-    <value>スクラップのサイズを縮小する</value>
+    <value>スクラップをコンパクト化</value>
   </data>
   <data name="label127" xml:space="preserve">
-    <value>スクラップのサイズを縮小する。\n自動処理は実行されません。</value>
+    <value>スクラップをコンパクト化。\n以降のスタイルは適用されません。</value>
   </data>
   <data name="label128" xml:space="preserve">
     <value>クリップボードにコピー</value>

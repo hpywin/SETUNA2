@@ -1358,7 +1358,7 @@
     <value>Cut(withborder)</value>
   </data>
   <data name="label40" xml:space="preserve">
-    <value>Shrink</value>
+    <value>Swtich to thumbnail</value>
   </data>
   <data name="label41" xml:space="preserve">
     <value>Trim</value>
@@ -1487,7 +1487,7 @@
     <value>No</value>
   </data>
   <data name="label100" xml:space="preserve">
-    <value>Set the type of border for the reference image.</value>
+    <value>Set the type of border for the screenshot.</value>
   </data>
   <data name="label101" xml:space="preserve">
     <value>3D border</value>
@@ -1532,7 +1532,7 @@
     <value>Paste from clipboard</value>
   </data>
   <data name="label115" xml:space="preserve">
-    <value>Use the image from clipboard as a reference image.</value>
+    <value>Use the image from clipboard as a screenshot.</value>
   </data>
   <data name="label116" xml:space="preserve">
     <value>Album uploaded with SETUNA.</value>
@@ -1541,7 +1541,7 @@
     <value>Upload to Picasa</value>
   </data>
   <data name="label118" xml:space="preserve">
-    <value>Upload the reference image to Picasa web album.</value>
+    <value>Upload the screenshot to Picasa web album.</value>
   </data>
   <data name="label119" xml:space="preserve">
     <value>Timer</value>
@@ -1607,16 +1607,16 @@
     <value>Border</value>
   </data>
   <data name="label126" xml:space="preserve">
-    <value>Shrink the size of the screenshot.</value>
+    <value>Swtich to thumbnail</value>
   </data>
   <data name="label127" xml:space="preserve">
-    <value>Shrink the size of the screenshot.\nSubsequent automatic operation not applied.</value>
+    <value>Swtich to thumbnail.\nFollowing taks won't be applied.</value>
   </data>
   <data name="label128" xml:space="preserve">
     <value>Copy to clipboard</value>
   </data>
   <data name="label129" xml:space="preserve">
-    <value>Copy the reference image as an image to the clipboard.</value>
+    <value>Copy the screenshot as an image to the clipboard.</value>
   </data>
   <data name="label130" xml:space="preserve">
     <value>Close</value>
