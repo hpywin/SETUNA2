@@ -1,88 +1,84 @@
-# 免责声明
-- [官方网站](http://www.clearunit.com/clearup/setuna2)（地址已挂）
-- 官方已不再维护该软件，本人基于高分屏截图不全原因，优化并维护该软件，如有侵权请联系删除！
+# Disclaimer
+- [Official website](http://www.clearunit.com/clearup/setuna2) (Address has been linked)
+- The official no longer maintains the software. I optimize and maintain the software based on the incomplete screenshots of the high score screen. If there is any infringement, please contact to delete it!
 
 ---
 
-## 介绍
+## Introduction
 A best screenshot small tool (support high dpi screenshots) 
 
-一款好用的截图小工具（支持高分屏截图）
+---
+
+![example_1](Screenshots/example_1.png)
+![example_2](Screenshots/example_2.png)
+![example_3](Screenshots/example_3.png)
 
 ---
 
-![效果图1](壁纸示例图/示例1.png)
-![效果图2](壁纸示例图/示例2.png)
-![效果图3](壁纸示例图/示例3.png)
+## Version description
+- **SETUNA 3.x version operating requirements** (continuous update) ([Latest Version 3.x download link](https://github.com/tylearymf/SETUNA2/releases))
+  
+  - Windows 10 14393 and above
+  
+    - ###### Check the Win10 system version: Settings -> System -> About -> Operating system version in the Windows specification page
+  
+  - **SETUNA 2.x version operating requirements** (stop maintenance) ([last version 2.x download link](https://github.com/tylearymf/SETUNA2/releases/tag/2.6.0))
+  
+  - Install .Net Framework 2.0 components
+
+**note:**
+
+- If the system does not meet the requirements, **you can try to use the 3.x version**, if there is a **screen will be reduced when taking screenshots**, then you can only use the 2.x version.
+- The cache format of the 3.x version has been changed, so if you used 2.x to capture some pictures, you can save them locally and paste them in 3.x.
+- In case of **fuzzy screenshot**, please try to open **Miscellaneous Settings** -> **Screenshot Background** -> **Penetration Screenshot**
 
 ---
 
-## 版本说明
-- **SETUNA 3.x 版本的运行要求**（持续更新）([最新版 3.x 下载链接](https://github.com/tylearymf/SETUNA2/releases))
-  
-  - Windows 10 14393 及以上
-  
-    - ###### 查看Win10系统版本：设置 -> 系统 -> 关于 -> Windows 规格详情页里的 操作系统版本
-  
-  - 安装 .Net Framework 4.7 组件
-- **SETUNA 2.x 版本的运行要求**（停止维护）([最后一版 2.x 下载链接](https://github.com/tylearymf/SETUNA2/releases/tag/2.6.0))
-  
-  - 安装 .Net Framework 2.0 组件
+## Function Description
+- Support multiple monitors with different DPI
+- ###### If it is the **2.x** version, please go to Options -> Display DPI Settings to manually set the DPI of the display.
 
-**注意：**
+- After the computer is restarted, it can continue to display the screenshots that have not been closed before (retain the screenshot information: location, style, level)
 
-- 如果系统不达要求的，**可以尝试使用 3.x 版本**，如果出现 **截图时屏幕会被缩小** 问题，那只能用回 2.x 版本.
-- 3.x 的版本缓存格式变更了，所以如果之前使用的时 2.x 截取了一些图片的，可以通过保存到本地，再通过 3.x 粘贴出来。
-- 如遇 **截图模糊**，请尝试打开 **杂项设置** -> **截图背景** -> **穿透截图**
+- Support configuration startup, support configuration screenshots are always on top
+
+  - ###### Configuration method: Options -> General -> Other
+
+- Click the program icon in the taskbar to activate all screenshots once and put them on top
+
+- Support shortcut keys to hide and show all screenshots
+
+  - ###### Configuration method: Options -> Screenshot settings
+  
+- Support display full screen cross cursor
+
+  - ###### Configuration method: Options -> Miscellaneous settings -> Full screen cross cursor style
+
+- Support to keep the display of the mouse in the screenshot
+
+  - ###### Configuration method: Options -> Miscellaneous Settings -> Others -> Keep the mouse in the screenshot
+
+- Support displaying a magnifying glass to capture pictures more accurately
+
+  - ###### Configuration method: Options -> Miscellaneous settings -> Others -> Show magnifying glass
+
+- Support dragging and dropping pictures from the website to create screenshots
+
+  - ###### Drag and drop a picture from the website to a screenshot will automatically create a screenshot (this function needs to be connected to the Internet, because the corresponding website picture needs to be downloaded)
+  
+- Support image formats **JPEG**, **PNG**, **PSD**, **GIF**, **BMP**, **ICO**, **TIFF**, **WEBP Create screenshots in **, **SVG**, **TGA**, **SVG**
 
 ---
 
-## 功能说明
-- 支持多台不同DPI显示器
-
-  - ###### 如果是 **2.x** 版本，请前往 选项 -> 显示器DPI设置 中手动设置显示器的 DPI。
-
-- 支持电脑重启后继续显示之前未关闭的截图（保留截图信息：位置、样式、层级）
-
-- 支持配置开机启动、支持配置截图始终置顶
-
-  - ###### 配置方法：选项- > 常规 -> 其他
-
-- 点击任务栏程序图标激活一次所有截图 ，让其置顶
-
-- 支持快捷键隐藏、显示所有截图
-
-  - ###### 配置方法：选项 -> 截图设置
-  
-- 支持显示全屏十字光标
-
-  - ###### 配置方法：选项 -> 杂项设置 -> 全屏十字光标样式
-
-- 支持在截图中保留鼠标的显示
-
-  - ###### 配置方法：选项 -> 杂项设置 -> 其他 -> 在截图中保留鼠标
-
-- 支持显示放大镜以更准确的截取图片
-
-  - ###### 配置方法：选项 -> 杂项设置 -> 其他 -> 显示放大镜
-
-- 支持从网站上图片拖拽创建截图
-
-  - ###### 从网站拖拽图片到某个截图中会自动创建截图（该功能需要联网，因为需要下载对应的网站图片）
-  
-- 支持从图片格式 **JPEG**、**PNG**、**PSD** 、**GIF**、**BMP**、**ICO**、**TIFF**、**WEBP**、**SVG**、**TGA**、**SVG** 中创建截图
+## Currently known issues
+- Go to the [Projects](https://github.com/tylearymf/SETUNA2/projects/1) tab to view
 
 ---
 
-## 目前已知问题
-- 前往 [Projects](https://github.com/tylearymf/SETUNA2/projects/1) 标签查看
+## Features to be added later
+- Go to the [Projects](https://github.com/tylearymf/SETUNA2/projects/1) tab to view
 
 ---
 
-## 后续要加的功能
-- 前往 [Projects](https://github.com/tylearymf/SETUNA2/projects/1) 标签查看
-
----
-
-## 引用
+## Quote
 - [JosePineiro/WebP-wrapper](https://github.com/JosePineiro/WebP-wrapper)
