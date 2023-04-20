@@ -574,7 +574,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Close the screenshot.\nSubsequent automatic operation not applied. に類似しているローカライズされた文字列を検索します。
+        ///   Close the screenshot.\nSubsequent automation not applied. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label131 {
             get {
@@ -655,7 +655,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Create automatic operation by combination of tasks. に類似しているローカライズされた文字列を検索します。
+        ///   Create an automation by combination of tasks. に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label155 {
             get {
@@ -682,7 +682,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Create a new style に類似しているローカライズされた文字列を検索します。
+        ///   Create an automation に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label158 {
             get {
@@ -799,7 +799,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Moveright(fine-tune) に類似しているローカライズされた文字列を検索します。
+        ///   Move right(fine-tune) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label26 {
             get {
@@ -925,7 +925,7 @@ namespace SETUNA.Properties {
         }
         
         /// <summary>
-        ///   Basic style に類似しているローカライズされた文字列を検索します。
+        ///   Basic に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string label39 {
             get {

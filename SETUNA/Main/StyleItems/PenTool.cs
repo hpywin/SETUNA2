@@ -114,9 +114,9 @@ namespace SETUNA.Main.StyleItems
             {
                 if (!IsEraseMode)
                 {
-                    return ScrapPaintToolBar.ToolKind.笔工具;
+                    return ScrapPaintToolBar.ToolKind.Pen;
                 }
-                return ScrapPaintToolBar.ToolKind.消しゴム工具;
+                return ScrapPaintToolBar.ToolKind.Eraser;
             }
         }
 

@@ -16,6 +16,16 @@ namespace SETUNA.Main.StyleItems
             {
                 if (trimWindow.ShowDialog() == DialogResult.OK)
                 {
+                    ColorDialog colorDialog1 = new ColorDialog();
+                    Color color = Color.White;
+                    colorDialog1.AnyColor = true;
+                    colorDialog1.Color = color;
+                    if (colorDialog1.ShowDialog() == DialogResult.OK)
+                    {
+                        color = colorDialog1.Color;
+                    }
+                    Brush brush = new SolidBrush(color);
+
                     //using (var bitmap = new Bitmap(trimWindow.TrimRectangle.Width, trimWindow.TrimRectangle.Height, PixelFormat.Format24bppRgb))
                     //{
                     //    using (var graphics = Graphics.FromImage(bitmap))
@@ -33,7 +43,7 @@ namespace SETUNA.Main.StyleItems
                         {
                             graphics.DrawImage(  scrap.Image, 0, 0);
                             var rect = new Rectangle(trimWindow.TrimLeft, trimWindow.TrimTop, trimWindow.TrimRectangle.Width, trimWindow.TrimRectangle.Height);
-                            graphics.FillRectangle(Brushes.Red, rect);
+                            graphics.FillRectangle(brush, rect);
                         }
                         scrap.Image = bitmap;
                         //scrap.Left += trimWindow.TrimLeft;

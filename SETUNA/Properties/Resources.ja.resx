@@ -1631,7 +1631,7 @@
     <value>最適化バージョン</value>
   </data>
   <data name="label151" xml:space="preserve">
-    <value>関連編集</value>
+    <value>[変更]</value>
   </data>
   <data name="label152" xml:space="preserve">
     <value>SETUNA全般の設定を行います。</value>

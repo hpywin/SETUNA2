@@ -22,7 +22,7 @@ namespace SETUNA.Main.StyleItems
         public override bool IsEditableTool(PaintTool tool)
         {
             var getToolType = tool.GetToolType;
-            if (getToolType == ScrapPaintToolBar.ToolKind.文字工具)
+            if (getToolType == ScrapPaintToolBar.ToolKind.Text)
             {
                 var textTool = (TextTool)tool;
                 textTool.SetFont(GetCommandFont());

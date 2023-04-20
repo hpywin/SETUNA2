@@ -524,6 +524,7 @@ namespace SETUNA.Main.Option
                 Opacity = 95
             });
             setunaOption.Styles.Add(cstyle);
+
             setunaOption.Scrap.CreateStyleID = cstyle.StyleID;
             cstyle = new CStyle
             {
@@ -537,6 +538,7 @@ namespace SETUNA.Main.Option
                 LineColor = Color.Blue.ToArgb()
             });
             setunaOption.Styles.Add(cstyle);
+
             setunaOption.Scrap.WClickStyleID = cstyle.StyleID;
             cstyle = new CStyle
             {
@@ -547,6 +549,18 @@ namespace SETUNA.Main.Option
             cstyle.AddStyle(newCi3);
             cstyle.AddKeyItem(Keys.T);
             setunaOption.Styles.Add(cstyle);
+
+            cstyle = new CStyle
+            {
+                StyleID = num++,
+                StyleName = "Fill"
+            };
+            var newF1 = new CFillRectangleStyleItem();
+            cstyle.AddStyle(newF1);
+            //cstyle.AddKeyItem(Keys.F);
+            var styleID14 = cstyle.StyleID;
+            setunaOption.Styles.Add(cstyle);
+
             setunaOption.Scrap.SubMenuStyles.Add(styleID13);
             setunaOption.Scrap.SubMenuStyles.Add(new CSeparatorStyle().StyleID);
             setunaOption.Scrap.SubMenuStyles.Add(new CScrapListStyle().StyleID);
@@ -569,6 +583,8 @@ namespace SETUNA.Main.Option
             setunaOption.Scrap.SubMenuStyles.Add(styleID5);
             setunaOption.Scrap.SubMenuStyles.Add(styleID6);
             setunaOption.Scrap.SubMenuStyles.Add(styleID7);
+            setunaOption.Scrap.SubMenuStyles.Add(styleID14);
+
             return setunaOption;
         }
 

@@ -36,7 +36,7 @@ namespace SETUNA.Main.StyleItems
         protected override void OnLoad(EventArgs e)
         {
             base.OnLoad(e);
-            toolFrm.SwitchTool(ScrapPaintToolBar.ToolKind.笔工具);
+            toolFrm.SwitchTool(ScrapPaintToolBar.ToolKind.Pen);
         }
 
         // Token: 0x06000109 RID: 265 RVA: 0x00007770 File Offset: 0x00005970
@@ -200,12 +200,12 @@ namespace SETUNA.Main.StyleItems
             }
             if (e.KeyCode == Keys.B)
             {
-                toolFrm.SwitchTool(ScrapPaintToolBar.ToolKind.笔工具);
+                toolFrm.SwitchTool(ScrapPaintToolBar.ToolKind.Pen);
                 return;
             }
             if (e.KeyCode == Keys.E)
             {
-                toolFrm.SwitchTool(ScrapPaintToolBar.ToolKind.消しゴム工具);
+                toolFrm.SwitchTool(ScrapPaintToolBar.ToolKind.Eraser);
                 return;
             }
             if (e.KeyCode == Keys.X && activeTool != null && !activeTool.IsActive)

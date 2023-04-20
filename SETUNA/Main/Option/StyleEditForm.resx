@@ -165,11 +165,11 @@
   <data name="txtStyleName.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <metadata name="toolTip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="toolTip2.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>118, 17</value>
-  </metadata>
+  </data>
   <data name="txtStyleName.ToolTip" xml:space="preserve">
-    <value>You can name specific automatic operations.</value>
+    <value>You can set name for this automations.</value>
   </data>
   <data name="&gt;&gt;txtStyleName.Name" xml:space="preserve">
     <value>txtStyleName</value>
@@ -183,9 +183,9 @@
   <data name="&gt;&gt;txtStyleName.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>17, 17</value>
-  </metadata>
+  </data>
   <data name="hotkey.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 40</value>
   </data>
@@ -196,10 +196,10 @@
     <value>1</value>
   </data>
   <data name="hotkey.ToolTip" xml:space="preserve">
-    <value>Create shortcut keys for applying automatic operations.</value>
+    <value>Create shortcut keys for this automation.</value>
   </data>
   <data name="hotkey.ToolTip1" xml:space="preserve">
-    <value>Create shortcut keys for applying automatic operations.</value>
+    <value>Create shortcut keys for this automation.</value>
   </data>
   <data name="&gt;&gt;hotkey.Name" xml:space="preserve">
     <value>hotkey</value>
@@ -277,10 +277,10 @@
     <value>4</value>
   </data>
   <data name="listStyleItem.ToolTip" xml:space="preserve">
-    <value>Apply automation items sequentially from top to bottom.</value>
+    <value>Apply tasks sequentially from top to bottom.</value>
   </data>
   <data name="listStyleItem.ToolTip1" xml:space="preserve">
-    <value>Apply automation items sequentially from top to bottom.</value>
+    <value>Apply tasks sequentially from top to bottom.</value>
   </data>
   <data name="&gt;&gt;listStyleItem.Name" xml:space="preserve">
     <value>listStyleItem</value>
@@ -685,7 +685,7 @@
     <value>0</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Automation list:</value>
+    <value>Automations list:</value>
   </data>
   <data name="&gt;&gt;label2.Name" xml:space="preserve">
     <value>label2</value>
@@ -777,9 +777,9 @@
   <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
+  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 12</value>
   </data>

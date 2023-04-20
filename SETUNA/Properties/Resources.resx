@@ -1310,7 +1310,7 @@
     <value>Move right</value>
   </data>
   <data name="label26" xml:space="preserve">
-    <value>Moveright(fine-tune)</value>
+    <value>Move right(fine-tune)</value>
   </data>
   <data name="label27" xml:space="preserve">
     <value>Scale to 50%</value>
@@ -1352,7 +1352,7 @@
     <value>Close</value>
   </data>
   <data name="label39" xml:space="preserve">
-    <value>Basic style</value>
+    <value>Basic</value>
   </data>
   <data name="label4" xml:space="preserve">
     <value>Cut(withborder)</value>
@@ -1622,7 +1622,7 @@
     <value>Close</value>
   </data>
   <data name="label131" xml:space="preserve">
-    <value>Close the screenshot.\nSubsequent automatic operation not applied.</value>
+    <value>Close the screenshot.\nSubsequent automation not applied.</value>
   </data>
   <data name="label149" xml:space="preserve">
     <value>Official version (site closed)</value>
@@ -1643,7 +1643,7 @@
     <value>Settings for screenshot.</value>
   </data>
   <data name="label155" xml:space="preserve">
-    <value>Create automatic operation by combination of tasks.</value>
+    <value>Create an automation by combination of tasks.</value>
   </data>
   <data name="label156" xml:space="preserve">
     <value>Setings for right-click menu on screenshot.</value>
@@ -1652,7 +1652,7 @@
     <value>Mouse cursor style settings</value>
   </data>
   <data name="label158" xml:space="preserve">
-    <value>Create a new style</value>
+    <value>Create an automation</value>
   </data>
   <data name="label159" xml:space="preserve">
     <value>Reset settings.</value>
