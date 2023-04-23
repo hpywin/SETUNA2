@@ -1,6 +1,8 @@
 # Disclaimer
-- [Official website](http://www.clearunit.com/clearup/setuna2) (Address has been linked)
-- The official no longer maintains the software. I optimize and maintain the software based on the incomplete screenshots of the high score screen. If there is any infringement, please contact to delete it!
+- [Official website](http://www.clearunit.com/clearup/setuna2) (Site closed.)
+- The official no longer maintains the software.（作者: Anoleさん。[作者ホームページ](http://www.clearunit.com/clearup/)）
+- [tylearymfI](https://github.com/tylearymf) optimized and maintained the software based on the screenshots. This repository is folked from his work.
+‐ If there is any infringement, please contact to delete it!
 
 ---
 
@@ -12,6 +14,7 @@ A best screenshot small tool (support high dpi screenshots)
 ![example_1](Screenshots/example_1.png)
 ![example_2](Screenshots/example_2.png)
 ![example_3](Screenshots/example_3.png)
+![Mask_sample](Screenshots/Mask_list.png)
 
 ---
 
@@ -34,9 +37,17 @@ A best screenshot small tool (support high dpi screenshots)
 
 ---
 
+## Function Description (newly added in this folk.)
+
+- Adding mask to screenshot (version 3.0.0.8)
+
+- English, Chinese and Japanese support (version 3.0.0.7)
+
 ## Function Description
+
 - Support multiple monitors with different DPI
-- ###### If it is the **2.x** version, please go to Options -> Display DPI Settings to manually set the DPI of the display.
+
+  - ###### If it is the **2.x** version, please go to Options -> Display DPI Settings to manually set the DPI of the display.
 
 - After the computer is restarted, it can continue to display the screenshots that have not been closed before (retain the screenshot information: location, style, level)
 
@@ -71,12 +82,12 @@ A best screenshot small tool (support high dpi screenshots)
 ---
 
 ## Currently known issues
-- Go to the [Projects](https://github.com/tylearymf/SETUNA2/projects/1) tab to view
+- Go to the [projects(original)](https://github.com/tylearymf/SETUNA2/projects/1) tab to view
 
 ---
 
 ## Features to be added later
-- Go to the [Projects](https://github.com/tylearymf/SETUNA2/projects/1) tab to view
+- Go to the [projects(orignal)](https://github.com/tylearymf/SETUNA2/projects/1) tab to view
 
 ---
 
