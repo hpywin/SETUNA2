@@ -62,8 +62,11 @@ namespace SETUNA.Main.StyleItems
 
         private void ToolBoxForm_Shown(object sender, EventArgs e)
         {
-            // Force show over StyleEditForm
-            Layer.LayerManager.Instance.RefreshLayer();
+            if (!this.DesignMode)// avoid error on design mode
+            {
+                // Force show over StyleEditForm
+                Layer.LayerManager.Instance.RefreshLayer();
+            }
         }
     }
 }

@@ -1013,7 +1013,7 @@ namespace SETUNA
         private List<Form> forms = new List<Form>();
         private bool allScrapActive = true;
 
-        private new Dictionary<string, string> lang_dict = new Dictionary<string, string> {
+        private Dictionary<string, string> lang_dict = new Dictionary<string, string> {
             { "English", "en" },
             { "Japanese", "ja" },
             { "Chinese", "zh" },

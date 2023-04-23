@@ -29,7 +29,8 @@ namespace SETUNA.Main.StyleItems
                 new CImagePngStyleItem(),
                 new CCompactStyleItem(),
                 new CTrimStyleItem(),
-                new CFillRectangleStyleItem(),
+                //new CFillRectangleStyleItem(),
+                new CMaskStyleItem(),
                 //new CPicasaUploaderStyleItem() // picasa is already closed.
                 //new CPaintStyleItem(), // not ready
             }.ToArray();

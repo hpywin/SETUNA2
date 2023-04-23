@@ -549,17 +549,68 @@ namespace SETUNA.Main.Option
             cstyle.AddStyle(newCi3);
             cstyle.AddKeyItem(Keys.T);
             setunaOption.Styles.Add(cstyle);
+                        
+            cstyle = new CStyle
+            {
+                StyleID = num++,
+                StyleName = "Mask_Mosaic"
+            };
+            cstyle.AddStyle(new CMaskStyleItem{
+                MaskMosaic = true,
+            });
+            //cstyle.AddKeyItem(Keys.F);
+            var styleID15 = cstyle.StyleID;
+            setunaOption.Styles.Add(cstyle);
 
             cstyle = new CStyle
             {
                 StyleID = num++,
-                StyleName = "Fill"
+                StyleName = "Mask_Noise"
             };
-            var newF1 = new CFillRectangleStyleItem();
-            cstyle.AddStyle(newF1);
-            //cstyle.AddKeyItem(Keys.F);
-            var styleID14 = cstyle.StyleID;
+            cstyle.AddStyle(new CMaskStyleItem
+            {
+                MaskNoise = true,
+            });
+            var styleID16 = cstyle.StyleID;
             setunaOption.Styles.Add(cstyle);
+
+            cstyle = new CStyle
+            {
+                StyleID = num++,
+                StyleName = "Mask_Blur"
+            };
+            cstyle.AddStyle(new CMaskStyleItem
+            {
+                MaskBlur = true,
+            });
+            var styleID17 = cstyle.StyleID;
+            setunaOption.Styles.Add(cstyle);
+
+            cstyle = new CStyle
+            {
+                StyleID = num++,
+                StyleName = "Mask_Solid"
+            };
+            cstyle.AddStyle(new CMaskStyleItem
+            {
+                MaskSolid = true,
+            });
+            var styleID18 = cstyle.StyleID;
+            setunaOption.Styles.Add(cstyle);
+
+            cstyle = new CStyle
+            {
+                StyleID = num++,
+                StyleName = "Mask_Monotone"
+            };
+            cstyle.AddStyle(new CMaskStyleItem
+            {
+                MaskMonotone = true,
+            });
+            var styleID19 = cstyle.StyleID;
+            setunaOption.Styles.Add(cstyle);
+
+
 
             setunaOption.Scrap.SubMenuStyles.Add(styleID13);
             setunaOption.Scrap.SubMenuStyles.Add(new CSeparatorStyle().StyleID);
@@ -583,7 +634,12 @@ namespace SETUNA.Main.Option
             setunaOption.Scrap.SubMenuStyles.Add(styleID5);
             setunaOption.Scrap.SubMenuStyles.Add(styleID6);
             setunaOption.Scrap.SubMenuStyles.Add(styleID7);
-            setunaOption.Scrap.SubMenuStyles.Add(styleID14);
+            //setunaOption.Scrap.SubMenuStyles.Add(styleID14);
+            setunaOption.Scrap.SubMenuStyles.Add(styleID15);
+            setunaOption.Scrap.SubMenuStyles.Add(styleID16);
+            setunaOption.Scrap.SubMenuStyles.Add(styleID17);
+            setunaOption.Scrap.SubMenuStyles.Add(styleID18);
+            setunaOption.Scrap.SubMenuStyles.Add(styleID19);
 
             return setunaOption;
         }

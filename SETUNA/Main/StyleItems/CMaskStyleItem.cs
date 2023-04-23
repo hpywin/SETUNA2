@@ -1,49 +1,75 @@
 ﻿using System.Drawing;
 using System.Drawing.Imaging;
 using System.Windows.Forms;
+using System;
 
 namespace SETUNA.Main.StyleItems
 {
-    using System;
-    using SETUNA.Main.Style;
     using SETUNA.Properties;
 
-    // Token: 0x02000065 RID: 101
-    public class CFillRectangleStyleItem : CStyleItem
+    public class CMaskStyleItem : CStyleItem
     {
-        // Token: 0x06000393 RID: 915 RVA: 0x00016110 File Offset: 0x00014310
-
+        public CMaskStyleItem()
+        {
+            MaskMosaic = false;
+            MaskSolid = false;
+            MaskMonotone = false;
+            MaskNoise = false;
+            MaskBlur = false;
+        }
         enum MASK_TYPE
         {
             SOLID,
-            RANDOM,
+            NOISE,
             GLAYOUT,
             MOSAIC,
+            BLUR,
         }
 
         public override void Apply(ref ScrapBase scrap, Point clickpoint)
         {
+            var mask_type = MASK_TYPE.MOSAIC;
+            if (MaskMosaic)
+            {
+                mask_type = MASK_TYPE.MOSAIC;
+            }
+            else if (MaskSolid)
+            {
+                mask_type = MASK_TYPE.SOLID;
+            }
+            else if (MaskMonotone)
+            {
+                mask_type = MASK_TYPE.GLAYOUT;
+
+            }
+            else if (MaskNoise)
+            {
+                mask_type = MASK_TYPE.NOISE;
+            }
+            else if (MaskBlur)
+            {
+                mask_type = MASK_TYPE.BLUR;
+            }
+
             using (var trimWindow = new TrimWindow(scrap))
             {
-                var mask_type = MASK_TYPE.MOSAIC;
                 if (trimWindow.ShowDialog() == DialogResult.OK)
                 {
                     using (var bitmap = new Bitmap(scrap.Width, scrap.Height, PixelFormat.Format24bppRgb))
                     using (var graphics = Graphics.FromImage(bitmap))
                     {
-
                         if (mask_type == MASK_TYPE.SOLID)
                         {
-                            var c = Color.White;
+                            var color = Color.White;
                             var colorDialog1 = new ColorDialog();
                             colorDialog1.AnyColor = true;
-                            colorDialog1.Color = c;
+                            colorDialog1.Color = color;
                             if (colorDialog1.ShowDialog() == DialogResult.OK)
                             {
-                                c = colorDialog1.Color;
+                                color = colorDialog1.Color;
                             }
                             var rect = new Rectangle(trimWindow.TrimLeft, trimWindow.TrimTop, trimWindow.TrimRectangle.Width, trimWindow.TrimRectangle.Height);
-                            Brush brush = new SolidBrush(c);
+                            Brush brush = new SolidBrush(color);
                             graphics.DrawImage(scrap.Image, 0, 0);
                             graphics.FillRectangle(brush, rect);
                         }
@@ -51,13 +77,17 @@ namespace SETUNA.Main.StyleItems
                         {
                             using (var rectBitmap = new Bitmap(trimWindow.TrimRectangle.Width, trimWindow.TrimRectangle.Height))
                             {
-                                if (mask_type == MASK_TYPE.RANDOM)
+                                if (mask_type == MASK_TYPE.NOISE)
                                 {
                                     CreateMaskRand(trimWindow, rectBitmap);
                                 }
                                 else if (mask_type == MASK_TYPE.MOSAIC)
                                 {
                                     CreateMaskMosaic(trimWindow, rectBitmap, scrap);
+                                }
+                                else if (mask_type == MASK_TYPE.BLUR)
+                                {
+                                    CreateMaskBlur(trimWindow, rectBitmap, scrap);
                                 }
                                 else
                                 {
@@ -67,7 +97,6 @@ namespace SETUNA.Main.StyleItems
                                 graphics.DrawImage(rectBitmap, trimWindow.TrimLeft, trimWindow.TrimTop, rectBitmap.Width, rectBitmap.Height);
                             }
                         }
-
                         scrap.Image = bitmap;
                         scrap.Focus();
                     }
@@ -76,7 +105,7 @@ namespace SETUNA.Main.StyleItems
             scrap.Refresh();
         }
 
-        private static void CreateMaskGray(TrimWindow trimWindow, Bitmap rectBitmap,  ScrapBase scrap)
+        private static void CreateMaskGray(TrimWindow trimWindow, Bitmap rectBitmap, ScrapBase scrap)
         {
             using (var myBitmap = new Bitmap(scrap.Image))
             {
@@ -108,7 +137,19 @@ namespace SETUNA.Main.StyleItems
             }
         }
 
-        private static void CreateMaskMosaic(TrimWindow trimWindow, Bitmap rectBitmap,ScrapBase scrap)
+        private static void CreateMaskMosaic(TrimWindow trimWindow, Bitmap rectBitmap, ScrapBase scrap)
+        {
+            var upconvert_mode = System.Drawing.Drawing2D.InterpolationMode.NearestNeighbor;
+            ApplyMask(trimWindow, rectBitmap, scrap, upconvert_mode);
+        }
+
+        private static void CreateMaskBlur(TrimWindow trimWindow, Bitmap rectBitmap, ScrapBase scrap)
+        {
+            var upconvert_mode = System.Drawing.Drawing2D.InterpolationMode.Low;
+            ApplyMask(trimWindow, rectBitmap, scrap, upconvert_mode);
+        }
+
+        private static void ApplyMask(TrimWindow trimWindow, Bitmap rectBitmap, ScrapBase scrap, System.Drawing.Drawing2D.InterpolationMode upconvert_mode)
         {
             using (var myBitmap = new Bitmap(scrap.Image))
             {
@@ -137,7 +178,7 @@ namespace SETUNA.Main.StyleItems
 
                         using (var g2 = Graphics.FromImage(rectBitmap))
                         {
-                            g2.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.NearestNeighbor;
+                            g2.InterpolationMode = upconvert_mode;
                             g2.DrawImage(resizeBmp, 0, 0, trimWindow.TrimRectangle.Width, trimWindow.TrimRectangle.Height);
                         }
                     }
@@ -145,39 +186,49 @@ namespace SETUNA.Main.StyleItems
             }
         }
 
-        // Token: 0x06000394 RID: 916 RVA: 0x0001622C File Offset: 0x0001442C
         public override string GetName()
         {
-            return "FillRectangle";
+            return "Mask";
         }
 
-        // Token: 0x06000395 RID: 917 RVA: 0x00016233 File Offset: 0x00014433
         public override string GetDisplayName()
         {
-            return "FillRectangle"; // Properties.Resources.label123;// "修剪";
+            return "Mask"; // Properties.Resources.labe***;
         }
 
-        // Token: 0x06000396 RID: 918 RVA: 0x0001623A File Offset: 0x0001443A
         public override string GetDescription()
         {
-            return "FillRectangle"; // Properties.Resources.label124;// "您可以删除不需要的部分。";
+            return "Mask"; //Properties.Resources.label***;
         }
 
-        // Token: 0x06000397 RID: 919 RVA: 0x00016241 File Offset: 0x00014441
         protected override ToolBoxForm GetToolBoxForm()
         {
-            return new NothingStyleItemPanel(this);
+            return new MaskStyleItemPanel(this);
         }
 
-        // Token: 0x06000398 RID: 920 RVA: 0x00016249 File Offset: 0x00014449
         protected override void SetTunedStyleItem(CStyleItem newOwn)
         {
+            var cmaskStyleItem = (CMaskStyleItem)newOwn;
+
+            MaskMosaic = cmaskStyleItem.MaskMosaic;
+            MaskSolid = cmaskStyleItem.MaskSolid;
+            MaskMonotone = cmaskStyleItem.MaskMonotone;
+            MaskNoise = cmaskStyleItem.MaskNoise;
+            MaskBlur = cmaskStyleItem.MaskBlur;
         }
 
-        // Token: 0x06000399 RID: 921 RVA: 0x0001624B File Offset: 0x0001444B
+        public override bool IsTerminate => true;
+
         public override Bitmap GetIcon()
         {
-            return Resources.Icon_Trim;
+            return Resources.Icon_Compact;
         }
+
+        public bool MaskMosaic;
+        public bool MaskSolid;
+        public bool MaskMonotone;
+        public bool MaskNoise;
+        public bool MaskBlur;
+
     }
 }
