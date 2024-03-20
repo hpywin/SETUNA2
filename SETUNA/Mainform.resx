@@ -205,7 +205,7 @@
     <value>setunaIconMenu</value>
   </data>
   <data name="&gt;&gt;setunaIconMenu.Type" xml:space="preserve">
-    <value>SETUNA.Main.ContextStyleMenuStrip, SETUNA, Version=3.0.0.6, Culture=neutral, PublicKeyToken=null</value>
+    <value>SETUNA.Main.ContextStyleMenuStrip, SETUNA, Version=3.0.0.8, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="setunaIcon.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3836,7 +3836,7 @@
     <value>subMenu</value>
   </data>
   <data name="&gt;&gt;subMenu.Type" xml:space="preserve">
-    <value>SETUNA.Main.ContextStyleMenuStrip, SETUNA, Version=3.0.0.6, Culture=neutral, PublicKeyToken=null</value>
+    <value>SETUNA.Main.ContextStyleMenuStrip, SETUNA, Version=3.0.0.8, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>620, 17</value>
@@ -3846,6 +3846,9 @@
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>109</value>
   </metadata>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>296, 54</value>
@@ -7509,6 +7512,6 @@
     <value>Mainform</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>BaseForm, SETUNA, Version=3.0.0.6, Culture=neutral, PublicKeyToken=null</value>
+    <value>BaseForm, SETUNA, Version=3.0.0.8, Culture=neutral, PublicKeyToken=null</value>
   </data>
 </root>
