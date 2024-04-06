@@ -929,9 +929,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>mkdir $(SolutionDir)\publish
+    <PostBuildEvent>mkdir $(SolutionDir)publish
 7z a $(TargetName)_$(ConfigurationName)_$(PlatformName).zip $(ProjectDir)$(OutDir)$(TargetFileName) $(ProjectDir)$(OutDir)$(TargetFileName).config $(ProjectDir)$(OutDir)ja $(ProjectDir)$(OutDir)zh
-copy /y $(TargetName)_$(ConfigurationName)_$(PlatformName).zip $(SolutionDir)\publish\$(TargetName)_$(ConfigurationName)_$(PlatformName).zip
+copy /y $(TargetName)_$(ConfigurationName)_$(PlatformName).zip $(SolutionDir)publish\$(TargetName)_$(ConfigurationName)_$(PlatformName).zip
 </PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
