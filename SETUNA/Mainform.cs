@@ -5,11 +5,12 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.Globalization;
 using System.IO;
+using System.Linq; // Added for OfType<T>() and FirstOrDefault()
 using System.Threading;
 using System.Windows.Forms;
 using System.Xml.Serialization;
 using com.clearunit;
-using SETUNA.Main;
+using SETUNA.Main; // Ensured SETUNA.Main is present
 using SETUNA.Main.KeyItems;
 using SETUNA.Main.Option;
 using SETUNA.Main.Style;
