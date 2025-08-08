@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>SETUNA</RootNamespace>
     <AssemblyName>SETUNA</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <ApplicationIcon>SETUNA.ico</ApplicationIcon>
@@ -100,7 +100,7 @@
   <ItemGroup>
     <Reference Include="PresentationCore" />
     <Reference Include="System">
-      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll</HintPath>
     </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -130,9 +130,6 @@
     </Compile>
     <Compile Include="com\clearunit\DesCrypto.cs" />
     <Compile Include="com\clearunit\ISingletonForm.cs" />
-    <Compile Include="com\clearunit\PicasaAccessor.cs" />
-    <Compile Include="com\clearunit\PicasaLoginError.cs" />
-    <Compile Include="com\clearunit\PicasaUploadError.cs" />
     <Compile Include="com\clearunit\SingletonApplication.cs" />
     <Compile Include="com\clearunit\SingletonAppRemoteObject.cs" />
     <Compile Include="com\clearunit\WithoutTabControl.cs">
@@ -295,7 +292,6 @@
     </Compile>
     <Compile Include="Main\StyleItems\CPaintStyleItem.cs" />
     <Compile Include="Main\StyleItems\CPasteStyleItem.cs" />
-    <Compile Include="Main\StyleItems\CPicasaUploaderStyleItem.cs" />
     <Compile Include="Main\StyleItems\CRotateStyleItem.cs" />
     <Compile Include="Main\StyleItems\CScaleStyleItem.cs" />
     <Compile Include="Main\StyleItems\CStyleItem.cs" />
@@ -345,12 +341,6 @@
     <Compile Include="Main\StyleItems\LayerRenameWindow.Designer.cs">
       <DependentUpon>LayerRenameWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="Main\StyleItems\LoginInput.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Main\StyleItems\LoginInput.Designer.cs">
-      <DependentUpon>LoginInput.cs</DependentUpon>
-    </Compile>
     <Compile Include="Main\StyleItems\MarginStyleItemPanel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -387,18 +377,6 @@
     </Compile>
     <Compile Include="Main\StyleItems\PenTool.cs" />
     <Compile Include="Main\StyleItems\PenToolCommand.cs" />
-    <Compile Include="Main\StyleItems\PicasaBar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Main\StyleItems\PicasaBar.Designer.cs">
-      <DependentUpon>PicasaBar.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Main\StyleItems\PicasaStyleItemPanel.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Main\StyleItems\PicasaStyleItemPanel.Designer.cs">
-      <DependentUpon>PicasaStyleItemPanel.cs</DependentUpon>
-    </Compile>
     <Compile Include="Main\StyleItems\RenameLayerCommand.cs" />
     <Compile Include="Main\StyleItems\RotateStyleItemPanel.cs">
       <SubType>Form</SubType>
@@ -682,15 +660,6 @@
     <EmbeddedResource Include="Main\StyleItems\LayerRenameWindow.zh.resx">
       <DependentUpon>LayerRenameWindow.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main\StyleItems\LoginInput.ja.resx">
-      <DependentUpon>LoginInput.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Main\StyleItems\LoginInput.resx">
-      <DependentUpon>LoginInput.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Main\StyleItems\LoginInput.zh.resx">
-      <DependentUpon>LoginInput.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\MarginStyleItemPanel.ja.resx">
       <DependentUpon>MarginStyleItemPanel.cs</DependentUpon>
     </EmbeddedResource>
@@ -729,18 +698,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\PaintForm.resx">
       <DependentUpon>PaintForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Main\StyleItems\PicasaBar.resx">
-      <DependentUpon>PicasaBar.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Main\StyleItems\PicasaStyleItemPanel.ja.resx">
-      <DependentUpon>PicasaStyleItemPanel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Main\StyleItems\PicasaStyleItemPanel.resx">
-      <DependentUpon>PicasaStyleItemPanel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Main\StyleItems\PicasaStyleItemPanel.zh.resx">
-      <DependentUpon>PicasaStyleItemPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\StyleItems\RotateStyleItemPanel.ja.resx">
       <DependentUpon>RotateStyleItemPanel.cs</DependentUpon>
@@ -910,7 +867,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Costura.Fody">
-      <Version>5.7.0</Version>
+      <Version>6.0.0</Version>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
