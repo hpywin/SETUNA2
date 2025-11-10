@@ -702,22 +702,17 @@ namespace SETUNA.Main.Option
         public static Type[] GetAllType()
         {
             var styleType = StyleItemDictionary.GetStyleType();
-            var arrayList = new ArrayList
+            var typeList = new List<Type>
             {
                 typeof(SetunaOption),
                 typeof(CStyle),
                 typeof(Color)
             };
-            for (var i = 0; i < styleType.Length; i++)
+            foreach (var type in styleType)
             {
-                arrayList.Add(styleType[i]);
+                typeList.Add(type);
             }
-            var array = new Type[arrayList.Count];
-            for (var j = 0; j < arrayList.Count; j++)
-            {
-                array[j] = (Type)arrayList[j];
-            }
-            return array;
+            return typeList.ToArray();
         }
 
         // Token: 0x17000060 RID: 96
