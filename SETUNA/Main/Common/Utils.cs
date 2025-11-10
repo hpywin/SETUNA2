@@ -98,7 +98,7 @@ namespace SETUNA.Main
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine(ex);
+                    // Exception loading image
                 }
                 finally
                 {

@@ -7,6 +7,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
 using System.Windows.Forms;
+using SETUNA.Main.Common;
 using SETUNA.Main.Option;
 
 namespace SETUNA.Main
@@ -207,20 +208,6 @@ namespace SETUNA.Main
                 IsBackground = true
             };
             trd.Start();
-            Console.WriteLine(string.Concat(new object[]
-            {
-                "10 - ",
-                DateTime.Now.ToString(),
-                " ",
-                DateTime.Now.Millisecond
-            }));
-            Console.WriteLine(string.Concat(new object[]
-            {
-                "11 - ",
-                DateTime.Now.ToString(),
-                " ",
-                DateTime.Now.Millisecond
-            }));
             blAreaVisible = (opt.SelectAreaTransparent != 100);
             CaptureForm.selArea.Opacity = 1f - opt.SelectAreaTransparent / 100f;
             CaptureForm.selArea.BackColor = opt.SelectBackColor;
@@ -228,21 +215,7 @@ namespace SETUNA.Main
             {
                 CaptureForm.selArea.Show(this);
             }
-            Console.WriteLine(string.Concat(new object[]
-            {
-                "12 - ",
-                DateTime.Now.ToString(),
-                " ",
-                DateTime.Now.Millisecond
-            }));
             SetBoundsCore(targetScreen.Bounds.X, targetScreen.Bounds.Y, targetScreen.Bounds.Width, targetScreen.Bounds.Height, BoundsSpecified.All);
-            Console.WriteLine(string.Concat(new object[]
-            {
-                "13 - ",
-                DateTime.Now.ToString(),
-                " ",
-                DateTime.Now.Millisecond
-            }));
             CaptureForm.selLineHor1.SetPen(opt.SelectLineSolid, opt.SelectLineColor);
             CaptureForm.selLineHor1.SetBounds(targetScreen.Bounds.X, targetScreen.Bounds.Y - 10, targetScreen.Bounds.Width, 1);
             if (!CaptureForm.selLineHor1.Visible)
@@ -267,13 +240,6 @@ namespace SETUNA.Main
             {
                 CaptureForm.selLineVer2.Show(this);
             }
-            Console.WriteLine(string.Concat(new object[]
-            {
-                "14 - ",
-                DateTime.Now.ToString(),
-                " ",
-                DateTime.Now.Millisecond
-            }));
 
             fullscreenHorLine.SetPen(opt.FullscreenCursorSolid, opt.FullscreenCursorLineColor);
             fullscreenVerLine.SetPen(opt.FullscreenCursorSolid, opt.FullscreenCursorLineColor);
@@ -336,8 +302,7 @@ namespace SETUNA.Main
                     }
                     catch (Exception ex)
                     {
-                        Console.WriteLine(ex);
-                        throw ex;
+                        throw;
                     }
                     finally
                     {
@@ -350,7 +315,6 @@ namespace SETUNA.Main
             }
             catch (Exception ex2)
             {
-                Console.WriteLine(ex2);
                 result = false;
             }
             finally
@@ -435,7 +399,6 @@ namespace SETUNA.Main
         // Token: 0x060002A5 RID: 677 RVA: 0x0000E894 File Offset: 0x0000CA94
         public new void Hide()
         {
-            Console.WriteLine("Hide Start---");
             CaptureForm.selArea.Hide();
             CaptureForm.selLineHor1.Hide();
             CaptureForm.selLineHor2.Hide();
@@ -455,7 +418,6 @@ namespace SETUNA.Main
             magnifier.Hide();
 
             base.Hide();
-            Console.WriteLine("Hide end---");
         }
 
         // Token: 0x060002A6 RID: 678 RVA: 0x0000EA54 File Offset: 0x0000CC54
@@ -466,7 +428,6 @@ namespace SETUNA.Main
                 bmpClip.Dispose();
             }
             bmpClip = null;
-            Console.WriteLine("Open capture"); // "打开截取");
             base.OnClosing(e);
         }
 
@@ -579,7 +540,7 @@ namespace SETUNA.Main
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine("CaptureForm DrawSelectArea Exception: " + ex.Message);
+                    // Exception during draw select area
                 }
             }
         }
@@ -638,13 +599,11 @@ namespace SETUNA.Main
         {
             try
             {
-                Console.WriteLine("EntryCapture Start---");
-                Console.WriteLine(lptStart.ToString() + ", " + lptEnd.ToString());
                 var point = new Point(Math.Min(lptStart.X, lptEnd.X), Math.Min(lptStart.Y, lptEnd.Y));
                 ptClipStart = point;
                 var size = new Size(Math.Abs(lptStart.X - lptEnd.X), Math.Abs(lptStart.Y - lptEnd.Y));
                 ptClipSize = size;
-                if (size.Width < 10 || size.Height < 10)
+                if (size.Width < Constants.MinimumCaptureWidth || size.Height < Constants.MinimumCaptureHeight)
                 {
                     base.DialogResult = DialogResult.Cancel;
                 }
@@ -654,13 +613,11 @@ namespace SETUNA.Main
                     base.DialogResult = DialogResult.OK;
                     CaptureForm.rctLast = new Rectangle(point, size);
                 }
-                Console.WriteLine("EntryCapture End---");
                 EndCapture();
             }
             catch (Exception ex)
             {
-                Console.WriteLine("EntryCaptureException: " + ex.Message);
-                Console.WriteLine("");
+                // Exception during capture entry
             }
         }
 
@@ -723,10 +680,8 @@ namespace SETUNA.Main
         {
             if (e.KeyChar == '0')
             {
-                Console.WriteLine("Captureform KeyPress Start---");
                 var rectangle = CaptureForm.rctLast;
                 EntryCapture(new Point(rectangle.Left, rectangle.Top), new Point(rectangle.Right, rectangle.Bottom));
-                Console.WriteLine("Captureform KeyPress End---");
                 return;
             }
             if (e.KeyChar == '\u001b')

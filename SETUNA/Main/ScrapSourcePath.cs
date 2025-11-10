@@ -32,7 +32,7 @@ namespace SETUNA.Main
                     }
                     catch (Exception ex)
                     {
-                        Console.WriteLine(ex);
+                        // Exception loading image from path
                     }
                     finally
                     {
@@ -45,7 +45,7 @@ namespace SETUNA.Main
             }
             catch
             {
-                Console.WriteLine("ScrapSourcePath错误∶" + path);
+                // Error loading scrap from path
             }
             return result;
         }

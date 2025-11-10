@@ -93,7 +93,7 @@ namespace com.clearunit
             }
             catch
             {
-                Console.WriteLine("CreateClient Error");
+                // Error creating client
             }
         }
 

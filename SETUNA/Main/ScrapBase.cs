@@ -7,6 +7,7 @@ using System.Drawing.Imaging;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
+using SETUNA.Main.Common;
 using SETUNA.Main.Style;
 using SETUNA.Main.StyleItems;
 
@@ -234,12 +235,11 @@ namespace SETUNA.Main
                         }
                         catch
                         {
-                            Console.WriteLine("ScrapBase timOpacity_Tick Exception2:---");
                             goto IL_166;
                         }
                     }
                     var num = base.Opacity - _opacity;
-                    if (Math.Abs(num) < 0.10000000149011612)
+                    if (Math.Abs(num) < Constants.OpacityMinimumDifference)
                     {
                         try
                         {
@@ -254,30 +254,20 @@ namespace SETUNA.Main
                             timOpacity.Stop();
                             _err_opac = true;
                             Opacity = 1.0;
-                            Console.WriteLine("ScrapBase timOpacity_Tick Exception: " + ex.Message + ", Opaque True");
                             goto IL_166;
                         }
                         catch (Exception ex2)
                         {
-                            Console.WriteLine(string.Concat(new string[]
-                            {
-                                "ScrapBase timOpacity_Tick Exception: ",
-                                ex2.Message,
-                                ", ",
-                                base.Opacity.ToString(),
-                                ", ",
-                                _opacity.ToString()
-                            }));
                             goto IL_166;
                         }
                     }
                     if (num < 0.0)
                     {
-                        base.Opacity += 0.10000000149011612;
+                        base.Opacity += Constants.OpacityAnimationStep;
                     }
                     else
                     {
-                        base.Opacity -= 0.10000000149011612;
+                        base.Opacity -= Constants.OpacityAnimationStep;
                     }
                 }
             IL_166:
@@ -335,7 +325,7 @@ namespace SETUNA.Main
             }
             catch (Exception ex3)
             {
-                Console.WriteLine("ScrapBase timOpacity_Tick Exception:" + ex3.Message);
+                // Exception during opacity animation
             }
         }
 
@@ -392,10 +382,6 @@ namespace SETUNA.Main
             {
                 ImageAllDispose();
                 imgView = (Image)value.Clone();
-                if (imgView == null)
-                {
-                    Console.WriteLine("ScrapBase Image : unll");
-                }
                 Scale = Scale;
                 Refresh();
 
@@ -524,7 +510,7 @@ namespace SETUNA.Main
 
             if (e.CloseReason == CloseReason.ApplicationExitCall || e.CloseReason == CloseReason.TaskManagerClosing || e.CloseReason == CloseReason.WindowsShutDown)
             {
-                Console.WriteLine("由系统结束");
+                // Closing by system
             }
             else if (!closePrepare)
             {
@@ -891,7 +877,6 @@ namespace SETUNA.Main
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine("ScrapBase ApplyStyleItem Exception:" + ex.ToString());
                     IsStyleApply = false;
                     goto IL_AD;
                 }

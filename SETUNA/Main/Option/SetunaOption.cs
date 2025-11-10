@@ -677,7 +677,7 @@ namespace SETUNA.Main.Option
         public string ApplicationPath
         {
             get => Application.ExecutablePath;
-            set => Console.WriteLine(ApplicationPath);
+            set { }
         }
 
         // Token: 0x1700005E RID: 94
@@ -686,7 +686,7 @@ namespace SETUNA.Main.Option
         public string ApplicationVersion
         {
             get => Application.ProductVersion;
-            set => Console.WriteLine(ApplicationVersion);
+            set { }
         }
 
         // Token: 0x1700005F RID: 95
@@ -695,7 +695,7 @@ namespace SETUNA.Main.Option
         public string OptionVersion
         {
             get => "1.0";
-            set => Console.WriteLine(OptionVersion);
+            set { }
         }
 
         // Token: 0x0600024A RID: 586 RVA: 0x0000CCFC File Offset: 0x0000AEFC

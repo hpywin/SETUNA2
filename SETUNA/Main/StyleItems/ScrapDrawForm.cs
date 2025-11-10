@@ -101,7 +101,6 @@ namespace SETUNA.Main.StyleItems
             }
             catch (Exception ex2)
             {
-                Console.WriteLine(ex2.Message);
                 result = false;
             }
             finally

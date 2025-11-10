@@ -293,7 +293,6 @@ namespace SETUNA.Main
                 {
                     key = (e.KeyCode | e.Modifiers)
                 };
-                Console.WriteLine(scrapKeyPressEventArgs.key.ToString());
                 KeyPress(sender, scrapKeyPressEventArgs);
             }
         }

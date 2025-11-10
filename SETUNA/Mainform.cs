@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Xml.Serialization;
 using com.clearunit;
 using SETUNA.Main;
+using SETUNA.Main.Common;
 using SETUNA.Main.KeyItems;
 using SETUNA.Main.Option;
 using SETUNA.Main.Style;
@@ -136,26 +137,11 @@ namespace SETUNA
                     frmClickCapture.Stop();
                 }
                 IsCapture = true;
-                Console.WriteLine(string.Concat(new object[]
-                {
-                    "9 - ",
-                    DateTime.Now.ToString(),
-                    " ",
-                    DateTime.Now.Millisecond
-                }));
                 Mainform.cap_form.OnCaptureClose = new CaptureForm.CaptureClosedDelegate(EndCapture);
                 Mainform.cap_form.ShowCapture(optSetuna.Setuna);
-                Console.WriteLine(string.Concat(new object[]
-                {
-                    "16 - ",
-                    DateTime.Now.ToString(),
-                    " ",
-                    DateTime.Now.Millisecond
-                }));
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Mainform StartCapture Exception:" + ex.Message);
                 IsCapture = false;
                 if (Mainform.cap_form != null)
                 {
@@ -170,7 +156,6 @@ namespace SETUNA
         {
             try
             {
-                Console.WriteLine("Mainform EndCapture Start---");
                 if (cform.DialogResult == DialogResult.OK)
                 {
                     using (var clipBitmap = cform.ClipBitmap)
@@ -183,11 +168,10 @@ namespace SETUNA
                 }
                 cform.Hide();
                 Cursor.Clip = Rectangle.Empty;
-                Console.WriteLine("Mainform EndCapture End---");
             }
             catch (Exception ex)
             {
-                Console.WriteLine("MainForm EndCapture Exception:" + ex.Message);
+                // Exception during capture end
             }
             finally
             {
@@ -373,7 +357,7 @@ namespace SETUNA
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Mainform OptionApply Exception:" + ex.Message);
+                // Exception during option apply
             }
         }
 
@@ -787,8 +771,6 @@ namespace SETUNA
         // Token: 0x0600021B RID: 539 RVA: 0x0000B5A8 File Offset: 0x000097A8
         public void CommandRun(string[] args)
         {
-            //Console.WriteLine("-命令行参数--------------------");
-            Console.WriteLine(Properties.Resources.label69);
             var num = 0;
             var rect = new Rectangle(0, 0, 0, 0);
             var fname = "";
@@ -825,8 +807,6 @@ namespace SETUNA
                                 rect.Y = int.Parse(array[1]);
                                 rect.Width = int.Parse(array[2]);
                                 rect.Height = int.Parse(array[3]);
-                                //Console.WriteLine("[位置]" + rect.ToString());
-                                Console.WriteLine(Properties.Resources.label70 + rect.ToString());
                                 goto IL_1C2;
                             }
                         }
@@ -854,16 +834,14 @@ namespace SETUNA
                         }
                     }
                     AddImageList(new ScrapSourcePath(text2));
-                    Console.WriteLine(text2);
                 }
                 catch
                 {
-                    Console.WriteLine("[Error]" + text);
+                    // Error processing command line argument
                 }
             IL_1C2:;
             }
-            Console.WriteLine("---------------------------------------");
-            if (rect.Width >= 10 && rect.Height >= 10)
+            if (rect.Width >= Constants.MinimumCaptureWidth && rect.Height >= Constants.MinimumCaptureHeight)
             {
                 CommandCutRect(rect, fname);
                 return;

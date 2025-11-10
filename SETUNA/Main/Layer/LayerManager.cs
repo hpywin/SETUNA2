@@ -82,8 +82,6 @@ namespace SETUNA.Main.Layer
 
         public void RefreshLayer()
         {
-            Console.WriteLine("RefreshLayer");
-
             sortingFormDatas.Clear();
             sortingFormDatas.AddRange(formDic.Values);
             sortingFormDatas.Sort((x, y) => x.SortingOrder.CompareTo(y.SortingOrder));
@@ -162,10 +160,6 @@ namespace SETUNA.Main.Layer
                 return;
             }
 
-#if DEBUG
-            Console.WriteLine($"Opened:{windowInfo}");
-#endif
-
             var topMostInfo = topMostFormData?.WindowInfo ?? WindowInfo.Empty;
             if (topMostInfo != WindowInfo.Empty)
             {
@@ -192,10 +186,6 @@ namespace SETUNA.Main.Layer
                 {
                     return;
                 }
-
-#if DEBUG
-                Console.WriteLine($"TopMost: {topMostInfo}");
-#endif
             }
 
             RefreshLayer();

@@ -201,7 +201,6 @@ namespace SETUNA
                     base.Visible = true;
                 }
                 Refresh();
-                Console.WriteLine(base.Bounds.ToString());
             }
             CursorRect.Location = Cursor.Position;
             if (base.Bounds.IntersectsWith(CursorRect))
@@ -212,7 +211,7 @@ namespace SETUNA
                 }
                 catch
                 {
-                    Console.WriteLine("SetWindowPos Error");
+                    // SetWindowPos error
                 }
             }
         }
