@@ -1,9 +1,15 @@
 ﻿namespace SETUNA.Main
 {
-    // Token: 0x0200003A RID: 58
+    /// <summary>
+    /// Interface for listening to scrap removed events
+    /// </summary>
     public interface IScrapRemovedListener
     {
-        // Token: 0x06000221 RID: 545
+        /// <summary>
+        /// Called when a scrap is removed
+        /// </summary>
+        /// <param name="sender">The event sender</param>
+        /// <param name="e">Event arguments containing the scrap</param>
         void ScrapRemoved(object sender, ScrapEventArgs e);
     }
 }

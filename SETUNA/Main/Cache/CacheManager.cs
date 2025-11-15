@@ -4,6 +4,9 @@ using System.IO;
 
 namespace SETUNA.Main.Cache
 {
+    /// <summary>
+    /// Manages caching of scraps to persistent storage
+    /// </summary>
     public class CacheManager : IScrapAddedListener, IScrapRemovedListener, IScrapLocationChangedListener, IScrapImageChangedListener, IScrapStyleAppliedListener, IScrapStyleRemovedListener
     {
         public static readonly string Path = System.IO.Path.Combine(System.Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "SETUNA");
@@ -75,7 +78,7 @@ namespace SETUNA.Main.Cache
         {
             var scrap = e.scrap;
 
-            // 已经绑定缓存则忽略
+            // Ignore if cache is already bound
             if (scrap.CacheItem != null)
             {
                 return;
