@@ -17,12 +17,19 @@ using SETUNA.Main.Style;
 
 namespace SETUNA
 {
-    // Token: 0x02000037 RID: 55
+    /// <summary>
+    /// Main form of the SETUNA application that manages scraps and application settings
+    /// </summary>
     public sealed partial class Mainform : BaseForm, IScrapKeyPressEventListener, IScrapAddedListener, IScrapRemovedListener, IScrapStyleListener, IScrapMenuListener, ISingletonForm
     {
+        /// <summary>
+        /// Gets the singleton instance of the main form
+        /// </summary>
         public static Mainform Instance { private set; get; }
 
-        // Token: 0x060001EE RID: 494 RVA: 0x0000A4C4 File Offset: 0x000086C4
+        /// <summary>
+        /// Initializes a new instance of the Mainform class
+        /// </summary>
         public Mainform()
         {
             optSetuna = new SetunaOption();
@@ -43,7 +50,6 @@ namespace SETUNA
             scrapBook.addKeyPressListener(this);
             scrapBook.addScrapAddedListener(this);
             scrapBook.addScrapRemovedListener(this);
-            //optSetuna = new SetunaOption();
             dustbox = new Queue<ScrapBase>();
             scrapBook.DustBox = dustbox;
             scrapBook.DustBoxCapacity = 5;
@@ -56,9 +62,9 @@ namespace SETUNA
             NetUtils.Init();
         }
 
-        // Token: 0x17000055 RID: 85
-        // (get) Token: 0x060001F0 RID: 496 RVA: 0x0000A59C File Offset: 0x0000879C
-        // (set) Token: 0x060001EF RID: 495 RVA: 0x0000A577 File Offset: 0x00008777
+        /// <summary>
+        /// Gets or sets whether the application has started
+        /// </summary>
         public bool IsStart
         {
             get => _isstart;
@@ -72,9 +78,9 @@ namespace SETUNA
             }
         }
 
-        // Token: 0x17000056 RID: 86
-        // (get) Token: 0x060001F2 RID: 498 RVA: 0x0000A5C9 File Offset: 0x000087C9
-        // (set) Token: 0x060001F1 RID: 497 RVA: 0x0000A5A4 File Offset: 0x000087A4
+        /// <summary>
+        /// Gets or sets whether a capture operation is in progress
+        /// </summary>
         public bool IsCapture
         {
             get => _iscapture;
@@ -88,9 +94,9 @@ namespace SETUNA
             }
         }
 
-        // Token: 0x17000057 RID: 87
-        // (get) Token: 0x060001F4 RID: 500 RVA: 0x0000A5F6 File Offset: 0x000087F6
-        // (set) Token: 0x060001F3 RID: 499 RVA: 0x0000A5D1 File Offset: 0x000087D1
+        /// <summary>
+        /// Gets or sets whether the options dialog is open
+        /// </summary>
         public bool IsOption
         {
             get => _isoption;
@@ -183,7 +189,9 @@ namespace SETUNA
             }
         }
 
-        // Token: 0x060001F8 RID: 504 RVA: 0x0000A994 File Offset: 0x00008B94
+        /// <summary>
+        /// Opens the options dialog
+        /// </summary>
         public void Option()
         {
             if (IsCapture)
@@ -343,16 +351,6 @@ namespace SETUNA
                     frmClickCapture = null;
                 }
 
-                //if (optSetuna.Setuna.LanguageAuto )
-                //{
-                //    Thread.CurrentThread.CurrentUICulture.
-                //    if (!optSetuna.Setuna.LanguageAuto)
-                //    {
-                //        var lang = lang_dict[optSetuna.Setuna.LanguageSelected];
-                //        Thread.CurrentThread.CurrentUICulture = new CultureInfo(lang);
-                //    }
-                //}
-
                 windowTimer.Enabled = optSetuna.Setuna.TopMostEnabled;
             }
             catch (Exception ex)
@@ -417,7 +415,6 @@ namespace SETUNA
             }
             catch
             {
-                //MessageBox.Show("无法保存配置文件。", "SETUNA2", MessageBoxButtons.OK, MessageBoxIcon.Hand);
                 MessageBox.Show(Properties.Resources.label66, "SETUNA2", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
         }
@@ -444,12 +441,7 @@ namespace SETUNA
             catch
             {
                 optSetuna = SetunaOption.GetDefaultOption();
-                //MessageBox.Show("无法读取配置文件。\n使用默认设置。", "SETUNA2", MessageBoxButtons.OK, MessageBoxIcon.Hand);
                 MessageBox.Show(Properties.Resources.label67, "SETUNA2", MessageBoxButtons.OK, MessageBoxIcon.Hand);
-            }
-            finally
-            {
-                //OptionApply();
             }
         }
 
@@ -622,7 +614,6 @@ namespace SETUNA
         private void Mainform_Load(object sender, EventArgs e)
         {
             base.Visible = false;
-            //LoadOption(); // moved
             OptionApply();
             SaveOption();
             if (optSetuna.Setuna.ShowSplashWindow)
@@ -753,7 +744,6 @@ namespace SETUNA
         {
             if (Application.ProductVersion != version)
             {
-                //MessageBox.Show("SETUNA已经运行在不同的版本。", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 MessageBox.Show(Properties.Resources.label68, Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 return;
             }
@@ -837,7 +827,7 @@ namespace SETUNA
                 }
                 catch
                 {
-                    // Error processing command line argument
+                    // Ignore invalid command line arguments
                 }
             IL_1C2:;
             }

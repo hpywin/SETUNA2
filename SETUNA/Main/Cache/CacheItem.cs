@@ -6,19 +6,33 @@ using Newtonsoft.Json;
 
 namespace SETUNA.Main.Cache
 {
+    /// <summary>
+    /// Represents a cached scrap item with its image, position, and style information
+    /// </summary>
     public class CacheItem
     {
         private const string ImageFileName = "Image.png";
         private const string InfoFileName = "Info.json";
 
 
-        // 创建时间
+        /// <summary>
+        /// Creation time
+        /// </summary>
         public DateTime CreateTime { set; get; }
-        // 位置
+
+        /// <summary>
+        /// Position
+        /// </summary>
         public Point Position { set; get; }
-        // 样式
+
+        /// <summary>
+        /// Style
+        /// </summary>
         public Style Style { set; get; }
-        // 排序值
+
+        /// <summary>
+        /// Sorting order
+        /// </summary>
         public int SortingOrder { set; get; }
 
 
@@ -39,7 +53,9 @@ namespace SETUNA.Main.Cache
         }
 
 
-        // 创建缓存
+        /// <summary>
+        /// Creates a new cache item
+        /// </summary>
         public static CacheItem Create(DateTime createTime, Image image, Point pos, Style style)
         {
             var item = new CacheItem
@@ -55,7 +71,9 @@ namespace SETUNA.Main.Cache
             return item;
         }
 
-        // 读取缓存
+        /// <summary>
+        /// Reads cache item from the specified path
+        /// </summary>
         public static CacheItem Read(string cacheItemPath)
         {
             var fullPath = Path.Combine(cacheItemPath, InfoFileName);

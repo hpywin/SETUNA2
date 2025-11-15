@@ -558,7 +558,6 @@ namespace SETUNA.Main.Option
             cstyle.AddStyle(new CMaskStyleItem{
                 MaskMosaic = true,
             });
-            //cstyle.AddKeyItem(Keys.F);
             var styleID15 = cstyle.StyleID;
             setunaOption.Styles.Add(cstyle);
 
@@ -634,7 +633,6 @@ namespace SETUNA.Main.Option
             setunaOption.Scrap.SubMenuStyles.Add(styleID5);
             setunaOption.Scrap.SubMenuStyles.Add(styleID6);
             setunaOption.Scrap.SubMenuStyles.Add(styleID7);
-            //setunaOption.Scrap.SubMenuStyles.Add(styleID14);
             setunaOption.Scrap.SubMenuStyles.Add(styleID15);
             setunaOption.Scrap.SubMenuStyles.Add(styleID16);
             setunaOption.Scrap.SubMenuStyles.Add(styleID17);

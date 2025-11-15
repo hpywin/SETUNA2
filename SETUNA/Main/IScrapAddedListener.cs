@@ -1,9 +1,15 @@
 ﻿namespace SETUNA.Main
 {
-    // Token: 0x02000039 RID: 57
+    /// <summary>
+    /// Interface for listening to scrap added events
+    /// </summary>
     public interface IScrapAddedListener
     {
-        // Token: 0x06000220 RID: 544
+        /// <summary>
+        /// Called when a scrap is added
+        /// </summary>
+        /// <param name="sender">The event sender</param>
+        /// <param name="e">Event arguments containing the scrap</param>
         void ScrapAdded(object sender, ScrapEventArgs e);
     }
 }

@@ -5,27 +5,40 @@ using SETUNA.Main.StyleItems;
 
 namespace SETUNA.Main.Layer
 {
+    /// <summary>
+    /// Manages the Z-order layering of scrap forms to keep them on top
+    /// </summary>
     public class LayerManager
     {
         public static readonly LayerManager Instance = new LayerManager();
 
-        // 缓存所有已打开的窗体
+        /// <summary>
+        /// Cache for all opened forms
+        /// </summary>
         private Dictionary<IntPtr, FormData> formDic;
 
-        // 层级排序相关
+        /// <summary>
+        /// Layer sorting related fields
+        /// </summary>
         private List<FormData> sortingFormDatas;
         private int maxSortingOrder;
 
-        // 置顶窗体
+        /// <summary>
+        /// TopMost form data
+        /// </summary>
         private FormData topMostFormData;
 
-        // 层级刷新 挂起开关
+        /// <summary>
+        /// Layer refresh suspend counter
+        /// </summary>
         private int isSuspendCount = 0;
 
         private bool isTopOption = false;
 
 
-        // 窗体过滤器
+        /// <summary>
+        /// Form filter
+        /// </summary>
         private IWindowFilter windowFilter;
 
 
@@ -134,7 +147,7 @@ namespace SETUNA.Main.Layer
 
         void CheckRefreshLayer(WindowInfo windowInfo)
         {
-            // 是否挂起
+            // Check if suspended
             if (isSuspendCount > 0)
             {
                 if (!isTopOption)
@@ -148,13 +161,13 @@ namespace SETUNA.Main.Layer
                 }
             }
 
-                // 是否当前项目的窗体
-                if (formDic.ContainsKey(windowInfo.Handle))
+            // Check if this is a form from the current project
+            if (formDic.ContainsKey(windowInfo.Handle))
             {
                 return;
             }
 
-            // 是否过滤
+            // Check if should be filtered
             if ((windowFilter?.IsFilter(windowInfo) ?? false == true))
             {
                 return;
@@ -163,7 +176,7 @@ namespace SETUNA.Main.Layer
             var topMostInfo = topMostFormData?.WindowInfo ?? WindowInfo.Empty;
             if (topMostInfo != WindowInfo.Empty)
             {
-                // 当前项目的顶级窗体 与 其他Windows程序的 比较 排序值
+                // Compare Z-order between the current project's top form and other Windows programs
                 if (topMostInfo.ZOrder >= windowInfo.ZOrder)
                 {
                     return;
@@ -174,7 +187,7 @@ namespace SETUNA.Main.Layer
                 {
                     var childInfo = item.WindowInfo;
 
-                    // 当前项目的所有打开的窗体 与 其他Windows程序 比较 相交性
+                    // Check intersection between all opened forms of the current project and other Windows programs
                     if (childInfo.Rect.IntersectsWith(windowInfo.Rect))
                     {
                         hasIntersect = true;
