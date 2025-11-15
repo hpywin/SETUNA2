@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using com.clearunit;
+using SETUNA.Main.Common;
 
 namespace SETUNA
 {
@@ -13,7 +14,7 @@ namespace SETUNA
         {
             // 不是Win10周年更新版本及以上的，设置DPI感知
             var osVersion = Environment.OSVersion.Version;
-            if (osVersion == null || osVersion.Major < 10 || osVersion.Build < 14393)
+            if (osVersion == null || osVersion.Major < 10 || osVersion.Build < Constants.Windows10AnniversaryUpdate)
             {
                 SETUNA.Main.WindowsAPI.SetProcessDPIAware();
             }

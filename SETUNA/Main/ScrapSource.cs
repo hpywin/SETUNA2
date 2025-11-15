@@ -24,7 +24,6 @@ namespace SETUNA.Main
         // Token: 0x06000266 RID: 614 RVA: 0x0000D1DF File Offset: 0x0000B3DF
         public virtual void Dispose()
         {
-            Console.WriteLine("ScrapSource Dispose");
         }
 
         // Token: 0x04000110 RID: 272

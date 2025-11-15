@@ -20,7 +20,7 @@ namespace SETUNA.Main
 
         // Token: 0x1700004D RID: 77
         // (get) Token: 0x060001B3 RID: 435 RVA: 0x00009A22 File Offset: 0x00007C22
-        public ArrayList DustBoxArray => new ArrayList(_dustbox.ToArray());
+        public List<ScrapBase> DustBoxArray => new List<ScrapBase>(_dustbox);
 
         // Token: 0x1700004E RID: 78
         // (get) Token: 0x060001B5 RID: 437 RVA: 0x00009A6F File Offset: 0x00007C6F
@@ -61,7 +61,7 @@ namespace SETUNA.Main
         // Token: 0x060001BD RID: 445 RVA: 0x00009B15 File Offset: 0x00007D15
         public ScrapBook(Mainform mainform)
         {
-            _scraps = new ArrayList();
+            _scraps = new List<ScrapBase>();
             _dustbox = null;
             _dustcap = 0;
             _mainform = mainform;
@@ -72,9 +72,8 @@ namespace SETUNA.Main
         {
             try
             {
-                foreach (var obj in _scraps)
+                foreach (var scrapBase in _scraps)
                 {
-                    var scrapBase = (ScrapBase)obj;
                     scrapBase.ScrapClose();
                 }
                 _scraps.Clear();
@@ -103,9 +102,8 @@ namespace SETUNA.Main
         // Token: 0x060001C0 RID: 448 RVA: 0x00009C2C File Offset: 0x00007E2C
         public IEnumerator<ScrapBase> GetEnumerator()
         {
-            foreach (var obj in _scraps)
+            foreach (var scrap in _scraps)
             {
-                var scrap = (ScrapBase)obj;
                 yield return scrap;
             }
             yield break;
@@ -293,7 +291,6 @@ namespace SETUNA.Main
                 {
                     key = (e.KeyCode | e.Modifiers)
                 };
-                Console.WriteLine(scrapKeyPressEventArgs.key.ToString());
                 KeyPress(sender, scrapKeyPressEventArgs);
             }
         }
@@ -355,7 +352,7 @@ namespace SETUNA.Main
         protected short _dustcap;
 
         // Token: 0x040000D0 RID: 208
-        protected ArrayList _scraps;
+        protected List<ScrapBase> _scraps;
 
         // Token: 0x02000032 RID: 50
         // (Invoke) Token: 0x060001D9 RID: 473

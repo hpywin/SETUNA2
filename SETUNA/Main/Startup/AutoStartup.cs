@@ -60,7 +60,6 @@ namespace SETUNA.Main.Startup
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex);
                 return false;
             }
             finally

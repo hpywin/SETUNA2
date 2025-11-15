@@ -41,7 +41,7 @@ namespace SETUNA.Main.StyleItems
             }
             catch (Exception ex)
             {
-                Console.WriteLine("CStyleItem Apply Exception:" + ex.Message);
+                // Exception during copy style item apply
             }
             finally
             {

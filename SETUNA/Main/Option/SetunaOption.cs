@@ -677,7 +677,7 @@ namespace SETUNA.Main.Option
         public string ApplicationPath
         {
             get => Application.ExecutablePath;
-            set => Console.WriteLine(ApplicationPath);
+            set { }
         }
 
         // Token: 0x1700005E RID: 94
@@ -686,7 +686,7 @@ namespace SETUNA.Main.Option
         public string ApplicationVersion
         {
             get => Application.ProductVersion;
-            set => Console.WriteLine(ApplicationVersion);
+            set { }
         }
 
         // Token: 0x1700005F RID: 95
@@ -695,29 +695,24 @@ namespace SETUNA.Main.Option
         public string OptionVersion
         {
             get => "1.0";
-            set => Console.WriteLine(OptionVersion);
+            set { }
         }
 
         // Token: 0x0600024A RID: 586 RVA: 0x0000CCFC File Offset: 0x0000AEFC
         public static Type[] GetAllType()
         {
             var styleType = StyleItemDictionary.GetStyleType();
-            var arrayList = new ArrayList
+            var typeList = new List<Type>
             {
                 typeof(SetunaOption),
                 typeof(CStyle),
                 typeof(Color)
             };
-            for (var i = 0; i < styleType.Length; i++)
+            foreach (var type in styleType)
             {
-                arrayList.Add(styleType[i]);
+                typeList.Add(type);
             }
-            var array = new Type[arrayList.Count];
-            for (var j = 0; j < arrayList.Count; j++)
-            {
-                array[j] = (Type)arrayList[j];
-            }
-            return array;
+            return typeList.ToArray();
         }
 
         // Token: 0x17000060 RID: 96

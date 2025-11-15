@@ -99,7 +99,7 @@ namespace SETUNA.Main.Style
             }
             catch (Exception ex)
             {
-                Console.WriteLine("CStyle Apply Exception:" + ex.Message);
+                // Exception during style apply
             }
         }
 
@@ -112,7 +112,7 @@ namespace SETUNA.Main.Style
             }
             catch (Exception ex)
             {
-                Console.WriteLine("CStyle Apply Exception:" + ex.Message);
+                // Exception during style apply
             }
         }
 
