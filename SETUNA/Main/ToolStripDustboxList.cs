@@ -20,7 +20,7 @@ namespace SETUNA.Main
         // Token: 0x06000541 RID: 1345 RVA: 0x00024757 File Offset: 0x00022957
         protected override ArrayList GetItems()
         {
-            return _scrapbook.DustBoxArray;
+            return new ArrayList(_scrapbook.DustBoxArray);
         }
 
         // Token: 0x06000542 RID: 1346 RVA: 0x00024764 File Offset: 0x00022964

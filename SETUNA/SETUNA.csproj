@@ -113,6 +113,7 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Main\Common\Constants.cs" />
     <Compile Include="Main\StyleItems\CMaskStyleItem.cs" />
     <Compile Include="Main\StyleItems\MaskStyleItemPanel.cs">
       <SubType>Form</SubType>
